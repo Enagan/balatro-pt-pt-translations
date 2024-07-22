@@ -3997,162 +3997,163 @@ return {
         },
         tutorial = {
             sb_1 = {
-                "Olá! Meu nome é",
-                "{C:attention}Jimbo{}, estou aqui pra te ajudar",
-                "a descobrir como jogar!"
+                "Viva! Eu sou o",
+                "{C:attention}Batatinha{}, estou aqui pra te ajudar",
+                "a aprender a jogar!"
             },
             sb_2 = {
-                "Seu objetivo é ganhar",
+                "O teu objetivo é ganhar",
                 "{C:blue}Fichas{} pra derrotar",
-                "o {C:attention}Blind do inimigo"
+                "o {C:attention}Blind inimigo"
             },
             sb_3 = {
                 "Aqui temos um {C:blue}Small Blind{}.",
-                "Você só precisa pontuar",
+                "Só precisas de ganhar",
                 "{C:attention}300 Fichas{} para derrotá-lo."
             },
             sb_4 = {
-                "Selecione o {C:blue}Small Blind",
+                "Seleciona o {C:blue}Small Blind",
                 "para iniciar a rodada!"
             },
             bb_1 = {
-                "Selecionar o {C:attention}Big Blind",
-                "permite ganhar um pouco de grana..."
+                "Jogar contra um {C:attention}Big Blind",
+                "permite ganhar uma guita valente..."
             },
             bb_2 = {
-                "Ou escolha {C:attention}ignorá-lo",
-                "para obter uma {C:attention}Marca{}! Cada",
-                "{C:attention}Marca{} tem um efeito exclusivo"
+                "Ou podes escolher {C:attention}ignorá-lo",
+                "para obter um {C:attention}Dístintivo{}! Cada",
+                "{C:attention}Dístintivo{} tem um efeito próprio"
             },
             bb_3 = {
-                "Mas fique de olho",
-                "no {C:attention}Blind de Chefe{}. Ele",
-                "tem uma habilidade que",
-                    "vai exigir um pouco de planejamento."
+                "Mas fica de olho",
+                "no {C:attention}Boss Blind{}. Ele",
+                "tem uma condicionante especial que",
+                "vai exigir desenrascanço..."
             },
             bb_4 = {
-                "Se você derrotá-lo, a",
-                "{C:attention}Aposta{} sobe e todos os",
+                "Se o derrotares, o nível do",
+                "{C:attention}Ante{} sobe e todos os",
                 "{C:attention}Blinds{} ficam mais difíceis"
             },
             bb_5 = {
-                "Vença a {C:attention}Aposta{} #1# para ganhar.",
-                "Escolha seu caminho!"
+                "Bate o {C:attention}Ante{} #1# para ganhar.",
+                "Boa Sorte!"
             },
             fh_1 = {
-                "Você ganha fichas",
-                "jogando {C:attention}mãos de pôquer"
+                "Ao jogar {C:attention}mãos de póquer",
+                "ganham-se fichas "
             },
             fh_2 = {
-                "Cada {C:attention}Mão de pôquer{} ganha uma",
+                "Cada {C:attention}Mão de póquer{} vale uma",
                 "quantidade definida de {C:blue}Fichas",
                 "multiplicada pelo {C:red}Multi"
             },
             fh_3 = {
-                "Veja suas {C:attention}mãos de pôquer",
-                "na área de {C:attention}Informação da Tentativa{},",
+                "Veja as {C:attention}mãos de póquer",
+                "na área de {C:attention}Informação da Partida{},",
                 "junto com outras informações",
-                    "sobre a tentativa atual"
+                "sobre a partida atual"
             },
             fh_4 = {
-                "As cartas também podem",
-                "ganhar algumas {C:blue}Fichas{}.",
-                "Passe por cima pra ver!"
+                "As cartas também valem",
+                "{C:blue}Fichas{} por si só.",
+                "Seleciona uma carta para ver o seu valor!"
             },
             fh_5 = {
-                "Agora, selecione até",
+                "Agora, escolha até",
                 "{C:attention}5{} cartas pra jogar",
-                "e pressione {C:blue}'Jogar Mão'"
+                "e clique em {C:blue}'Jogar Mão'"
             },
             fh_6 = {
-                "Você também pode {C:red}'Descartar'{} até",
+                "Também podes {C:red}'Descartar'{} até",
                 "{C:attention}5{} cartas selecionadas",
-                "para experimentar e deixar",
-                    "as mãos ainda mais fortes. Experimente!"
+                "para biscar cartas novas e tentar",
+                "preparar mãos mais valiosas. Experimenta!"
             },
             fh_7 = {
-                "Cuidado! Você tem somente um",
-                "um número limitado de {C:blue}Mãos",
-                "e {C:red}Descartes{} por rodada"
+                "Cuidado! Só tens um numero limitado",
+                "de {C:blue}Mãos e {C:red}Descartes{}",
+                "por rodada"
             },
             fh_8 = {
-                "Ganhe {C:attention}300 Fichas{} antes",
+                "Ganha {C:attention}300 Fichas{} antes",
                 "de ficar sem {C:blue}Mãos",
-                "para vencer esta rodada.",
-                    "Boa sorte!"
+                "para ganhar esta rodada.",
+                "Boa sorte!"
             },
             sh_1 = {
-                "Quando ganhar mais cartas,",
-                "não se esqueça de reorganizá-las.",
-                "{C:attention}Curingas{} são ativados em",
-                    "ordem, da esquerda para a direita."
+                "Quando obtiveres mais cartas,",
+                "não te esqueças de reorganizá-las.",
+                "{C:attention}Jokers{} são ativados por",
+                "ordem, da esquerda para a direita."
             },
             sh_2 = {
-                "E não se esqueça de que você pode",
-                "{C:attention}USAR{} os seus consumíveis!"
+                "E não te esqueças que podes",
+                "{C:attention}USAR{} as tuas", 
+                "cartas consumíveis!"
             },
             sh_3 = {
-                "Selecione até {C:attention}2{} cartas",
-                "da sua mão e pressione",
+                "Seleciona até {C:attention}2{} cartas",
+                "na tua mão e pressiona",
                 "{C:attention}'USAR'{} na carta de {C:tarot}Tarô{}",
-                    "para aprimorá-la!"
+                "para modificá-las!"
             },
             s_1 = {
                 "Muito bem! Agora que",
-                "você tem {E:1}muita{} {C:money}Grana{},",
-                "você pode comprar algumas",
-                    "cartas novas na {C:attention}Loja."
+                "tens {E:1}muita{} {C:money}Guita{},",
+                "podes comprar algumas",
+                "cartas novas na {C:attention}Loja."
             },
             s_2 = {
-                "Experimente comprar",
-                "esta belezinha."
+                "Experimenta comprar",
+                "este jóvem sedutor..."
             },
             s_3 = {
                 "Este é um dos {C:attention}#1#",
-                "{C:attention}Curingas{} que você pode adicionar",
-                "à sua tentativa. Cada {C:attention}Curinga",
-                    "faz algo diferente."
+                "{C:attention}Jokers{} que podes adicionar",
+                "à tua partida. Cada {C:attention}Joker",
+                "faz algo diferente."
             },
             s_4 = {
-                "Este adiciona um {C:red}Multi +4{} para",
+                "Este adiciona {C:red}+4 Multi{} em",
                 "cada mão jogada!"
             },
             s_5 = {
-                "Tenha cuidado: você só pode",
-                "carregar {C:attention}5 cartas Curinga{}",
+                "Mas sê seletivo: só podes",
+                "ter {C:attention}5 Jokers{}",
                 "ao mesmo tempo."
             },
             s_6 = {
-                "Agora compre a outra",
+                "Agora compra a outra",
                 "carta na {C:attention}Loja"
             },
             s_7 = {
-                "Esta carta de {C:tarot}Tarô{} é um",
+                "Esta carta de {C:tarot}Tarô{} é",
                 "{C:attention}consumível{}. Ela vai",
-                "aprimorar suas cartas",
-                    "de jogo! Guarde ela."
+                "modificar as tuas cartas de jogo!",
+                "Guarda-a aí a um canto."
             },
             s_8 = {
-                "Você pode carregar até",
+                "Podes ter até",
                 "{C:attention}2 cartas consumíveis{}",
-                "ao mesmo tempo"
+                "por usar, ao mesmo tempo"
             },
             s_9 = {
-                "Se poupar o suficiente,",
-                "você poderá comprar um {C:attention}Cupom{}.",
-                "{C:attention}Cupons{} melhoram,",
-                    "passivamente, a sua tentativa!"
+                "Se poupares o suficiente,",
+                "Podes até comprar um {C:attention}Cupão{}.",
+                "{C:attention}Cupões{} adicionam",
+                "efeitos permanentes à tua partida!"
             },
             s_10 = {
-                "{C:attention}Cupons{} são reabastecidos",
+                "Os {C:attention}Cupões{} são reabastecidos",
                 "após derrotar o",
-                "{C:attention}Blind de Chefe{}."
+                "{C:attention}Boss Blind{}."
             },
             s_11 = {
-                "E confira ambos os",
-                "{C:booster}Pacotes de Reforço{} em",
-                "cada loja. Eles são",
-                    "cheios de coisas boas!"
+                "E não percas também ambos os",
+                "{C:booster}Pacotes de Cartas{} em",
+                "cada loja. Eles estão",
+                "cheios de coisas boas!"
             },
             s_12 = {
                 "Vamos avançar para",

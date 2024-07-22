@@ -2,13 +2,13 @@ return {
     descriptions = {
         Joker = {
             j_joker = {
-                name = "Curinga",
+                name = "Joker",
                 text = {
                     "{C:red,s:1.1}+#1#{} Multi"
                 }
             },
             j_jolly = {
-                name = "Curinga Alegre",
+                name = "Joker Alegre",
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
@@ -16,7 +16,7 @@ return {
                 }
             },
             j_zany = {
-                name = "Curinga Bobo",
+                name = "Joker Bobo",
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
@@ -24,7 +24,7 @@ return {
                 }
             },
             j_mad = {
-                name = "Curinga Irritado",
+                name = "Joker Irritado",
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
@@ -32,7 +32,7 @@ return {
                 }
             },
             j_crazy = {
-                name = "Curinga Maluco",
+                name = "Joker Maluco",
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
@@ -40,7 +40,7 @@ return {
                 }
             },
             j_droll = {
-                name = "Curinga Engraçado",
+                name = "Joker Engraçado",
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
@@ -48,7 +48,7 @@ return {
                 }
             },
             j_sly = {
-                name = "Curinga Malandro",
+                name = "Joker Malandro",
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
@@ -56,7 +56,7 @@ return {
                 }
             },
             j_wily = {
-                name = "Curinga Sagaz",
+                name = "Joker Sagaz",
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
@@ -64,7 +64,7 @@ return {
                 }
             },
             j_clever = {
-                name = "Curinga Astuto",
+                name = "Joker Astuto",
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
@@ -72,7 +72,7 @@ return {
                 }
             },
             j_devious = {
-                name = "Curinga Desonesto",
+                name = "Joker Desonesto",
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
@@ -80,7 +80,7 @@ return {
                 }
             },
             j_crafty = {
-                name = "Curinga Engenhoso",
+                name = "Joker Engenhoso",
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
@@ -88,7 +88,7 @@ return {
                 }
             },
             j_half = {
-                name = "Meio Curinga",
+                name = "Meio Joker",
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
@@ -117,7 +117,7 @@ return {
                 }
             },
             j_stone = {
-                name = "Curinga de Pedra",
+                name = "Joker de Pedra",
                 text = {
                     "Dá {C:chips}+#1#{} Fichas para",
                     "cada {C:attention}Carta de Pedra",
@@ -126,18 +126,18 @@ return {
                 }
             },
             j_golden = {
-                name = "Curinga Dourado",
+                name = "Joker Dourado",
                 text = {
                     "Ganhe {C:money}$#1#{} no",
                     "fim da rodada"
                 }
             },
             j_stencil = {
-                name = "Curinga Estampado",
+                name = "Joker Estampado",
                 text = {
                     "{X:red,C:white} X1 {} Multi por cada",
-                    "espaço de {C:attention}Curinga{} vazio",
-                    "{s:0.8}Curinga Estampado incluído",
+                    "espaço de {C:attention}Joker{} vazio",
+                    "{s:0.8}Joker Estampado incluído",
                     "{C:inactive}(No momento {X:red,C:white} X#1# {C:inactive})"
                 }
             },
@@ -165,7 +165,7 @@ return {
                 }
             },
             j_greedy_joker = {
-                name = "Curinga Ganancioso",
+                name = "Joker Ganancioso",
                 text = {
                     "Cartas jogadas com",
                     "naipe de {C:diamonds}#2#{} dão",
@@ -173,7 +173,7 @@ return {
                 }
             },
             j_lusty_joker = {
-                name = "Curinga Vigoroso",
+                name = "Joker Vigoroso",
                 text = {
                     "Cartas jogadas com",
                     "naipe de {C:hearts}#2#{} dão",
@@ -181,7 +181,7 @@ return {
                 }
             },
             j_wrathful_joker = {
-                name = "Curinga Furioso",
+                name = "Joker Furioso",
                 text = {
                     "Cartas jogadas com",
                     "naipe de {C:spades}#2#{} dão",
@@ -189,7 +189,7 @@ return {
                 }
             },
             j_gluttenous_joker = {
-                name = "Curinga Guloso",
+                name = "Joker Guloso",
                 text = {
                     "Cartas jogadas com",
                     "naipe de {C:clubs}#2#{} dão",
@@ -200,7 +200,7 @@ return {
                 name = "Adaga Cerimonial",
                 text = {
                     "Quando o {C:attention}Blind{} é selecionado,",
-                    "destrói o Curinga da direita",
+                    "destrói o Joker da direita",
                     "e adiciona, permanentemente, o {C:attention}dobro",
                     "do valor de venda a esta {C:red}Multi",
                     "{C:inactive}(No momento {C:mult}+#1#{C:inactive} Multi)"
@@ -223,7 +223,7 @@ return {
                 }
             },
             j_marble = {
-                name = "Curinga de Mármore",
+                name = "Joker de Mármore",
                 text = {
                     "Adiciona uma carta de {C:attention}Pedra{}",
                     "ao seu baralho quando",
@@ -285,7 +285,7 @@ return {
                 }
             },
             j_steel_joker = {
-                name = "Curinga de Aço",
+                name = "Joker de Aço",
                 text = {
                     "Dá {X:mult,C:white} X#1# {} Multi",
                     "para cada {C:attention}Carta de Aço",
@@ -302,10 +302,10 @@ return {
                 }
             },
             j_abstract = {
-                name = "Curinga Abstrato",
+                name = "Joker Abstrato",
                 text = {
                     "{C:mult}+#1#{} Multi por",
-                    "cada carta {C:attention}Curinga{}",
+                    "cada carta {C:attention}Joker{}",
                     "{C:inactive}(No momento {C:red}+#2#{C:inactive} Multi)"
                 }
             },
@@ -397,7 +397,7 @@ return {
             j_ride_the_bus = {
                 name = "Passear de Ônibus",
                 text = {
-                    "Este Curinga ganha {C:mult}+#1#{} Multi",
+                    "Este Joker ganha {C:mult}+#1#{} Multi",
                     "por mão jogada {C:attention}consecutiva{}",
                     "sem nenhuma",
                     "carta de {C:attention}realeza{} de pontuação",
@@ -405,7 +405,7 @@ return {
                 }
             },
             j_space = {
-                name = "Curinga Espacial",
+                name = "Joker Espacial",
                 text = {
                     "Chance de {C:green}#1# em #2#{} para",
                     "aprimorar o nível da",
@@ -470,7 +470,7 @@ return {
                 }
             },
             j_blue_joker = {
-                name = "Curinga Azul",
+                name = "Joker Azul",
                 text = {
                     "{C:chips}+#1#{} Fichas por cada",
                     "carta restante no {C:attention}baralho",
@@ -489,7 +489,7 @@ return {
             j_constellation = {
                 name = "Constelação",
                 text = {
-                    "Este Curinga ganha",
+                    "Este Joker ganha",
                     "{X:mult,C:white} X#1# {} Multi sempre",
                     "que uma carta de {C:planet}Planeta{} é usada",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
@@ -504,7 +504,7 @@ return {
                 }
             },
             j_faceless = {
-                name = "Curinga Plebeu",
+                name = "Joker Plebeu",
                 text = {
                     "Ganhe {C:money}$#1#{} se {C:attention}#2#{} ou",
                     "mais {C:attention}cartas de Realeza{}",
@@ -571,7 +571,7 @@ return {
                 }
             },
             j_green_joker = {
-                name = "Curinga Verde",
+                name = "Joker Verde",
                 text = {
                     "{C:mult}+#1#{} Multi por mão jogada",
                     "{C:mult}-#2#{} Multi por descarte",
@@ -583,12 +583,12 @@ return {
                 text = {
                     "Adiciona o valor de venda",
                     "de todos os outros ",
-                    "{C:attention}Curingas{} em posse ao Multi",
+                    "{C:attention}Jokers{} em posse ao Multi",
                     "{C:inactive}(No momento, {C:mult}+#1#{C:inactive} Multi)"
                 },
                 unlock = {
                     "Venda um total de",
-                    "{C:attention,E:1}#1#{} cartas Curinga",
+                    "{C:attention,E:1}#1#{} cartas Joker",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -619,7 +619,7 @@ return {
                 }
             },
             j_smeared = {
-                name = "Curinga Borrado",
+                name = "Joker Borrado",
                 text = {
                     "{C:hearts}Copas{} e {C:diamonds}Ouros",
                     "contam como o mesmo naipe,",
@@ -710,9 +710,9 @@ return {
                 }
             },
             j_glass = {
-                name = "Curinga de Vidro",
+                name = "Joker de Vidro",
                 text = {
-                    "Este Curinga ganha {X:mult,C:white} X#1# {} Multi",
+                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "para cada {C:attention}Carta de Vidro",
                     "destruída",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
@@ -726,7 +726,7 @@ return {
             j_ring_master = {
                 name = "Mestre do Ringue",
                 text = {
-                    "Cartas de {C:attention}Curinga{}, {C:tarot}Tarô{}, {C:planet}Planeta{}",
+                    "Cartas de {C:attention}Joker{}, {C:tarot}Tarô{}, {C:planet}Planeta{}",
                     "e {C:spectral}Espectral{} podem",
                     "aparecer várias vezes"
                 },
@@ -752,7 +752,7 @@ return {
                 name = "Projeto",
                 text = {
                     "Copia a habilidade do",
-                    "{C:attention}Curinga{} da direita"
+                    "{C:attention}Joker{} da direita"
                 },
                 unlock = {
                     "Vença uma tentativa"
@@ -761,7 +761,7 @@ return {
             j_wee = {
                 name = "Curinguinha",
                 text = {
-                    "Este Curinga ganha",
+                    "Este Joker ganha",
                     "{C:chips}+#2#{} Fichas quando cada",
                     "{C:attention}2{} jogado pontua",
                     "{C:inactive}(No momento {C:chips}+#1#{C:inactive} Fichas)"
@@ -840,7 +840,7 @@ return {
             j_hit_the_road = {
                 name = "Cai Fora",
                 text = {
-                    "Este Curinga ganha {X:mult,C:white} X#1# {} Multi",
+                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "para cada {C:attention}Valete{}",
                     "descartado nesta rodada",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
@@ -936,7 +936,7 @@ return {
             j_red_card = {
                 name = "Carta Vermelha",
                 text = {
-                    "Este Curinga ganha",
+                    "Este Joker ganha",
                     "{C:red}+#1#{} Multi quando qualquer",
                     "{C:attention}Pacote de Reforço{} é ignorado",
                     "{C:inactive}(No momento, {C:red}+#2#{C:inactive} Multi)"
@@ -947,14 +947,14 @@ return {
                 text = {
                     "Quando {C:attention}Small Blind{} ou {C:attention}Big Blind{}",
                     "é selecionado, ganhe {X:mult,C:white} X#1# {} Multi",
-                    "e {C:attention}destrua{} um Curinga aleatório",
+                    "e {C:attention}destrua{} um Joker aleatório",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
             j_square = {
-                name = "Curinga Quadrado",
+                name = "Joker Quadrado",
                 text = {
-                    "Este Curinga ganha {C:chips}+#2#{} Fichas",
+                    "Este Joker ganha {C:chips}+#2#{} Fichas",
                     "se a mão jogada tem",
                     "exatamente {C:attention}4{} cartas",
                     "{C:inactive}(No momento, {C:chips}#1#{C:inactive} Fichas)"
@@ -973,14 +973,14 @@ return {
                 name = "Ralé",
                 text = {
                     "Quando o {C:attention}Blind{} é selecionado,",
-                    "cria {C:attention}#1# {C:blue}{C:attention}Curinga Comum",
+                    "cria {C:attention}#1# {C:blue}{C:attention}Joker Comum",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
             j_vampire = {
                 name = "Vampiro",
                 text = {
-                    "Este Curinga ganha {X:mult,C:white} X#1# {} Multi",
+                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "por {C:attention}carta Aprimorada{} de pontuação jogada,",
                     "remove o {C:attention}Aprimoramento da carta",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
@@ -997,7 +997,7 @@ return {
             j_hologram = {
                 name = "Holograma",
                 text = {
-                    "Este Curinga ganha {X:mult,C:white} X#1# {} Multi",
+                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "sempre que uma {C:attention}carta de jogo{}",
                     "é adicionada ao seu baralho",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
@@ -1040,7 +1040,7 @@ return {
             j_obelisk = {
                 name = "Obelisco",
                 text = {
-                    "Este Curinga ganha {X:mult,C:white} X#1# {} Multi",
+                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "por mão jogada {C:attention}consecutiva{}",
                     "sem jogar a sua",
                     "{C:attention}mão de pôquer mais jogada",
@@ -1075,7 +1075,7 @@ return {
                 name = "Cartão Presente",
                 text = {
                     "Adiciona {C:money}$#1#{} do {C:attention}valor de venda",
-                    "a cada {C:attention}Curinga{} e",
+                    "a cada {C:attention}Joker{} e",
                     "a cada carta {C:attention}Consumível{} em",
                     "fim da rodada"
                 }
@@ -1135,7 +1135,7 @@ return {
             j_lucky_cat = {
                 name = "Gato Sortudo",
                 text = {
-                    "Este Curinga ganha {X:mult,C:white} X#1# {} Multi",
+                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "sempre que uma carta da {C:attention}Sorte{}",
                     "ativa {C:green}com êxito{}",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
@@ -1144,7 +1144,7 @@ return {
             j_baseball = {
                 name = "Carta de Beisebol",
                 text = {
-                    "Curingas {C:green}Incomuns{}",
+                    "Jokers {C:green}Incomuns{}",
                     "cada um dá {X:mult,C:white} X#1# {} Multi"
                 }
             },
@@ -1175,7 +1175,7 @@ return {
             j_flash = {
                 name = "Carta Relâmpago",
                 text = {
-                    "Este Curinga ganha {C:mult}+#1#{} Multi",
+                    "Este Joker ganha {C:mult}+#1#{} Multi",
                     "por {C:attention}atualização{} na loja",
                     "{C:inactive}(No momento, {C:mult}+#2#{C:inactive} Multi)"
                 }
@@ -1199,14 +1199,14 @@ return {
             j_trousers= {
                 name = "Calças Sobressalentes",
                 text = {
-                    "Este Curinga ganha {C:mult}+#1#{} Multi",
+                    "Este Joker ganha {C:mult}+#1#{} Multi",
                     "se a mão jogada contém",
                     "um(a) {C:attention}#2#",
                     "{C:inactive}(No momento, {C:red}+#3#{C:inactive} Multi)"
                 }
             },
             j_ancient= {
-                name = "Curinga Antigo",
+                name = "Joker Antigo",
                 text = {
                     "Cada carta jogada com",
                     "naipe {V:1}#2#{} dá",
@@ -1233,7 +1233,7 @@ return {
             j_castle = {
                 name = "Castelo",
                 text = {
-                    "Este Curinga ganha {C:chips}+#1#{} Fichas",
+                    "Este Joker ganha {C:chips}+#1#{} Fichas",
                     "por cada carta {V:1}#2#{} descartada,",
                     "naipe muda em cada rodada",
                     "{C:inactive}(No momento {C:chips}+#3#{C:inactive} Fichas)"
@@ -1250,7 +1250,7 @@ return {
             j_campfire = {
                 name = "Fogueira",
                 text = {
-                    "Este Curinga ganha {X:mult,C:white}X#1#{} Multi",
+                    "Este Joker ganha {X:mult,C:white}X#1#{} Multi",
                     "por cada carta {C:attention}vendida{}, redefine",
                     "quando o {C:attention}Blind de Chefe{} é derrotado",
                     "{C:inactive}(No momento {X:mult,C:white} X#2# {C:inactive} Multi)"
@@ -1271,24 +1271,24 @@ return {
                 }
             },
             j_invisible = {
-                name = "Curinga Invisível",
+                name = "Joker Invisível",
                 text = {
                     "Após {C:attention}#1#{} rodadas,",
                     "venda esta carta para",
-                    "{C:attention}Duplicar{} um Curinga aleatório",
+                    "{C:attention}Duplicar{} um Joker aleatório",
                     "{C:inactive}(No momento {C:attention}#2#{C:inactive}/#1#)"
                 },
                 unlock = {
                     "Vença uma tentativa sem",
                     "ter mais de",
-                    "{E:1,C:attention}4 Curingas{}"
+                    "{E:1,C:attention}4 Jokers{}"
                 }
             },
             j_brainstorm = {
                 name = "Boa Ideia",
                 text = {
                     "Copia a habilidade",
-                    "do {C:attention}Curinga que está mais à esquerda"
+                    "do {C:attention}Joker que está mais à esquerda"
                 },
                 unlock = {
                     "Descarte um",
@@ -1359,7 +1359,7 @@ return {
                 }
             },
             j_burnt = {
-                name = "Curinga Queimado",
+                name = "Joker Queimado",
                 text = {
                     "Aprimore o nível da",
                     "primeira mão {C:attention}descartada",
@@ -1380,13 +1380,13 @@ return {
                 },
                 unlock = {
                     "Tenha pelo menos {E:1,C:attention}#1#",
-                    "Curingas {C:dark_edition}Policromáticos{}"
+                    "Jokers {C:dark_edition}Policromáticos{}"
                 }
             },
             j_caino = {
                 name = "Caino",
                 text = {
-                    "Este Curinga ganha {X:mult,C:white} X#1# {} Multi",
+                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "quando uma carta de {C:attention}realeza{}",
                     "é destruída",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
@@ -1409,7 +1409,7 @@ return {
             j_yorick = {
                 name = "Yorick",
                 text = {
-                    "Este Curinga ganha",
+                    "Este Joker ganha",
                     "{X:mult,C:white} X#1# {} Multi a cada {C:attention}#2#{C:inactive} [#3#]{}",
                     "cartas descartadas",
                     "{C:inactive}(No momento, {X:mult,C:white} X#4# {C:inactive} Multi)"
@@ -1849,7 +1849,7 @@ return {
                     "Chance de {C:green}#1# em #2#{} de adicionar",
                     "edição {C:dark_edition}Laminada{}, {C:dark_edition}Holográfica{} ou",
                     "{C:dark_edition}Policromática{}",
-                    "a um {C:attention}Curinga aleatório"
+                    "a um {C:attention}Joker aleatório"
                 }
             },
             c_strength = {
@@ -1881,7 +1881,7 @@ return {
                 text = {
                     "Dá o valor total",
                     "de venda de todos os",
-                    "Curingas atuais {C:inactive}(Máximo de {C:money}$#1#{C:inactive})",
+                    "Jokers atuais {C:inactive}(Máximo de {C:money}$#1#{C:inactive})",
                     "{C:inactive}(No momento {C:money}$#2#{C:inactive})"
                 }
             },
@@ -1929,7 +1929,7 @@ return {
                 name = "Julgamento",
                 text = {
                     "Cria uma",
-                    "carta {C:attention}Curinga{} aleatória",
+                    "carta {C:attention}Joker{} aleatória",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
@@ -2100,7 +2100,7 @@ return {
                 name = "Espectro",
                 text = {
                     "Cria um",
-                    "{C:attention}Curinga{} {C:red}Raro,",
+                    "{C:attention}Joker{} {C:red}Raro,",
                     "define o dinheiro para {C:money}$0"
                 }
             },
@@ -2125,7 +2125,7 @@ return {
                 name = "Ectoplasma",
                 text = {
                     "Adiciona {C:dark_edition}Negativo{} a",
-                    "um {C:attention}Curinga aleatório,",
+                    "um {C:attention}Joker aleatório,",
                     "{C:red}-1{} de tamanho de mão"
                 }
             },
@@ -2141,8 +2141,8 @@ return {
                 name = "Ankh",
                 text = {
                     "Cria uma cópia de um",
-                    "{C:attention}Curinga{} aleatório, destrói",
-                    "todos os outros Curingas"
+                    "{C:attention}Joker{} aleatório, destrói",
+                    "todos os outros Jokers"
                 }
             },
             c_deja_vu = {
@@ -2157,8 +2157,8 @@ return {
                 name = "Feitiço",
                 text = {
                     "Adiciona {C:dark_edition}Policromático{} a um",
-                    "{C:attention}Curinga{} aleatório, destrói",
-                    "todos os outros Curingas"
+                    "{C:attention}Joker{} aleatório, destrói",
+                    "todos os outros Jokers"
                 }
             },
             c_trance = {
@@ -2189,7 +2189,7 @@ return {
                 name = "A Alma",
                 text = {
                     "Cria um",
-                    "Curinga {C:legendary,E:1}Lendário{}",
+                    "Joker {C:legendary,E:1}Lendário{}",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
@@ -2230,7 +2230,7 @@ return {
             e_negative = {
                 name = "Negativo",
                 text = {
-                    "{C:dark_edition}+#1#{} espaço(s) de Curinga"
+                    "{C:dark_edition}+#1#{} espaço(s) de Joker"
                 }
             },
             e_negative_consumable = {
@@ -2252,7 +2252,7 @@ return {
                 }
             },
             m_wild = {
-                name = "Carta Naipe Curinga",
+                name = "Carta Naipe Joker",
                 text = {
                     "Pode ser usada",
                     "como qualquer naipe"
@@ -2332,7 +2332,7 @@ return {
             stake_black = {
                 name = "Aposta Preta",
                 text = {
-                    "A loja pode ter Curingas {C:attention}Eternos{}",
+                    "A loja pode ter Jokers {C:attention}Eternos{}",
                     "{C:inactive,s:0.8}{Não é possível vender ou destruir}",
                     "{s:0.8}Aplica todas as Apostas anteriores"
                 }
@@ -2348,7 +2348,7 @@ return {
             stake_orange = {
                 name = "Aposta Laranja",
                 text = {
-                    "A loja pode ter Curingas {C:attention}Perecíveis{}",
+                    "A loja pode ter Jokers {C:attention}Perecíveis{}",
                     "{C:inactive,s:0.8}(Com desvantagem após 5 Rodadas)",
                     "{s:0.8}Aplica-se a todas as Apostas anteriores"
                 }
@@ -2356,7 +2356,7 @@ return {
             stake_gold = {
                 name = "Aposta Dourada",
                 text = {
-                    "A loja pode ter Curingas de {C:attention}Aluguel{}",
+                    "A loja pode ter Jokers de {C:attention}Aluguel{}",
                     "{C:inactive,s:0.8}(Custa {C:money,s:0.8}$3{C:inactive,s:0.8} por rodada)",
                     "{s:0.8}Aplica-se a todas as Apostas anteriores"
                 }
@@ -2367,20 +2367,20 @@ return {
                 name = "Marca Incomum",
                 text = {
                     "A loja tem um",
-                    "{C:green}Curinga Incomum grátis"
+                    "{C:green}Joker Incomum grátis"
                 }
             },
             tag_rare = {
                 name = "Marca Rara",
                 text = {
                     "A loja tem um",
-                    "{C:red}Curinga Raro grátis"
+                    "{C:red}Joker Raro grátis"
                 }
             },
             tag_negative = {
                 name = "Marca Negativa",
                 text = {
-                    "O próximo Curinga da loja de",
+                    "O próximo Joker da loja de",
                     "edição de base é grátis",
                     "e torna-se {C:dark_edition}Negativo"
                 }
@@ -2388,7 +2388,7 @@ return {
             tag_foil = {
                 name = "Marca Laminada",
                 text = {
-                    "O próximo Curinga da loja de",
+                    "O próximo Joker da loja de",
                     "edição de base é grátis",
                     "e torna-se {C:dark_edition}Laminado"
                 }
@@ -2396,7 +2396,7 @@ return {
             tag_holo = {
                 name = "Marca Holográfica",
                 text = {
-                    "O próximo Curinga da loja de",
+                    "O próximo Joker da loja de",
                     "edição de base é grátis",
                     "e torna-se {C:dark_edition}Holográfico"
                 }
@@ -2404,7 +2404,7 @@ return {
             tag_polychrome = {
                 name = "Marca Policromática",
                 text = {
-                    "O próximo Curinga da loja de",
+                    "O próximo Joker da loja de",
                     "edição de base é grátis",
                     "e torna-se {C:dark_edition}Policromático"
                 }
@@ -2509,7 +2509,7 @@ return {
                 name = "Marca de Abastecimento",
                 text = {
                     "Cria até {C:attention}#1#",
-                    "Curingas {C:blue}Comuns{}",
+                    "Jokers {C:blue}Comuns{}",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
@@ -2644,7 +2644,7 @@ return {
                 name = "Folha Verdejante",
                 text = {
                     "Todas as cartas têm desvantagem",
-                    "até 1 Curinga ser vendido"
+                    "até 1 Joker ser vendido"
                 }
             },
             bl_final_vessel = {
@@ -2726,13 +2726,13 @@ return {
                 name = "Semente Dourada",
                 text = {
                     "Vira e embaralha",
-                    "todas as cartas Curinga"
+                    "todas as cartas Joker"
                 }
             },
             bl_final_heart = {
                 name = "Coração Rubro",
                 text = {
-                    "Um Curinga aleatório",
+                    "Um Joker aleatório",
                     "desativado em cada mão"
                 }
             },
@@ -2778,7 +2778,7 @@ return {
             b_black = {
                 name = "Baralho Preto",
                 text = {
-                    "{C:attention}+#1#{} Espaço de Curinga",
+                    "{C:attention}+#1#{} Espaço de Joker",
                     "",
                     "{C:blue}-#2#{} mão",
                     "em cada rodada"
@@ -2839,7 +2839,7 @@ return {
                 name = "Baralho Pintado",
                 text = {
                     "{C:attention}+#1#{} tamanho de mão",
-                    "{C:red}#2#{} espaço de Curinga"
+                    "{C:red}#2#{} espaço de Joker"
                 }
             },
             b_anaglyph = {
@@ -2932,7 +2932,7 @@ return {
             white_sticker = {
                 name = "Adesivo Branco",
                 text = {
-                    "Usou este Curinga",
+                    "Usou este Joker",
                     "para vencer na dificuldade",
                     "{C:attention}Aposta Branca{}"
                 }
@@ -2940,7 +2940,7 @@ return {
             red_sticker = {
                 name = "Adesivo Vermelho",
                 text = {
-                    "Usou este Curinga",
+                    "Usou este Joker",
                     "para vencer na dificuldade",
                     "{C:attention}Aposta Vermelha{}"
                 }
@@ -2948,7 +2948,7 @@ return {
             green_sticker = {
                 name = "Adesivo Verde",
                 text = {
-                    "Usou este Curinga",
+                    "Usou este Joker",
                     "para vencer na dificuldade",
                     "{C:attention}Aposta Verde{}"
                 }
@@ -2956,7 +2956,7 @@ return {
             blue_sticker = {
                 name = "Adesivo Azul",
                 text = {
-                    "Usou este Curinga",
+                    "Usou este Joker",
                     "para vencer na dificuldade",
                     "{C:attention}Aposta Azul{}"
                 }
@@ -2964,7 +2964,7 @@ return {
             black_sticker = {
                 name = "Adesivo Preto",
                 text = {
-                    "Usou este Curinga",
+                    "Usou este Joker",
                     "para vencer na dificuldade",
                     "{C:attention}Aposta Preta{}"
                 }
@@ -2972,7 +2972,7 @@ return {
             purple_sticker = {
                 name = "Adesivo Roxo",
                 text = {
-                    "Usou este Curinga",
+                    "Usou este Joker",
                     "para vencer na dificuldade",
                     "{C:attention}Aposta Roxa{}"
                 }
@@ -2980,7 +2980,7 @@ return {
             orange_sticker = {
                 name = "Adesivo Laranja",
                 text = {
-                    "Usou este Curinga",
+                    "Usou este Joker",
                     "para vencer na dificuldade",
                     "{C:attention}Aposta Laranja{}"
                 }
@@ -2988,7 +2988,7 @@ return {
             gold_sticker = {
                 name = "Adesivo Dourado",
                 text = {
-                    "Usou este Curinga",
+                    "Usou este Joker",
                     "para vencer na dificuldade",
                     "{C:attention}Aposta de Ouro{}"
                 }
@@ -3092,7 +3092,7 @@ return {
             joker_locked_legendary = {
                 name = "Bloqueada",
                 text = {
-                    "Encontre este Curinga",
+                    "Encontre este Joker",
                     "através da carta de {C:spectral}Alma{}"
                 }
             },
@@ -3265,27 +3265,27 @@ return {
                 name = "Pacote Bufão",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
-                    "{C:attention}#2#{C:joker} cartas Curinga{}"
+                    "{C:attention}#2#{C:joker} cartas Joker{}"
                 }
             },
             p_buffoon_jumbo = {
                 name = "Pacote Bufão Jumbo",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
-                    "{C:attention}#2#{C:joker} cartas Curinga{}"
+                    "{C:attention}#2#{C:joker} cartas Joker{}"
                 }
             },
             p_buffoon_mega = {
                 name = "Pacote Bufão Mega",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
-                    "{C:attention}#2#{C:joker} cartas Curinga{}"
+                    "{C:attention}#2#{C:joker} cartas Joker{}"
                 }
             },
             pinned_left = {
                 name = "Encurralado",
                 text = {
-                    "Este Curinga permanece",
+                    "Este Joker permanece",
                     "encurralado na",
                     "posição mais à esquerda"
                 }
@@ -3384,7 +3384,7 @@ return {
             card_player = "Jogue no mínimo 2500 cartas",
             card_discarder = "Descarte no mínimo 2500 cartas",
             nest_egg = "Tenha $400 ou mais durante uma única tentativa",
-            flushed = "Jogue um Flush com 5 Cartas Curinga",
+            flushed = "Jogue um Flush com 5 Cartas Joker",
             speedrunner = "Vença uma tentativa em 12 ou menos rodadas",
             roi = "Compre 5 Cupons em Aposta 4",
             shattered = "Quebre 2 Cartas de Vidro em uma mão",
@@ -3398,14 +3398,14 @@ return {
             you_get_what_you_get = "Vença uma tentativa sem atualizar a loja",
             rule_bender = "Complete qualquer tentativa de desafio",
             rule_breaker = "Complete todas as tentativas de desafio",
-            legendary = "Descubra um Curinga Lendário",
+            legendary = "Descubra um Joker Lendário",
             astronomy = "Descubra todas as cartas de Planeta",
             cartomancy = "Descubra todas as cartas de Tarô",
             clairvoyance = "Descubra todas as cartas Espectrais",
             extreme_couponer = "Descubra todos os Cupons",
             completionist = "Descubra 100% da sua coleção",
             completionist_plus = "Vença com todos os baralhos na dificuldade Aposta Dourada",
-            completionist_plus_plus = "Ganhe um Adesivo Dourado em cada Curinga", 
+            completionist_plus_plus = "Ganhe um Adesivo Dourado em cada Joker", 
         },
         challenge_names = {
             c_omelette_1 = "A Omelete",
@@ -3427,7 +3427,7 @@ return {
             c_five_card_1 = "Saque de Cinco Cartas",
             c_golden_needle_1 = "Agulha Dourada",
             c_cruelty_1 = "Crueldade",
-            c_jokerless_1 = "Sem Curinga"
+            c_jokerless_1 = "Sem Joker"
         },
         poker_hands = {
             ['Flush Five'] = "Flush Quíntuplo",

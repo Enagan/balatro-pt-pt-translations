@@ -3857,45 +3857,45 @@ return {
         v_dictionary = {
             a_xmult = "X#1# Multi",
             a_xmult_minus = "-X#1# Multi",
-            a_mult = "+#1# Multi.",
+            a_mult = "+#1# Multi",
             a_mult_minus = "-#1# Multi",
             a_chips = "+#1#",
             a_chips_minus = "-#1#",
-            a_handsize = "+#1# de tamanho de mão",
-            a_handsize_minus = "-#1# Tamanho de Mão",
-            a_hands = "+#1# Mãos",
+            a_handsize = "+#1# Carta(s) na Mão",
+            a_handsize_minus = "-#1# Carta(s) na Mão",
+            a_hands = "+#1# Mão(s)",
             a_sold_tally = "#1#/#2# Vendido(s)",
             a_remaining = "#1# Restante(s)",
-            ante_x_voucher = "CUPOM DE APOSTA #1#",
+            ante_x_voucher = "CUPÃO DO ANTE #1#",
             loyalty_active = "Ativo!",
             loyalty_inactive = "#1# restante(s)",
-            deck_preview_wheel_singular = "Os números podem ser mais baixos graças a #1# carta comprada virada para baixo",
-            deck_preview_wheel_plural = "Os números podem ser mais baixos graças às #1# cartas compradas viradas para baixo",
+            deck_preview_wheel_singular = "As quantidades podem ser mais baixas devido a #1# carta na mão virada para baixo",
+            deck_preview_wheel_plural = "As quantidades podem ser mais baixas devido às #1# cartas na mão viradas para baixo",
             challenges_completed = "Completou #1#/#2# Desafios",
             unlocked = "#1#/#2# Desbloqueado(s)",
             completed = "#1#/#2# Concluído(s)",
-            interest = "#1# de juros por $#2# (#3# máx.)",
-            remaining_hand_money = "Mãos Restantes ($#1# cada)",
+            interest = "#1# de juros por cada $#2# (#3# máx.)",
+            remaining_hand_money = "Mãos Por Jogar ($#1# cada)",
             remaining_discard_money = "Descartes Restantes ($#1# cada)",
             ml_foil_desc = {
-                "Laminado",
+                "Laminada",
                 "+#1# Fichas"
             },
             ml_holo_desc = {
-                "Holográfico",
+                "Holográfica",
                 "+#1# Multi"
             },
             ml_polychrome_desc = {
-                "Policromático",
+                "Policromática",
                 "X#1# Multi"
             },
             ml_negative_desc = {
-                "Negativo",
-                "+#1# Espaço de Curinga"
+                "Negativa",
+                "+#1# Espaço para Jokers"
             },
             ml_negative_consumable_desc = {
                 "Negativo",
-                "+#1# espaço(s) de consumível"
+                "+#1# espaço para consumíveis"
             }
         },
         v_text = {
@@ -3909,70 +3909,70 @@ return {
                 "{C:red}#1#{} descartes por rodada"
             },
             ch_m_reroll_cost = {
-                "{C:money}$#1#{} de custo base de atualização"
+                "{C:money}$#1#{} de custo base de reabastecimento"
             },
             ch_m_joker_slots = {
-                "{C:attention}#1#{} Espaços de Curinga"
+                "{C:attention}#1#{} Espaços para Jokers"
             },
             ch_m_consumable_slots = {
-                "{C:attention}#1#{} Espaços de Consumíveis"
+                "{C:attention}#1#{} Espaços para Consumíveis"
             },
             ch_m_hand_size = {
-                "{C:attention}#1#{} tamanho de mão"
+                "{C:attention}#1#{} cartas na mão"
             },
             ch_m_none = {
                 "{C:inactive}Nenhum(a)"
             },
             ch_c_no_reward = {
-                "Nenhum {C:attention}Blind{} dá recompensas em dinheiro"
+                "Nenhum {C:attention}Blind{} dá dinheiro"
             },
             ch_c_no_reward_specific = {
-                "{C:attention}#1# Blinds{} não dão recompensas em dinheiro"
+                "{C:attention}#1# Blind(s){} não dão dinheiro"
             },
             ch_c_no_extra_hand_money = {
-                "{C:blue}Mãos{} Adicionais não ganham mais dinheiro"
+                "{C:blue}Mãos{} por jogar não dão dinheiro"
             },
             ch_c_no_interest = {
-                "Sem {C:attention}Juros{} ao fim da rodada"
+                "Não recebe {C:attention}Juros{} no fim da rodada"
             },
             ch_c_daily = {
                 "{E:1,s:1.2,C:red}Desafio Diário!"
             },
             ch_c_set_seed = {
-                "1 tentativa com Código definido: {C:inactive}{Hidden}"
+                "1 tentativa com semente aleatória definida: {C:inactive}{Hidden}"
             },
             ch_c_chips_dollar_cap = {
-                "{C:blue}Fichas{} não podem exceder {C:money}$"
+                "As {C:blue}Fichas{} não podem exceder {C:money}$"
             },
             ch_c_none = {
                 "{C:inactive}Nenhum(a)"
             },
             ch_c_no_shop_jokers = {
-                "Os Curingas não aparecem mais na {C:attention}loja"
+                "Os Jokers não aparecem para venda na {C:attention}loja"
             },
             ch_c_inflation = {
-                "Aumente, permanentemente, os preços em {C:money}$1{} por cada compra"
+                "A cada compra, os preços da loja aumentam permanentemente por {C:money}$1{}"
             },
             ch_c_discard_cost = {
                 "Cada descarte custa {C:money}$#1#{}"
             },
             ch_c_all_eternal = {
-                "Todos os Curingas são {C:eternal}Eternos{}"
+                "Todos os Jokers são {C:eternal}Eternos{}"
             },
             ch_c_flipped_cards = {
-                "{C:green}1 em #1#{} cartas são compradas viradas para baixo"
+                "{C:green}1 em cada #1#{} cartas são biscadas viradas para baixo"
             },
             ch_c_debuff_played_cards = {
-                "Todas as cartas {C:attention}Jogadas{} ficam {C:attention}com desvantagem{} após pontuar"
+                "Todas as cartas {C:attention}Jogadas{} ficam {C:attention}Desativadas{} após pontuarem"
             },
             ch_c_minus_hand_size_per_X_dollar = {
-                "Segure {C:red}-1{} cartas na mão por cada {C:money}$#1#{} que tiver"
+                "{C:red}-1{} carta na mão por cada {C:money}$#1#{} que tiver"
             },
             ch_c_set_eternal_ante = {
-                "Quando o chefe da aposta {C:attention}#1#{} é derrotado, todos os Curingas ficam {C:attention}eternos"
+                "Quando o boss blind do ante {C:attention}#1#{} é derrotado, todos os Jokers ficam {C:attention}eternos"
             },
             ch_c_set_joker_slots_ante = {
-                "Quando o chefe da aposta {C:attention}#1#{} é derrotado, define os espaços de Curinga para {C:attention}0"
+                "Quando o boss blind do ante {C:attention}#1#{} é derrotado, os espaços para joker são reduzidos a {C:attention}0"
             }
         },
         quips = {

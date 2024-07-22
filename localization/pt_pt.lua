@@ -113,7 +113,7 @@ return {
                 name = "Bêbado",
                 text = {
                     "{C:red}+#1#{} descarte",
-                    "a cada rodada"
+                    "a cada vaza"
                 }
             },
             j_stone = {
@@ -129,7 +129,7 @@ return {
                 name = "Joker Dourado",
                 text = {
                     "Ganhe {C:money}$#1#{} no",
-                    "fim da rodada"
+                    "fim da vaza"
                 }
             },
             j_stencil = {
@@ -252,7 +252,7 @@ return {
                 text = {
                     "Reativa as cartas",
                     "pontuadoras na {C:attention}mão",
-                    "{C:attention}final{} da rodada"
+                    "{C:attention}final{} da vaza"
                 }
             },
             j_chaos = {
@@ -314,7 +314,7 @@ return {
                 text = {
                     "Ganhe {C:money}$#1#{} por {C:attention}descarte{} se",
                     "nenhum descarte for usado",
-                    "até o fim da rodada"
+                    "até o fim da vaza"
                 }
             },
             j_pareidolia = {
@@ -339,7 +339,7 @@ return {
                     "{C:mult}+#1#{} Multi",
                     "{C:green}#2# de #3#{} chance desta",
                     "carta ser destruída",
-                    "no fim da rodada"
+                    "no fim da vaza"
                 }
             },
             j_even_steven = {
@@ -417,7 +417,7 @@ return {
                 text = {
                     "Ganha {C:money}$#1#{} do",
                     "{C:attention}valor de venda{} ao",
-                    "fim da rodada"
+                    "fim da vaza"
                 }
             },
             j_burglar = {
@@ -456,7 +456,7 @@ return {
             j_dna = {
                 name = "DNA",
                 text = {
-                    "Se a {C:attention}primeira mão{} da rodada",
+                    "Se a {C:attention}primeira mão{} da vaza",
                     "tiver somente {C:attention}1{} carta, adiciona uma",
                     "cópia permanente ao baralho",
                     "e a coloca na {C:attention}mão"
@@ -480,7 +480,7 @@ return {
             j_sixth_sense = {
                 name = "Sexto Sentido",
                 text = {
-                    "Se a {C:attention}primeira mão{} da rodada for",
+                    "Se a {C:attention}primeira mão{} da vaza for",
                     "um único {C:attention}6{}, destrói a mesma e",
                     "cria uma carta {C:spectral}Espectral{}",
                     "{C:inactive}(Deve ter espaço)"
@@ -518,7 +518,7 @@ return {
                     "Ganhe {C:money}$#1#{} se a {C:attention}mão de pôquer{}",
                     "for uma {C:attention}#2#{},",
                     "a mão de pôquer muda",
-                    "no fim da rodada"
+                    "no fim da vaza"
                 }
             },
             j_ticket = {
@@ -551,7 +551,7 @@ return {
                 name = "Acrobata",
                 text = {
                     "{X:red,C:white} X#1# {} Multi na {C:attention}mão",
-                    "{C:attention}final{} da rodada"
+                    "{C:attention}final{} da vaza"
                 },
                 unlock = {
                     "Jogue {C:attention,E:1}#1#{} mãos",
@@ -596,10 +596,10 @@ return {
                 name = "Trovador",
                 text = {
                     "{C:attention}+#1#{} de tamanho de mão,",
-                    "{C:blue}-#2#{} mão a cada rodada"
+                    "{C:blue}-#2#{} mão a cada vaza"
                 },
                 unlock = {
-                    "Vença {C:attention,E:1}#1#{} rodadas",
+                    "Vença {C:attention,E:1}#1#{} vazas",
                     "consecutivas jogando",
                     "somente 1 mão"
                 }
@@ -607,7 +607,7 @@ return {
             j_certificate = {
                 name = "Certificado",
                 text = {
-                    "Quando a rodada começa,",
+                    "Quando a vaza começa,",
                     "adiciona uma {C:attention}carta de jogo",
                     "{C:attention}aleatória{} com um",
                     "{C:attention}selo{} para a sua mão"
@@ -636,7 +636,7 @@ return {
                 name = "Retorno",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi por cada",
-                    "{C:attention}Blind{} ignorado nesta rodada",
+                    "{C:attention}Blind{} ignorado nesta vaza",
                     "{C:inactive}(No momento {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
@@ -768,19 +768,19 @@ return {
                 },
                 unlock = {
                     "Vença uma tentativa em {E:1,C:attention}#1#",
-                    "ou menos rodadas"
+                    "ou menos vazas"
                 }
             },
             j_merry_andy = {
                 name = "Jogada de Descartes",
                 text = {
                     "{C:red}+#1#{} descartes",
-                    "a cada rodada,",
+                    "a cada vaza,",
                     "{C:red}#2#{} de tamanho de mão"
                 },
                 unlock = {
                     "Vença uma tentativa em {E:1,C:attention}#1#",
-                    "ou menos rodadas"
+                    "ou menos vazas"
                 }
             },
             j_oops = {
@@ -802,7 +802,7 @@ return {
                     "Cada {C:attention}#2#",
                     "de {V:1}#3#{} jogado dá",
                     "{X:mult,C:white} X#1# {} Multi ao pontuar",
-                    "{s:0.8}Carta muda em cada rodada"
+                    "{s:0.8}Carta muda em cada vaza"
                 },
                 unlock = {
                     "Em uma mão,",
@@ -842,7 +842,7 @@ return {
                 text = {
                     "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "para cada {C:attention}Valete{}",
-                    "descartado nesta rodada",
+                    "descartado nesta vaza",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
@@ -922,7 +922,7 @@ return {
                     "{X:mult,C:white} X#1# {} Multi",
                     "{C:green}#2# de #3#{} chance desta",
                     "carta ser destruída",
-                    "no fim da rodada"
+                    "no fim da vaza"
                 }
             },
             j_card_sharp = {
@@ -930,7 +930,7 @@ return {
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se a",
                     "{C:attention}mão de pôquer{} já tiver sido",
-                    "jogada nesta rodada"
+                    "jogada nesta vaza"
                 }
             },
             j_red_card = {
@@ -1025,14 +1025,14 @@ return {
                 text = {
                     "Ganhe {C:money}$#1#{} por cada",
                     "{C:attention}9{} no seu {C:attention}baralho completo",
-                    "no fim da rodada",
+                    "no fim da vaza",
                     "{C:inactive}(No momento {C:money}$#2#{}{C:inactive})"
                 }
             },
             j_rocket = {
                 name = "Foguete",
                 text = {
-                    "Ganhe {C:money}$#1#{} no fim da rodada",
+                    "Ganhe {C:money}$#1#{} no fim da vaza",
                     "O pagamento aumenta em {C:money}$#2#{}",
                     "quando o {C:attention}Blind de Chefe{} é derrotado"
                 }
@@ -1077,7 +1077,7 @@ return {
                     "Adiciona {C:money}$#1#{} do {C:attention}valor de venda",
                     "a cada {C:attention}Joker{} e",
                     "a cada carta {C:attention}Consumível{} em",
-                    "fim da rodada"
+                    "fim da vaza"
                 }
             },
             j_turtle_bean = {
@@ -1085,7 +1085,7 @@ return {
                 text = {
                     "{C:attention}+#1#{} tamanho de mão,",
                     "reduz por",
-                    "{C:red}#2#{} a cada rodada"
+                    "{C:red}#2#{} a cada vaza"
                 }
             },
             j_erosion = {
@@ -1112,7 +1112,7 @@ return {
                 text = {
                     "Ganhe {C:money}$#1#{} por cada",
                     "{C:attention}#2#{} descartado, a classe",
-                    "muda em cada rodada"
+                    "muda em cada vaza"
                 }
             },
             j_to_the_moon = {
@@ -1120,7 +1120,7 @@ return {
                 text = {
                     "Ganhe {C:money}$#1#{} adicional de",
                     "{C:attention}juros{} por cada {C:money}$5{} que",
-                    "tiver no fim da rodada"
+                    "tiver no fim da vaza"
                 }
             },
             j_hallucination = {
@@ -1167,7 +1167,7 @@ return {
             j_trading = {
                 name = "Carta de Troca",
                 text = {
-                    "Se o {C:attention}primeiro descarte{} da rodada",
+                    "Se o {C:attention}primeiro descarte{} da vaza",
                     "tiver somente {C:attention}1{} carta, destrói",
                     "a mesma e ganha {C:money}$#1#"
                 }
@@ -1185,7 +1185,7 @@ return {
                 text = {
                     "{C:mult}+#1#{} Multi",
                     "{C:mult}-#2#{} Multi por",
-                    "rodada jogada"
+                    "vaza jogada"
                 }
             },
             j_ramen= {
@@ -1211,7 +1211,7 @@ return {
                     "Cada carta jogada com",
                     "naipe {V:1}#2#{} dá",
                     "{X:mult,C:white} X#1# {} Multi ao pontuar,",
-                    "{s:0.8}naipe muda no fim da rodada"
+                    "{s:0.8}naipe muda no fim da vaza"
                 }
             },
             j_walkie_talkie = {
@@ -1235,7 +1235,7 @@ return {
                 text = {
                     "Este Joker ganha {C:chips}+#1#{} Fichas",
                     "por cada carta {V:1}#2#{} descartada,",
-                    "naipe muda em cada rodada",
+                    "naipe muda em cada vaza",
                     "{C:inactive}(No momento {C:chips}+#3#{C:inactive} Fichas)"
                 },
             },
@@ -1273,7 +1273,7 @@ return {
             j_invisible = {
                 name = "Joker Invisível",
                 text = {
-                    "Após {C:attention}#1#{} rodadas,",
+                    "Após {C:attention}#1#{} vazas,",
                     "venda esta carta para",
                     "{C:attention}Duplicar{} um Joker aleatório",
                     "{C:inactive}(No momento {C:attention}#2#{C:inactive}/#1#)"
@@ -1299,7 +1299,7 @@ return {
                 name = "Satélite",
                 text = {
                     "Ganhe {C:money}$#1#{} no fim da",
-                    "rodada por {C:planet}Planeta único",
+                    "vaza por {C:planet}Planeta único",
                     "usada nesta tentativa",
                     "{C:inactive}(No momento {C:money}$#2#{C:inactive})"
                 },
@@ -1318,7 +1318,7 @@ return {
                 unlock = {
                     "Jogue cada carta de {E:1,C:attention}Copas",
                     "do seu baralho em",
-                    "uma única rodada"
+                    "uma única vaza"
                 }
             },
             j_drivers_license = {
@@ -1363,7 +1363,7 @@ return {
                 text = {
                     "Aprimore o nível da",
                     "primeira mão {C:attention}descartada",
-                    "em cada rodada"
+                    "em cada vaza"
                 },
                 unlock = {
                     "Venda um total",
@@ -1505,14 +1505,14 @@ return {
                 name = "Mãos Largas",
                 text = {
                     "Pode jogar {C:blue}+#1#{} mão",
-                    "em cada rodada"
+                    "em cada vaza"
                 }
             },
             v_wasteful = {
                 name = "Mão Furada",
                 text = {
                     "Pode fazer {C:red}+#1#{} descarte",
-                    "em cada rodada"
+                    "em cada vaza"
                 }
             },
             v_seed_money = {
@@ -1520,7 +1520,7 @@ return {
                 text = {
                     "Aumenta o limite máximo",
                     "de juros possíveis em",
-                    "cada rodada por {C:money}$#1#{}"
+                    "cada vaza por {C:money}$#1#{}"
                 }
             },
             v_blank = {
@@ -1542,7 +1542,7 @@ return {
                 text = {
                     "{C:attention}-#1#{} nível de Ante,",
                     "{C:blue}-#1#{} mão que pode ser",
-                    "jogada em cada rodada"
+                    "jogada em cada vaza"
                 }
             },
             v_directors_cut = {
@@ -1668,7 +1668,7 @@ return {
                 name = "Mão Palhaça",
                 text = {
                     "Pode jogar {C:blue}+#1#{} mão",
-                    "em cada rodada"
+                    "em cada vaza"
                 },
                 unlock = {
                     "Jogue um total",
@@ -1680,7 +1680,7 @@ return {
                 name = "Reciclomancia",
                 text = {
                     "Pode fazer {C:red}+#1#{} descarte",
-                    "em cada rodada"
+                    "em cada vaza"
                 },
                 unlock = {
                     "Descarte um total",
@@ -1693,12 +1693,12 @@ return {
                 text = {
                     "Aumenta o limite máximo",
                     "de juros possíveis em",
-                    "cada rodada por {C:money}$#1#{}"
+                    "cada vaza por {C:money}$#1#{}"
                 },
                 unlock = {
                     "Receba o valor máximo em juros",
                     "sobre lucros obtidos, por",
-                    "{C:attention}#1#{} rodadas consecutivas",
+                    "{C:attention}#1#{} vazas consecutivas",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -1732,7 +1732,7 @@ return {
                 text = {
                     "{C:attention}-#1#{} nível de Ante,",
                     "{C:blue}-#1#{} mão que pode ser",
-                    "jogada em cada rodada"
+                    "jogada em cada vaza"
                 },
                 unlock = {
                     "Alcance o",
@@ -2286,7 +2286,7 @@ return {
                 text = {
                     "{C:money}$#1#{} se esta",
                     "carta estiver na mão",
-                    "no fim da rodada"
+                    "no fim da vaza"
                 }
             },
             m_lucky = {
@@ -2349,7 +2349,7 @@ return {
                 name = "Aposta Laranja",
                 text = {
                     "A loja pode ter Jokers {C:attention}Perecíveis{}",
-                    "{C:inactive,s:0.8}(Com desvantagem após 5 Rodadas)",
+                    "{C:inactive,s:0.8}(Com desvantagem após 5 Vazas)",
                     "{s:0.8}Aplica-se a todas as Apostas anteriores"
                 }
             },
@@ -2357,7 +2357,7 @@ return {
                 name = "Aposta Dourada",
                 text = {
                     "A loja pode ter Jokers de {C:attention}Aluguel{}",
-                    "{C:inactive,s:0.8}(Custa {C:money,s:0.8}$3{C:inactive,s:0.8} por rodada)",
+                    "{C:inactive,s:0.8}(Custa {C:money,s:0.8}$3{C:inactive,s:0.8} por vaza)",
                     "{s:0.8}Aplica-se a todas as Apostas anteriores"
                 }
             }
@@ -2471,7 +2471,7 @@ return {
                 name = "Marca de Lixo",
                 text = {
                     "Dá {C:money}$#1#{} por",
-                    "{C:red}descarte{} não usado nesta rodada",
+                    "{C:red}descarte{} não usado nesta vaza",
                     "{C:inactive}(Dará {C:money}$#2#{C:inactive})"
                 }
             },
@@ -2495,7 +2495,7 @@ return {
                 name = "Marca de Malabarismo",
                 text = {
                     "{C:attention}+#1#{} tamanho de mão",
-                    "próxima rodada"
+                    "próxima vaza"
                 }
             },
             tag_d_six = {
@@ -2603,14 +2603,14 @@ return {
                 name = "O Olho",
                 text = {
                     "Nenhum tipo de",
-                    "mão repetida nesta rodada"
+                    "mão repetida nesta vaza"
                 }
             },
             bl_mouth = {
                 name = "A Boca",
                 text = {
                     "Jogue só 1 tipo",
-                    "de mão nesta rodada"
+                    "de mão nesta vaza"
                 }
             },
             bl_plant = {
@@ -2749,14 +2749,14 @@ return {
                 name = "Baralho Vermelho",
                 text = {
                     "{C:red}+#1#{} descarte",
-                    "em cada rodada"
+                    "em cada vaza"
                 }
             },
             b_blue = {
                 name = "Baralho Azul",
                 text = {
                     "{C:blue}+#1#{} mão",
-                    "em cada rodada"
+                    "em cada vaza"
                 }
             },
             b_yellow = {
@@ -2769,7 +2769,7 @@ return {
             b_green = {
                 name = "Baralho Verde",
                 text = {
-                    "No fim de cada Rodada:",
+                    "No fim de cada Vaza:",
                     "{C:money}$#1#{s:0.85} por {C:blue}Mão restante",
                     "{C:money}$#2#{s:0.85} por {C:red}Descarte restante",
                     "Sem {C:attention}Juros"
@@ -2781,7 +2781,7 @@ return {
                     "{C:attention}+#1#{} Espaço de Joker",
                     "",
                     "{C:blue}-#2#{} mão",
-                    "em cada rodada"
+                    "em cada vaza"
                 }
             },
             b_magic = {
@@ -2895,7 +2895,7 @@ return {
                 text = {
                     "Cria a carta de {C:planet}Planeta{}",
                     "por {C:attention}mão de pôquer{} final jogada",
-                    "da rodada se {C:attention}contida{} na mão",
+                    "da vaza se {C:attention}contida{} na mão",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
@@ -2918,7 +2918,7 @@ return {
                 name = "Perecível",
                 text = {
                     "Com desvantagem após",
-                    "{C:attention}#1#{} rodadas",
+                    "{C:attention}#1#{} vazas",
                     "{C:inactive}(resta(m) {C:attention}#2#{C:inactive})"
                 }
             },
@@ -2926,7 +2926,7 @@ return {
                 name = "Aluguel",
                 text = {
                     "Perca {C:money}$#1#{} no",
-                    "fim da rodada"
+                    "fim da vaza"
                 }
             },
             white_sticker = {
@@ -3332,7 +3332,7 @@ return {
         },
         high_scores = {
             hand = "Melhor Mão",
-            furthest_round = "Rodada Mais Alta",
+            furthest_round = "Vaza Mais Alta",
             furthest_ante = "Ante Mais Alto",
             most_money = "Record de Dinheiro",
             boss_streak = "Record de Bosses Consecutivos",
@@ -3385,7 +3385,7 @@ return {
             card_discarder = "Descarte no mínimo 2500 cartas",
             nest_egg = "Tenha $400 ou mais durante uma única tentativa",
             flushed = "Jogue um Flush com 5 Cartas Joker",
-            speedrunner = "Vença uma tentativa em 12 ou menos rodadas",
+            speedrunner = "Vença uma tentativa em 12 ou menos vazas",
             roi = "Compre 5 Cupons em Aposta 4",
             shattered = "Quebre 2 Cartas de Vidro em uma mão",
             royale = "Jogue um Royal Flush",
@@ -3525,7 +3525,7 @@ return {
             b_open = "ABRIR",
             b_and_use = "E USAR",
             b_next_round_1 = "Próxima",
-            b_next_round_2 = "Rodada",
+            b_next_round_2 = "Vaza",
             b_play_hand = "Jogar a Mão",
             b_discard = "Descartar",
             b_sort_hand = "Ordenar a Mão",
@@ -3618,7 +3618,7 @@ return {
             k_compatible = "compatível",
             k_incompatible = "incompatível",
             k_active = "ativo",
-            k_round = "Rodada",
+            k_round = "Vaza",
             k_ante = "Ante",
             k_seed = "Semente Aleatória",
             k_reroll = "Reabastecer",
@@ -3633,7 +3633,7 @@ return {
             k_debuffed = "Desactivada",
             k_locked = "Bloqueada",
             k_undisovered = "Não Descoberto",
-            k_joker = "Jopker",
+            k_joker = "Joker",
             k_voucher = "Cupão",
             k_tarot = "Tarô",
             k_planet = "Planeta",
@@ -3645,7 +3645,7 @@ return {
             k_edition = "Edição",
             k_hud_hands = "Mãos",
             k_hud_discards = "Descartes",
-            k_lower_score = "(pontuação)",
+            k_lower_score = "(fichas)",
             k_arcana_pack = "Pacote Vidente",
             k_celestial_pack = "Pacote Celeste",
             k_spectral_pack = "Pacote Espectral",
@@ -3658,7 +3658,7 @@ return {
             k_base_cards = "Cartas base",
             k_effective = "Effectivo:",
             k_aces = "Ases",
-            k_face_cards = "Cartas com Figura",
+            k_face_cards = "Cartas de Figura",
             k_numbered_cards = "Cartas Numeradas",
             k_cap_consumables = "CONSUMÍVEIS",
             k_page = "Página",
@@ -3724,7 +3724,7 @@ return {
             ph_up_ante_2 = "Aumentar todos os Blinds",
             ph_up_ante_3 = "Alterar Blinds",
             ph_select_challenge = "Escolha um Desafio",
-            ph_stat_joker = "Total de rodadas concluídas com esta carta",
+            ph_stat_joker = "Total de vazas concluídas com esta carta",
             ph_stat_consumable = "Número de vezes que esta carta foi usada",
             ph_stat_voucher = "Número de vezes que este Cupão foi redimido",
             ph_demo_thanks_1 = "Obrigado por jogar a",
@@ -3747,7 +3747,7 @@ return {
             ph_most_played = "(mão mais jogada)",
             ph_defeat_the_boss = "Derrote o Boss Blind",
             ph_score_furthest_ante = "Ante",
-            ph_score_furthest_round = "Rodada",
+            ph_score_furthest_round = "Vaza",
             ph_score_hand = "Melhor Mão",
             ph_score_poker_hand = "Mão Mais Jogada",
             ph_score_new_collection = "Novas Descobertas",
@@ -3903,10 +3903,10 @@ return {
                 "Começa com {C:money}$#1#"
             },
             ch_m_hands = {
-                "{C:blue}#1#{} mãos por rodada"
+                "{C:blue}#1#{} mãos por vaza"
             },
             ch_m_discards = {
-                "{C:red}#1#{} descartes por rodada"
+                "{C:red}#1#{} descartes por vaza"
             },
             ch_m_reroll_cost = {
                 "{C:money}$#1#{} de custo base de reabastecimento"
@@ -3933,7 +3933,7 @@ return {
                 "{C:blue}Mãos{} por jogar não dão dinheiro"
             },
             ch_c_no_interest = {
-                "Não recebe {C:attention}Juros{} no fim da rodada"
+                "Não recebe {C:attention}Juros{} no fim da vaza"
             },
             ch_c_daily = {
                 "{E:1,s:1.2,C:red}Desafio Diário!"
@@ -4013,7 +4013,7 @@ return {
             },
             sb_4 = {
                 "Seleciona o {C:blue}Small Blind",
-                "para iniciar a rodada!"
+                "para iniciar a vaza!"
             },
             bb_1 = {
                 "Jogar contra um {C:attention}Big Blind",
@@ -4073,12 +4073,12 @@ return {
             fh_7 = {
                 "Cuidado! Só tens um numero limitado",
                 "de {C:blue}Mãos e {C:red}Descartes{}",
-                "por rodada"
+                "por vaza"
             },
             fh_8 = {
                 "Ganha {C:attention}300 Fichas{} antes",
                 "de ficar sem {C:blue}Mãos",
-                "para ganhar esta rodada.",
+                "para ganhar esta vaza.",
                 "Boa sorte!"
             },
             sh_1 = {
@@ -4157,7 +4157,7 @@ return {
             },
             s_12 = {
                 "Vamos avançar para",
-                "a {C:attention}próxima rodada{}."
+                "a {C:attention}próxima vaza{}."
             }
         }
     }

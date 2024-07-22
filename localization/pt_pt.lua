@@ -652,7 +652,7 @@ return {
                     "{C:attention}#1#{} vezes adicionais"
                 },
                 unlock = {
-                    "Acabe com o Blind de Chefe",
+                    "Acabe com o Botão",
                     "com uma {E:1,C:attention}#1#"
                 }
             },
@@ -829,10 +829,10 @@ return {
                 text = {
                     "Ganhe {C:money}$#1#{} se a",
                     "mão jogada ativa a",
-                    "habilidade {C:attention}Blind de Chefe{}"
+                    "habilidade {C:attention}Botão{}"
                 },
                 unlock = {
-                    "Derrote um Blind de Chefe",
+                    "Derrote um Botão",
                     "em {E:1,C:attention}1 mão{} sem",
                     "usar qualquer descarte"
                 }
@@ -1034,7 +1034,7 @@ return {
                 text = {
                     "Ganhe {C:money}$#1#{} no fim da vaza",
                     "O pagamento aumenta em {C:money}$#2#{}",
-                    "quando o {C:attention}Blind de Chefe{} é derrotado"
+                    "quando o {C:attention}Botão{} é derrotado"
                 }
             },
             j_obelisk = {
@@ -1060,7 +1060,7 @@ return {
                 text = {
                     "Venda esta carta para",
                     "desativar o",
-                    "{C:attention}Blind de Chefe{} atual"
+                    "{C:attention}Botão{} atual"
                 }
             },
             j_photograph = {
@@ -1252,7 +1252,7 @@ return {
                 text = {
                     "Este Joker ganha {X:mult,C:white}X#1#{} Multi",
                     "por cada carta {C:attention}vendida{}, redefine",
-                    "quando o {C:attention}Blind de Chefe{} é derrotado",
+                    "quando o {C:attention}Botão{} é derrotado",
                     "{C:inactive}(No momento {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
@@ -1422,7 +1422,7 @@ return {
                 name = "Chicot",
                 text = {
                     "Desativa o efeito de",
-                    "cada {C:attention}Blind de Chefe"
+                    "cada {C:attention}Botão"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1548,7 +1548,7 @@ return {
             v_directors_cut = {
                 name = "Corte do Diretor",
                 text = {
-                    "Permite alterar o Boss Blind",
+                    "Permite alterar o Botão",
                     "{C:attention}1{} vez por Ante,",
                     "por um custo de {C:money}$#1#{}"
                 }
@@ -1742,13 +1742,13 @@ return {
             v_retcon = {
                 name = "Censura",
                 text = {
-                    "Permite Alterar o Boss Blind",
-                    "vezes {C:attention}ilimitadas{},",
+                    "Permite Alterar o Botão",
+                    "{C:attention}quantas vezes quiser{},",
                     "por um custo de {C:money}$#1#{}"
                 },
                 unlock = {
                     "Descubra",
-                    "{C:attention}#1#{} Boss Blinds"
+                    "{C:attention}#1#{} Botões"
                 }
             },
             v_palette = {
@@ -2413,7 +2413,7 @@ return {
                 name = "Marca de Investimento",
                 text = {
                     "Após derrotar",
-                    "o Blind de Chefe,",
+                    "o Botão,",
                     "ganhe {C:money}$#1#"
                 }
             },
@@ -2425,10 +2425,10 @@ return {
                 }
             },
             tag_boss = {
-                name = "Marca de Chefe",
+                name = "Marca de Botão",
                 text = {
                     "Atualiza o",
-                    "{C:attention}Blind de Chefe"
+                    "{C:attention}Botão"
                 }
             },
             tag_standard = {
@@ -2846,7 +2846,7 @@ return {
                 name = "Baralho Anáglifo",
                 text = {
                     "Após derrotar cada",
-                    "{C:attention}Blind de Chefe{}, ganhe",
+                    "{C:attention}Botão{}, ganhe",
                     "{C:attention,T:tag_double}#1#"
                 }
             },
@@ -3335,7 +3335,7 @@ return {
             furthest_round = "Vaza Mais Alta",
             furthest_ante = "Ante Mais Alto",
             most_money = "Record de Dinheiro",
-            boss_streak = "Record de Bosses Consecutivos",
+            boss_streak = "Record de Botões Consecutivos",
             collection = "Coleção",
             win_streak = "Vitórias Consecutivas",
             current_streak = "",
@@ -3532,7 +3532,7 @@ return {
             b_run_info_1 = "Informação",
             b_run_info_2 = "da Partida",
             b_options = "Opções",
-            b_reroll_boss = "Alterar o Boss",
+            b_reroll_boss = "Alterar o Botão",
             b_skip_blind = "Passar o Blind",
             b_skip_reward = "Passar a Recompensa",
             b_skip = "Passar",
@@ -3713,7 +3713,7 @@ return {
             k_achievements_disabled = "Conquistas Desativadas",
             k_trophies_disabled = "Troféus Desativados",
             ph_improve_run = "Melhore a sua partida!",
-            ph_no_boss_active = "sem boss ativo",
+            ph_no_boss_active = "sem botão ativo",
             ph_sneak_peek = "Espreitadela",
             ph_deck_preview_stones = "Pedras",
             ph_deck_preview_effective = "Total effectivo de Jokers, Blinds e aprimoramentos de carta",
@@ -3743,9 +3743,9 @@ return {
             ph_score_at_least = "Pontue pelo menos",
             ph_all_poker_hand = "Todas as Mãos de Póquer",
             ph_1_level = "+1 nível",
-            ph_boss_disabled = "Boss Desativado!",
+            ph_boss_disabled = "Botão Desativado!",
             ph_most_played = "(mão mais jogada)",
-            ph_defeat_the_boss = "Derrote o Boss Blind",
+            ph_defeat_the_boss = "Derrote o Botão",
             ph_score_furthest_ante = "Ante",
             ph_score_furthest_round = "Vaza",
             ph_score_hand = "Melhor Mão",
@@ -3969,10 +3969,10 @@ return {
                 "{C:red}-1{} carta na mão por cada {C:money}$#1#{} que tiver"
             },
             ch_c_set_eternal_ante = {
-                "Quando o boss blind do ante {C:attention}#1#{} é derrotado, todos os Jokers ficam {C:attention}eternos"
+                "Quando o Botão do ante {C:attention}#1#{} é derrotado, todos os Jokers ficam {C:attention}eternos"
             },
             ch_c_set_joker_slots_ante = {
-                "Quando o boss blind do ante {C:attention}#1#{} é derrotado, os espaços para joker são reduzidos a {C:attention}0"
+                "Quando o Botão do ante {C:attention}#1#{} é derrotado, os espaços para joker são reduzidos a {C:attention}0"
             }
         },
         quips = {
@@ -4026,7 +4026,7 @@ return {
             },
             bb_3 = {
                 "Mas fica de olho",
-                "no {C:attention}Boss Blind{}. Ele",
+                "no {C:attention}Botão{}. Ele",
                 "tem uma condicionante especial que",
                 "vai exigir desenrascanço..."
             },
@@ -4147,7 +4147,7 @@ return {
             s_10 = {
                 "Os {C:attention}Cupões{} são reabastecidos",
                 "após derrotar o",
-                "{C:attention}Boss Blind{}."
+                "{C:attention}Botão{}."
             },
             s_11 = {
                 "E não percas também ambos os",

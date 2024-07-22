@@ -3986,7 +3986,7 @@ return {
             lq_1 = {"Talvez jogar", "ao peixinho seja", "melhor para nós..."},
             lq_2 = {"Mais valia termos", "jogado à sueca!"},
             lq_3 = {"Está na hora", "de baralhar", "e tentar outra vez!"},
-            lq_4 = {"Sabes o", "que costumam dizer,", "a casa vence sempre!"},
+            lq_4 = {"Sabes o", "que costumam dizer,", "a casa ganha sempre!"},
             lq_5 = {"Parece que", "descobrimos quem é", "o verdadeiro Palhaço!"},
             lq_6 = {"Oh não!", "Era tudo só bluff?"},
             lq_7 = {"Parece que","saímos de mãos a abanar!"},

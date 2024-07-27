@@ -6,6 +6,7 @@ Traduções a fazer:
 
 - Descriptions: Jokers, Vouchers, Tarô, etc...
   - Vouchers Done
+  - Tarot Done
 - Achievements & Achievement Descriptions
 - challenge_names
 

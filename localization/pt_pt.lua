@@ -1775,65 +1775,59 @@ return {
             c_magician = {
                 name = "O Mago",
                 text = {
-                    "Transforma {C:attention}#1#{}",
-                    "cartas selecionadas em",
-                    "{C:attention}#2#s"
+                    "Transforma em {C:attention}#2#",
+                    "até {C:attention}#1# cartas{} selecionadas",
                 }
             },
             c_high_priestess = {
                 name = "A Sacerdotisa",
                 text = {
-                    "Cria até {C:attention}#1#",
-                    "cartas de {C:planet}Planeta{} aleatórias",
+                    "Cria até {C:attention}#1# cartas",
+                    "de {C:planet}Planeta{} aleatórias",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
             c_empress = {
                 name = "A Imperatriz",
                 text = {
-                    "Transforma {C:attention}#1#",
-                    "cartas selecionadas em",
-                    "{C:attention}#2#s"
+                    "Transforma em {C:attention}#2#",
+                    "até {C:attention}#1# cartas{} selecionadas",
                 }
             },
             c_emperor = {
                 name = "O Imperador",
                 text = {
-                    "Cria até {C:attention}#1#",
-                    "cartas de {C:tarot}Tarô{} aleatórias",
+                    "Cria até {C:attention}#1# cartas",
+                    "de {C:tarot}Tarô{} aleatórias",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
             c_heirophant = {
                 name = "O Papa",
                 text = {
-                    "Transforma {C:attention}#1#",
-                    "cartas selecionadas em",
-                    "{C:attention}#2#"
+                    "Transforma em {C:attention}#2#",
+                    "até {C:attention}#1# cartas{} selecionadas",
                 }
             },
             c_lovers = {
                 name = "Os Amantes",
                 text = {
-                    "Transforma {C:attention}#1#{} carta",
-                    "selecionada em",
-                    "{C:attention}#2#"
+                    "Transforma em {C:attention}#2#",
+                    "até {C:attention}#1# carta{} selecionada"
                 }
             },
             c_chariot = {
                 name = "O Carro de Guerra",
                 text = {
-                    "Transforma {C:attention}#1#{} carta",
-                    "selecionada em",
-                    "{C:attention}#2#"
+                    "Transforma em {C:attention}#2#",
+                    "até {C:attention}#1# carta{} selecionada"
                 }
             },
             c_justice = {
                 name = "A Justiça",
                 text = {
-                    "Transforma {C:attention}#1#{} carta",
-                    "selecionada em",
-                    "{C:attention}#2#"
+                    "Transforma em {C:attention}#2#",
+                    "até {C:attention}#1# carta{} selecionada"
                 }
             },
             c_hermit = {
@@ -1847,7 +1841,7 @@ return {
                 name = "A Roda da Fortuna",
                 text = {
                     "{C:green}#1# em #2#{} chances de transformar",
-                    "um {C:attention}Joker aleatório em {C:dark_edition}Laminado{},",
+                    "um {C:attention}Joker{} aleatório em {C:dark_edition}Laminado{},",
                     "{C:dark_edition}Holográfico{} ou {C:dark_edition}Policromático{}"
                 }
             },
@@ -1855,21 +1849,21 @@ return {
                 name = "A Força",
                 text = {
                     "Aumenta por {C:attention}1",
-                    "o valor de até {C:attention}#1#{}",
-                    "cartas selecionadas"
+                    "o valor de até {C:attention}#1#{} cartas",
+                    "selecionadas"
                 }
             },
             c_hanged_man = {
                 name = "O Enforcado",
                 text = {
                     "Destrói até",
-                    "{C:attention}#1#{} cartas selecionadas"
+                    "{C:attention}#1# cartas{} selecionadas"
                 }
             },
             c_death = {
                 name = "A Morte",
                 text = {
-                    "Selecione {C:attention}#1#{} cartas,",
+                    "Selecione {C:attention}#1# cartas{},",
                     "Transforma a carta da {C:attention}esquerda{}",
                     "na carta da {C:attention}direita{}",
                     "{C:inactive}(Arraste para reorganizar)"
@@ -1880,48 +1874,46 @@ return {
                 text = {
                     "Factura o valor total",
                     "de venda de todos os",
-                    "Jokers atuais {C:inactive}(Máximo de {C:money}$#1#{C:inactive})",
+                    "{C:attention}Jokers{} {C:inactive}(Máximo de {C:money}$#1#{C:inactive})",
                     "{C:inactive}(Valor total: {C:money}$#2#{C:inactive})"
                 }
             },
             c_devil = {
                 name = "O Diabo",
                 text = {
-                    "Transforma {C:attention}#1#{} carta",
-                    "selecionada em",
-                    "{C:attention}#2#"
+                    "Transforma em {C:attention}#2#",
+                    "até {C:attention}#1# carta{} selecionada"
                 }
             },
             c_tower = {
                 name = "A Torre",
                 text = {
-                    "Transforma {C:attention}#1#{} carta",
-                    "selecionada em",
-                    "{C:attention}#2#"
+                    "Transforma em {C:attention}#2#",
+                    "até {C:attention}#1# carta{} selecionada"
                 }
             },
             c_star = {
                 name = "A Estrela",
                 text = {
-                    "Converte o naípe de",
-                    "até {C:attention}#1#{} cartas",
-                    "para {V:1}#2#{}"
+                    "Converte para {V:1}#2#{}",
+                    "o naípe de até {C:attention}#1# cartas",
+                    "selecionadas"
                 }
             },
             c_moon = {
                 name = "A Lua",
                 text = {
-                    "Converte o naípe de",
-                    "até {C:attention}#1#{} cartas",
-                    "para {V:1}#2#{}"
+                    "Converte para {V:1}#2#{}",
+                    "o naípe de até {C:attention}#1# cartas",
+                    "selecionadas"
                 }
             },
             c_sun = {
                 name = "O Sol",
                 text = {
-                    "Converte o naípe de",
-                    "até {C:attention}#1#{} cartas",
-                    "para {V:1}#2#{}"
+                    "Converte para {V:1}#2#{}",
+                    "o naípe de até {C:attention}#1# cartas",
+                    "selecionadas"
                 }
             },
             c_judgement = {
@@ -1935,9 +1927,9 @@ return {
             c_world = {
                 name = "O Mundo",
                 text = {
-                    "Converte o naípe de",
-                    "até {C:attention}#1#{} cartas",
-                    "para {V:1}#2#{}"
+                    "Converte para {V:1}#2#{}",
+                    "o naípe de até {C:attention}#1# cartas",
+                    "selecionadas"
                 }
             }
         },

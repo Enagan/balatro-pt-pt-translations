@@ -3589,7 +3589,7 @@ return {
             b_enhanced_cards = "Cartas Aprimoradas",
             b_editions = "Edições",
             b_booster_packs = "Pacotes de Cartas",
-            b_tags = "Dístintivos",
+            b_tags = "Crachás",
             b_decks = "Baralhos",
             b_seals = "Selos",
             b_continue = "Continuar",
@@ -3686,7 +3686,7 @@ return {
             k_game_modifiers = "Modificadores de Jogo",
             k_custom_rules = "Regras Personalizadas",
             k_banned_cards = "Cartas Banidas",
-            k_banned_tags = "Dístintivos Banidos",
+            k_banned_tags = "Crachás Banidos",
             k_other = "Outro(a)",
             k_money = "Dinheiro",
             k_best_hand = "Melhor Mão",
@@ -4021,8 +4021,8 @@ return {
             },
             bb_2 = {
                 "Ou podes escolher {C:attention}ignorá-lo",
-                "para obter um {C:attention}Dístintivo{}! Cada",
-                "{C:attention}Dístintivo{} tem um efeito próprio"
+                "para obter um {C:attention}Crachá{}! Cada",
+                "{C:attention}Crachá{} tem um efeito próprio"
             },
             bb_3 = {
                 "Mas fica de olho",

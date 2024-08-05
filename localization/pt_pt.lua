@@ -2349,149 +2349,148 @@ return {
         },
         Tag = {
             tag_uncommon = {
-                name = "Marca Incomum",
+                name = "Crachá Incomum",
                 text = {
-                    "A loja tem um",
+                    "A loja terá um",
                     "{C:green}Joker Incomum grátis"
                 }
             },
             tag_rare = {
-                name = "Marca Rara",
+                name = "Crachá Raro",
                 text = {
-                    "A loja tem um",
+                    "A loja terá um",
                     "{C:red}Joker Raro grátis"
                 }
             },
             tag_negative = {
-                name = "Marca Negativa",
+                name = "Crachá Negativo",
                 text = {
-                    "O próximo Joker da loja de",
-                    "edição de base é grátis",
-                    "e torna-se {C:dark_edition}Negativo"
+                    "O próximo Joker na loja de edição base",
+                    "é transformado em {C:dark_edition}Negativo",
+                    "e é grátis"
                 }
             },
             tag_foil = {
-                name = "Marca Laminada",
+                name = "Crachá Laminado",
                 text = {
-                    "O próximo Joker da loja de",
-                    "edição de base é grátis",
-                    "e torna-se {C:dark_edition}Laminado"
+                    "O próximo Joker na loja de edição base",
+                    "é transformado em {C:dark_edition}Laminado",
+                    "e é grátis"
                 }
             },
             tag_holo = {
-                name = "Marca Holográfica",
+                name = "Crachá Holográfico",
                 text = {
-                    "O próximo Joker da loja de",
-                    "edição de base é grátis",
-                    "e torna-se {C:dark_edition}Holográfico"
+                    "O próximo Joker na loja de edição base",
+                    "é transformado em {C:dark_edition}Holográfico",
+                    "e é grátis"
                 }
             },
             tag_polychrome = {
-                name = "Marca Policromática",
+                name = "Crachá Policromático",
                 text = {
-                    "O próximo Joker da loja de",
-                    "edição de base é grátis",
-                    "e torna-se {C:dark_edition}Policromático"
+                    "O próximo Joker na loja de edição base",
+                    "é transformado em {C:dark_edition}Policromático",
+                    "e é grátis"
                 }
             },
             tag_investment = {
-                name = "Marca de Investimento",
+                name = "Crachá de Investimento",
                 text = {
-                    "Após derrotar",
-                    "o Botão,",
-                    "ganhe {C:money}$#1#"
+                    "Após derrotar o Botão,",
+                    "rende {C:money}$#1#"
                 }
             },
             tag_voucher = {
-                name = "Marca de Cupom",
+                name = "Crachá de Cupão",
                 text = {
-                    "Adiciona um {C:voucher}Cupom",
+                    "Adiciona um {C:voucher}Cupão",
                     "à próxima loja"
                 }
             },
             tag_boss = {
-                name = "Marca de Botão",
+                name = "Crachá do Botão",
                 text = {
-                    "Atualiza o",
-                    "{C:attention}Botão"
+                    "Altera o {C:attention}Botão",
+                    "a derrotar neste ante"
                 }
             },
             tag_standard = {
-                name = "Marca Padrão",
+                name = "Crachá de Jogo",
                 text = {
                     "Oferece gratuitamente um",
-                    "{C:attention}Pacote Padrão Mega"
+                    "{C:attention}Mega Pacote de Jogo"
                 }
             },
             tag_charm = {
-                name = "Marca de Amuleto",
+                name = "Crachá Espírito",
                 text = {
                     "Oferece gratuitamente um",
-                    "{C:tarot}Pacote Arcano Mega"
+                    "{C:tarot}Mega Pacote Vidente"
                 }
             },
             tag_meteor = {
-                name = "Marca de Meteoro",
+                name = "Crachá Meteorito",
                 text = {
                     "Oferece gratuitamente um",
-                    "{C:planet}Pacote Celestial Mega"
+                    "{C:planet}Mega Pacote Celeste"
                 }
             },
             tag_buffoon = {
-                name = "Marca de Bufão",
+                name = "Crachá Humorístico",
                 text = {
                     "Oferece gratuitamente um",
-                    "{C:attention}Pacote Bufão"
+                    "{C:attention}Pacote Paspálho"
                 }
             },
             tag_handy = {
-                name = "Marca Útil",
+                name = "Crachá Manual",
                 text = {
-                    "Dá {C:money}$#1#{} por",
-                    "{C:blue}mão{} jogada nesta tentativa",
-                    "{C:inactive}(Dará {C:money}$#2#{C:inactive})"
+                    "Rende {C:money}$#1#{} por cada",
+                    "{C:blue}mão{} jogada nesta partida",
+                    "{C:inactive}(Renderá {C:money}$#2#{C:inactive})"
                 }
             },
             tag_garbage = {
-                name = "Marca de Lixo",
+                name = "Crachá Reciclado",
                 text = {
-                    "Dá {C:money}$#1#{} por",
-                    "{C:red}descarte{} não usado nesta vaza",
-                    "{C:inactive}(Dará {C:money}$#2#{C:inactive})"
+                    "Rende {C:money}$#1#{} por cada",
+                    "{C:red}descarte{} não usado nesta partida",
+                    "{C:inactive}(Renderá {C:money}$#2#{C:inactive})"
                 }
             },
             tag_coupon = {
-                name = "Marca de Cupom",
+                name = "Crachá dos Cupões",
                 text = {
                     "Cartas iniciais e",
-                    "pacotes de reforço na próxima",
-                    "loja ficam gratuitos"
+                    "pacotes de cartas na próxima",
+                    "loja são gratuitos"
                 }
             },
             tag_double = {
-                name = "Marca Dupla",
+                name = "Crachá Duplo",
                 text = {
-                    "Oferece uma cópia da",
-                    "próxima {C:attention}Marca{} selecionada",
-                    "{s:0.8,C:attention}Marca Dupla{s:0.8} excluída"
+                    "Cria uma cópia do",
+                    "próximo {C:attention}Crachá{} obtido",
+                    "{s:0.8,C:attention}excepto outro Crachá Duplo{s:0.8}"
                 }
             },
             tag_juggle = {
-                name = "Marca de Malabarismo",
+                name = "Crachá de Malabarista",
                 text = {
-                    "{C:attention}+#1#{} tamanho de mão",
-                    "próxima vaza"
+                    "Tamanho de mão {C:attention}+#1#{}",
+                    "durante a próxima vaza"
                 }
             },
             tag_d_six = {
-                name = "Marca D6",
+                name = "Crachá D6",
                 text = {
-                    "Atualização na próxima loja",
-                    "começa em {C:money}$0"
+                    "O primeiro reabastecimento",
+                    "na próxima loja custa {C:money}$0"
                 }
             },
             tag_top_up = {
-                name = "Marca de Abastecimento",
+                name = "Crachá de Abastecimento",
                 text = {
                     "Cria até {C:attention}#1#",
                     "Jokers {C:blue}Comuns{}",
@@ -2499,29 +2498,29 @@ return {
                 }
             },
             tag_skip = {
-                name = "Marca Veloz",
+                name = "Crachá Veloz",
                 text = {
-                    "Dá {C:money}$#1#{} por",
-                    "Blind ignorado nesta tentativa",
-                    "{C:inactive}(Dará {C:money}$#2#{C:inactive})"
+                    "Rende {C:money}$#1#{} por cada",
+                    "Vaza ignorada nesta tentativa",
+                    "{C:inactive}(Renderá {C:money}$#2#{C:inactive})"
                 }
             },
             tag_orbital = {
-                name = "Marca Orbital",
+                name = "Crachá Orbital",
                 text = {
-                    "Melhora {C:attention}#1#",
-                    "em {C:attention}#2# níveis"
+                    "{C:attention}#1# é aumentado(a) em",
+                    "{C:attention}#2# níveis"
                 }
             },
             tag_economy = {
-                name = "Marca Econômica",
+                name = "Crachá Economico",
                 text = {
-                    "Duplica o seu dinheiro",
+                    "Duplica o dinheiro",
                     "{C:inactive}(Máximo de {C:money}$#1#{C:inactive})"
                 }
             },
             tag_ethereal = {
-                name = "Marca Etérea",
+                name = "Crachá Etéreo",
                 text = {
                     "Oferece gratuitamente um",
                     "{C:planet}Pacote Espectral"

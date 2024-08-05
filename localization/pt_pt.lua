@@ -1937,16 +1937,16 @@ return {
             c_mercury = {
                 name = "Mercúrio",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora o",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
                 }
             },
             c_venus = {
-                name = "Vênus",
+                name = "Vénus",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora a",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -1955,7 +1955,7 @@ return {
             c_earth = {
                 name = "Terra",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora o",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -1964,7 +1964,7 @@ return {
             c_mars = {
                 name = "Marte",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora a",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -1973,7 +1973,7 @@ return {
             c_jupiter = {
                 name = "Júpiter",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora o",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -1982,7 +1982,7 @@ return {
             c_saturn = {
                 name = "Saturno",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora a",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -1991,7 +1991,7 @@ return {
             c_uranus = {
                 name = "Urano",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora os",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -2000,7 +2000,7 @@ return {
             c_neptune = {
                 name = "Neptuno",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora o",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -2009,7 +2009,7 @@ return {
             c_pluto = {
                 name = "Plutão",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora a",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -2018,7 +2018,7 @@ return {
             c_ceres = {
                 name = "Ceres",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora o",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -2027,7 +2027,7 @@ return {
             c_planet_x = {
                 name = "Planeta X",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora o",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"
@@ -2036,7 +2036,7 @@ return {
             c_eris = {
                 name = "Eris",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Melhora o",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Multi e",
                     "{C:chips}+#4#{} fichas"

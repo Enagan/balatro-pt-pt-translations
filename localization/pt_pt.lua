@@ -2195,19 +2195,19 @@ return {
                 }
             },
             e_foil = {
-                name = "Laminado",
+                name = "Laminada",
                 text = {
                     "{C:chips}+#1#{} fichas"
                 }
             },
             e_holo = {
-                name = "Holográfico",
+                name = "Holográfica",
                 text = {
                     "{C:mult}+#1#{} Multi"
                 }
             },
             e_polychrome = {
-                name = "Policromático",
+                name = "Policromática",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi"
                 }
@@ -2215,13 +2215,13 @@ return {
             e_negative = {
                 name = "Negativo",
                 text = {
-                    "{C:dark_edition}+#1#{} espaço(s) de Joker"
+                    "{C:dark_edition}+#1#{} espaço(s) para Jokers"
                 }
             },
             e_negative_consumable = {
-                name = "Negativo",
+                name = "Negativa",
                 text = {
-                    "{C:dark_edition}+#1#{} espaço(s) de consumível"
+                    "{C:dark_edition}+#1#{} espaço(s) para consumíveis"
                 }
             }
         },

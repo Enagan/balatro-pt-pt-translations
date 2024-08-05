@@ -3447,12 +3447,12 @@ return {
                 "5 cartas com o mesmo valor"
             },
             ['Royal Flush'] = {
-                "5 cartas de valor consecutivo tendo",
+                "5 cartas de valor consecutivo, do 10 ao Às tendo",
                 "todas o mesmo naipe"
             },
             ['Straight Flush'] = {
-                "5 cartas de valor consecutivo, do 10 ao Às,",
-                "tendo todas o mesmo naipe"
+                "5 cartas de valor consecutivo tendo",
+                "todas o mesmo naipe"
             },
             ['Four of a Kind'] = {
                 "4 cartas com o mesmo valor. Podem",

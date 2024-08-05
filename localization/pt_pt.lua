@@ -2048,43 +2048,42 @@ return {
                 name = "Familiar",
                 text = {
                     "Destrói {C:attention}1{} carta",
-                    "na sua mão, adiciona",
-                    "{C:attention}#1#{} {C:attention}realeza Aprimorada",
-                    "{C:attention}aleatórias{} na sua mão"
+                    "aleatória na mão, adiciona",
+                    "{C:attention}#1# carta de figura (J,Q,K)",
+                    "{C:attention}Aprimorada{} à mão"
                 }
             },
             c_grim = {
                 name = "Sombrio",
                 text = {
                     "Destrói {C:attention}1{} carta",
-                    "aleatória na sua mão,",
-                    "adiciona {C:attention}#1#{}  {C:attention}Ases",
-                    "{C:attention}aprimorado(s){} aleatório(s) na sua mão"
+                    "aleatória na mão,",
+                    "adiciona {C:attention}#1#{} {C:attention}Ases aprimorados",
+                    "aleatórios à mão"
                 }
             },
             c_incantation = {
                 name = "Encantamento",
                 text = {
                     "Destrói {C:attention}1{} carta",
-                    "na sua mão, adiciona {C:attention}#1#",
-                    "{C:attention}cartas Aprimoradas e numeradas",
-                    "{C:attention}aleatórias{} na sua mão"
+                    "aleatória na mão, adiciona",
+                    "{C:attention}#1# cartas numéricas (2-10)",
+                    "{C:attention}Aprimoradas{} à mão"
                 }
             },
             c_talisman = {
                 name = "Talismã",
                 text = {
                     "Adiciona um {C:attention}Selo Dourado{}",
-                    "a {C:attention}1{} carta",
-                    "escolhida na sua mão"
+                    "a {C:attention}1{} carta selecionada"
                 }
             },
             c_aura = {
                 name = "Aura",
                 text = {
-                    "Adiciona o efeito {C:dark_edition}Laminado{}, {C:dark_edition}Holográfico{}",
-                    "ou {C:dark_edition}Policromático{} a",
-                    "{C:attention}1{} carta selecionada na sua mão"
+                    "Transforma {C:attention}1{} carta selecionada",
+                    "em edição {C:dark_edition}Laminada{}, {C:dark_edition}Holográfica{}"
+                    "ou {C:dark_edition}Policromática{}"
                 }
             },
             c_wraith = {
@@ -2092,14 +2091,14 @@ return {
                 text = {
                     "Cria um",
                     "{C:attention}Joker{} {C:red}Raro,",
-                    "define o dinheiro para {C:money}$0"
+                    "e nulifica o seu dinheiro: {C:money}$0"
                 }
             },
             c_sigil = {
                 name = "Símbolo",
                 text = {
                     "Converte todas as cartas",
-                    "da mão em um único",
+                    "da mão para um",
                     "{C:attention}naipe aleatório"
                 }
             },
@@ -2107,17 +2106,17 @@ return {
                 name = "Ouija",
                 text = {
                     "Converte todas as cartas",
-                    "da mão em uma única",
-                    "{C:attention}classe aleatória",
-                    "{C:red}-1{} de tamanho de mão"
+                    "da mão para um único",
+                    "{C:attention}valor aleatório",
+                    "tamanho de mão {C:red}-1{}"
                 }
             },
             c_ectoplasm = {
                 name = "Ectoplasma",
                 text = {
-                    "Adiciona {C:dark_edition}Negativo{} a",
-                    "um {C:attention}Joker aleatório,",
-                    "{C:red}-1{} de tamanho de mão"
+                    "Transforma um {C:attention}Joker aleatório",
+                    "em edição {C:dark_edition}Negativa{},",
+                    "tamanho de mão {C:red}-1{}"
                 }
             },
             c_immolate = {
@@ -2125,7 +2124,7 @@ return {
                 text = {
                     "Destrói {C:attention}#1#{} cartas",
                     "aleatórias na mão,",
-                    "ganha {C:money}$#2#"
+                    "rende {C:money}$#2#"
                 }
             },
             c_ankh = {
@@ -2140,40 +2139,36 @@ return {
                 name = "Déjà vu",
                 text = {
                     "Adiciona um {C:red}Selo Vermelho{}",
-                    "a {C:attention}1{} carta selecionada",
-                    "na sua mão"
+                    "a {C:attention}1{} carta selecionada"
                 }
             },
             c_hex = {
-                name = "Feitiço",
+                name = "Maldição",
                 text = {
-                    "Adiciona {C:dark_edition}Policromático{} a um",
-                    "{C:attention}Joker{} aleatório, destrói",
-                    "todos os outros Jokers"
+                    "Transforma um {C:attention}Joker aleatório",
+                    "em edição {C:dark_edition}Policromática{}",
+                    "destrói todos os outros Jokers"
                 }
             },
             c_trance = {
-                name = "Transe",
+                name = "Trance",
                 text = {
                     "Adiciona um {C:blue}Selo Azul{}",
-                    "a {C:attention}1{} carta selecionada",
-                    "na sua mão"
+                    "a {C:attention}1{} carta selecionada"
                 }
             },
             c_medium = {
                 name = "Médium",
                 text = {
                     "Adiciona um {C:purple}Selo Roxo{}",
-                    "a {C:attention}1{} carta selecionada",
-                    "na sua mão"
+                    "a {C:attention}1{} carta selecionada"
                 }
             },
             c_cryptid = {
                 name = "Criptídeo",
                 text = {
                     "Cria {C:attention}#1#{} cópias de",
-                    "{C:attention}1{} carta selecionada",
-                    "na sua mão"
+                    "{C:attention}1{} carta selecionada"
                 }
             },
             c_soul = {
@@ -2181,15 +2176,14 @@ return {
                 text = {
                     "Cria um",
                     "Joker {C:legendary,E:1}Lendário{}",
-                    "{C:inactive}(Deve ter espaço)"
+                    "{C:inactive}(Tem de ter espaço)"
                 }
             },
             c_black_hole = {
                 name = "Buraco Negro",
                 text = {
-                    "Melhora cada",
-                    "{C:legendary,E:1}mão de pôquer",
-                    "em {C:attention}1{} nível"
+                    "{C:attention}+1{} nível para",
+                    "todas as {C:legendary,E:1}mãos de pôquer{}",
                 }
             }
         },

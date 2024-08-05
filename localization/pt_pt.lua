@@ -1896,7 +1896,7 @@ return {
                 name = "A Estrela",
                 text = {
                     "Converte para {V:1}#2#{}",
-                    "o naípe de até {C:attention}#1# cartas",
+                    "o naipe de até {C:attention}#1# cartas",
                     "selecionadas"
                 }
             },
@@ -1904,7 +1904,7 @@ return {
                 name = "A Lua",
                 text = {
                     "Converte para {V:1}#2#{}",
-                    "o naípe de até {C:attention}#1# cartas",
+                    "o naipe de até {C:attention}#1# cartas",
                     "selecionadas"
                 }
             },
@@ -1912,7 +1912,7 @@ return {
                 name = "O Sol",
                 text = {
                     "Converte para {V:1}#2#{}",
-                    "o naípe de até {C:attention}#1# cartas",
+                    "o naipe de até {C:attention}#1# cartas",
                     "selecionadas"
                 }
             },
@@ -1928,7 +1928,7 @@ return {
                 name = "O Mundo",
                 text = {
                     "Converte para {V:1}#2#{}",
-                    "o naípe de até {C:attention}#1# cartas",
+                    "o naipe de até {C:attention}#1# cartas",
                     "selecionadas"
                 }
             }
@@ -2237,7 +2237,7 @@ return {
                 }
             },
             m_wild = {
-                name = "Carta Naipe Joker",
+                name = "Carta Multinaipe",
                 text = {
                     "Pode ser usada",
                     "como qualquer naipe"
@@ -2247,23 +2247,23 @@ return {
                 name = "Carta de Vidro",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi",
-                    "Chance de {C:green}#2# em #3#{} de",
-                    "destruir carta"
+                    "{C:green}#2# em #3#{} chances de",
+                    "a carta se partir"
                 }
             },
             m_steel = {
                 name = "Carta de Aço",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi",
-                    "enquanto esta carta",
-                    "permanece na mão"
+                    "sempre que esta carta",
+                    "{C:attention}não{} for jogada"
                 }
             },
             m_stone = {
                 name = "Carta de Pedra",
                 text = {
-                    "{C:chips}+#1#{} Fichas",
-                    "sem classe ou naipe"
+                    "Vale sempre {C:chips}+#1#{} fichas,",
+                    "não tem valor ou naipe"
                 }
             },
             m_gold = {
@@ -2277,10 +2277,10 @@ return {
             m_lucky = {
                 name = "Carta da Sorte",
                 text = {
-                    "Chance de {C:green}#1# em #3#{}",
+                    "{C:green}#1# em #3#{} chances",
                     "de {C:mult}+#2#{} Multi",
-                    "Chance de {C:green}#1# em #5#{}",
-                    "para ganhar {C:money}$#4#"
+                    "{C:green}#1# em #5#{} chances",
+                    "de render {C:money}$#4#"
                 }
             }
         },

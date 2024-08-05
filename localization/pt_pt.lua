@@ -2294,56 +2294,56 @@ return {
             stake_red = {
                 name = "Aposta Vermelha",
                 text = {
-                    "{C:attention}Small Blind{} não dá",
-                    "recompensas em dinheiro",
-                    "{s:0.8}Aplica todas as Apostas anteriores"
+                    "{C:attention}Small Blind{} não",
+                    "rende dinheiro",
+                    "{s:0.8}Inclui os efeitos de todas as Apostas anteriores"
                 }
             },
             stake_green = {
                 name = "Aposta Verde",
                 text = {
-                    "A pontuação necessária escala",
-                    "cada vez mais rapidamente com cada {C:attention}Aposta",
-                    "{s:0.8}Aplica todas as Apostas anteriores"
+                    "A pontuação necessária de fichas escala",
+                    "cada vez mais rapidamente com cada {C:attention}Ante",
+                    "{s:0.8}Inclui os efeitos de todas as Apostas anteriores"
                 }
             },
             stake_blue = {
                 name = "Aposta Azul",
                 text = {
                     "{C:red}-1{} Descarte",
-                    "{s:0.8}Aplica todas as Apostas anteriores"
+                    "{s:0.8}Inclui os efeitos de todas as Apostas anteriores"
                 }
             },
             stake_black = {
                 name = "Aposta Preta",
                 text = {
-                    "A loja pode ter Jokers {C:attention}Eternos{}",
+                    "A loja pode ter Jokers de edição {C:attention}Eterna{}",
                     "{C:inactive,s:0.8}{Não é possível vender ou destruir}",
-                    "{s:0.8}Aplica todas as Apostas anteriores"
+                    "{s:0.8}Inclui os efeitos de todas as Apostas anteriores"
                 }
             },
             stake_purple = {
                 name = "Aposta Roxa",
                 text = {
-                    "A pontuação necessária escala",
-                    "cada vez mais rapidamente com cada {C:attention}Aposta",
-                    "{s:0.8}Aplica todas as Apostas anteriores"
+                    "A pontuação necessária de fichas escala",
+                    "cada vez mais rapidamente com cada {C:attention}Ante",
+                    "{s:0.8}Inclui os efeitos de todas as Apostas anteriores"
                 }
             },
             stake_orange = {
                 name = "Aposta Laranja",
                 text = {
-                    "A loja pode ter Jokers {C:attention}Perecíveis{}",
-                    "{C:inactive,s:0.8}(Com desvantagem após 5 Vazas)",
-                    "{s:0.8}Aplica-se a todas as Apostas anteriores"
+                    "A loja pode ter Jokers de edição {C:attention}Perecível{}",
+                    "{C:inactive,s:0.8}(Desactivam-se após 5 Vazas)",
+                    "{s:0.8}Inclui os efeitos de todas as Apostas anteriores"
                 }
             },
             stake_gold = {
                 name = "Aposta Dourada",
                 text = {
-                    "A loja pode ter Jokers de {C:attention}Aluguel{}",
+                    "A loja pode ter Jokers de {C:attention}Aluguer{}",
                     "{C:inactive,s:0.8}(Custa {C:money,s:0.8}$3{C:inactive,s:0.8} por vaza)",
-                    "{s:0.8}Aplica-se a todas as Apostas anteriores"
+                    "{s:0.8}Inclui os efeitos de todas as Apostas anteriores"
                 }
             }
         },

@@ -2049,8 +2049,8 @@ return {
                 text = {
                     "Destrói {C:attention}1{} carta",
                     "aleatória na mão, adiciona",
-                    "{C:attention}#1# carta de figura (J,Q,K)",
-                    "{C:attention}Aprimorada{} à mão"
+                    "{C:attention}#1# cartas de figura (J,Q,K)",
+                    "{C:attention}Aprimoradas{} à mão"
                 }
             },
             c_grim = {
@@ -2082,7 +2082,7 @@ return {
                 name = "Aura",
                 text = {
                     "Transforma {C:attention}1{} carta selecionada",
-                    "em edição {C:dark_edition}Laminada{}, {C:dark_edition}Holográfica{}"
+                    "em edição {C:dark_edition}Laminada{}, {C:dark_edition}Holográfica{}",
                     "ou {C:dark_edition}Policromática{}"
                 }
             },
@@ -2227,7 +2227,7 @@ return {
         },
         Enhanced = {
             m_bonus = {
-                name = "Carta Bônus",
+                name = "Carta Bónus",
                 text = {}
             },
             m_mult = {
@@ -2440,7 +2440,7 @@ return {
                 name = "Crachá Humorístico",
                 text = {
                     "Oferece gratuitamente um",
-                    "{C:attention}Pacote Paspálho"
+                    "{C:attention}Mega Pacote Paspálho"
                 }
             },
             tag_handy = {
@@ -2508,7 +2508,7 @@ return {
             tag_orbital = {
                 name = "Crachá Orbital",
                 text = {
-                    "{C:attention}#1# é aumentado(a) em",
+                    "{C:attention}#1#{} é aumentado(a)",
                     "{C:attention}#2# níveis"
                 }
             },

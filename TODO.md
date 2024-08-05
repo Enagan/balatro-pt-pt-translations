@@ -4,10 +4,17 @@ https://pt.pokerstrategy.com/glossary/
 
 Traduções a fazer:
 
-- Descriptions: Jokers, Vouchers, Tarô, etc...
+- Descriptions:
   - Vouchers Done
   - Tarot Done
-- Achievements & Achievement Descriptions
-- challenge_names
+  - Planets Done
+  - Spectrals Done
+  - Editions Done
+  - Enhanced Done
+  - Stakes Done
+  - Tags Done
 
-Done dictonaries, texts, quips and tutorial
+- Misc: 
+  - Achievements & Achievement Descriptions
+  - challenge_names
+  - Done dictonaries, texts, quips and tutorial

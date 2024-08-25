@@ -382,7 +382,7 @@ return {
                 text = {
                     "Adiciona o número de vezes",
                     "que a {C:attention}mão de pôquer{} foi",
-                    "jogada nesta tentativa ao Multi"
+                    "jogada nesta partida ao Multi"
                 }
             },
             j_superposition = {
@@ -543,7 +543,7 @@ return {
                     "{S:1.1,C:red,E:2}se autodestrói{}"
                 },
                 unlock = {
-                    "Perca {C:attention,E:1}#1#{} tentativas",
+                    "Perca {C:attention,E:1}#1#{} partidas",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -640,7 +640,7 @@ return {
                     "{C:inactive}(No momento {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
-                    "Continue uma tentativa salva",
+                    "Continue uma partida salva",
                     "através do menu principal"
                 }
             },
@@ -755,7 +755,7 @@ return {
                     "{C:attention}Joker{} da direita"
                 },
                 unlock = {
-                    "Vença uma tentativa"
+                    "Vença uma partida"
                 }
             },
             j_wee = {
@@ -767,7 +767,7 @@ return {
                     "{C:inactive}(No momento {C:chips}+#1#{C:inactive} Fichas)"
                 },
                 unlock = {
-                    "Vença uma tentativa em {E:1,C:attention}#1#",
+                    "Vença uma partida em {E:1,C:attention}#1#",
                     "ou menos vazas"
                 }
             },
@@ -779,7 +779,7 @@ return {
                     "{C:red}#2#{} de tamanho de mão"
                 },
                 unlock = {
-                    "Vença uma tentativa em {E:1,C:attention}#1#",
+                    "Vença uma partida em {E:1,C:attention}#1#",
                     "ou menos vazas"
                 }
             },
@@ -859,7 +859,7 @@ return {
                     "um(a) {C:attention}#2#"
                 },
                 unlock = {
-                    "Vença uma tentativa",
+                    "Vença uma partida",
                     "sem jogar",
                     "{E:1,C:attention}#1#"
                 }
@@ -872,7 +872,7 @@ return {
                     "um(a) {C:attention}#2#"
                 },
                 unlock = {
-                    "Vença uma tentativa",
+                    "Vença uma partida",
                     "sem jogar",
                     "um {E:1,C:attention}#1#"
                 }
@@ -885,7 +885,7 @@ return {
                     "um(a) {C:attention}#2#"
                 },
                 unlock = {
-                    "Vença uma tentativa",
+                    "Vença uma partida",
                     "sem jogar",
                     "um {E:1,C:attention}#1#"
                 }
@@ -898,7 +898,7 @@ return {
                     "um(a) {C:attention}#2#"
                 },
                 unlock = {
-                    "Vença uma tentativa",
+                    "Vença uma partida",
                     "sem jogar",
                     "um {E:1,C:attention}#1#"
                 }
@@ -911,7 +911,7 @@ return {
                     "um(a) {C:attention}#2#"
                 },
                 unlock = {
-                    "Vença uma tentativa",
+                    "Vença uma partida",
                     "sem jogar",
                     "um {E:1,C:attention}#1#"
                 }
@@ -1279,7 +1279,7 @@ return {
                     "{C:inactive}(No momento {C:attention}#2#{C:inactive}/#1#)"
                 },
                 unlock = {
-                    "Vença uma tentativa sem",
+                    "Vença uma partida sem",
                     "ter mais de",
                     "{E:1,C:attention}4 Jokers{}"
                 }
@@ -1300,7 +1300,7 @@ return {
                 text = {
                     "Ganhe {C:money}$#1#{} no fim da",
                     "vaza por {C:planet}Planeta único",
-                    "usada nesta tentativa",
+                    "usada nesta partida",
                     "{C:inactive}(No momento {C:money}$#2#{C:inactive})"
                 },
                 unlock = {
@@ -2160,7 +2160,7 @@ return {
             c_medium = {
                 name = "Médium",
                 text = {
-                    "Adiciona um {C:purple}Selo Roxo{}",
+                    "Adiciona um {C:purple}Selo Púrpura{}",
                     "a {C:attention}1{} carta selecionada"
                 }
             },
@@ -2501,7 +2501,7 @@ return {
                 name = "Crachá Veloz",
                 text = {
                     "Rende {C:money}$#1#{} por cada",
-                    "Vaza ignorada nesta tentativa",
+                    "Vaza ignorada nesta partida",
                     "{C:inactive}(Renderá {C:money}$#2#{C:inactive})"
                 }
             },
@@ -2866,30 +2866,29 @@ return {
                 name = "Selo Dourado",
                 text = {
                     "Ganhe {C:money}$3{} quando esta",
-                    "carta é jogada",
-                    "e pontua"
+                    "carta é jogada e pontuada"
                 }
             },
             red_seal = {
                 name = "Selo Vermelho",
                 text = {
-                    "Reativa esta",
+                    "Pontua esta",
                     "carta {C:attention}1{} vez"
                 }
             },
             blue_seal = {
                 name = "Selo Azul",
                 text = {
-                    "Cria a carta de {C:planet}Planeta{}",
-                    "por {C:attention}mão de pôquer{} final jogada",
-                    "da vaza se {C:attention}contida{} na mão",
+                    "Cria a carta de {C:planet}Planeta{} coorespondente",
+                    "à ultima {C:attention}mão de pôquer{} jogada",
+                    "na vaza, se esta carta {C:attention}permanecer{} na mão",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
             purple_seal = {
-                name = "Selo Roxo",
+                name = "Selo Púrpura",
                 text = {
-                    "Cria uma carta {C:tarot}Tarô{}",
+                    "Cria uma carta de {C:tarot}Tarô{}",
                     "quando {C:attention}descartada",
                     "{C:inactive}(Deve ter espaço)"
                 }
@@ -2904,79 +2903,79 @@ return {
             perishable = {
                 name = "Perecível",
                 text = {
-                    "Com desvantagem após",
+                    "Desactivada após",
                     "{C:attention}#1#{} vazas",
                     "{C:inactive}(resta(m) {C:attention}#2#{C:inactive})"
                 }
             },
             rental = {
-                name = "Aluguel",
+                name = "Aluguer",
                 text = {
                     "Perca {C:money}$#1#{} no",
-                    "fim da vaza"
+                    "fim de cada vaza"
                 }
             },
             white_sticker = {
-                name = "Adesivo Branco",
+                name = "Autocolante Branco",
                 text = {
                     "Usou este Joker",
-                    "para vencer na dificuldade",
+                    "para vencer uma",
                     "{C:attention}Aposta Branca{}"
                 }
             },
             red_sticker = {
-                name = "Adesivo Vermelho",
+                name = "Autocolante Vermelho",
                 text = {
                     "Usou este Joker",
-                    "para vencer na dificuldade",
+                    "para vencer uma",
                     "{C:attention}Aposta Vermelha{}"
                 }
             },
             green_sticker = {
-                name = "Adesivo Verde",
+                name = "Autocolante Verde",
                 text = {
                     "Usou este Joker",
-                    "para vencer na dificuldade",
+                    "para vencer uma",
                     "{C:attention}Aposta Verde{}"
                 }
             },
             blue_sticker = {
-                name = "Adesivo Azul",
+                name = "Autocolante Azul",
                 text = {
                     "Usou este Joker",
-                    "para vencer na dificuldade",
+                    "para vencer uma",
                     "{C:attention}Aposta Azul{}"
                 }
             },
             black_sticker = {
-                name = "Adesivo Preto",
+                name = "Autocolante Preto",
                 text = {
                     "Usou este Joker",
-                    "para vencer na dificuldade",
+                    "para vencer uma",
                     "{C:attention}Aposta Preta{}"
                 }
             },
             purple_sticker = {
-                name = "Adesivo Roxo",
+                name = "Autocolante Púrpura",
                 text = {
                     "Usou este Joker",
-                    "para vencer na dificuldade",
+                    "para vencer uma",
                     "{C:attention}Aposta Roxa{}"
                 }
             },
             orange_sticker = {
-                name = "Adesivo Laranja",
+                name = "Autocolante Laranja",
                 text = {
                     "Usou este Joker",
-                    "para vencer na dificuldade",
+                    "para vencer uma",
                     "{C:attention}Aposta Laranja{}"
                 }
             },
             gold_sticker = {
-                name = "Adesivo Dourado",
+                name = "Autocolante Dourado",
                 text = {
                     "Usou este Joker",
-                    "para vencer na dificuldade",
+                    "para vencer uma",
                     "{C:attention}Aposta de Ouro{}"
                 }
             },
@@ -2996,9 +2995,9 @@ return {
                 }
             },
             remove_negative = {
-                name = "Negativo",
+                name = "n",
                 text = {
-                    "{C:inactive,s:0.9}(Remove {C:dark_edition,s:0.9}Negativo{C:inactive,s:0.9} da cópia)"
+                    "{C:inactive,s:0.9}(Remove {C:dark_edition,s:0.9}Edição Negativa{C:inactive,s:0.9} da cópia)"
                 }
             },
             locked = {
@@ -3006,33 +3005,33 @@ return {
                 text = {}
             },
             debuffed_default = {
-                name = "Com desvantagem",
+                name = "Desactivado",
                 text = {
                     "Todas as habilidades",
                     "são desativadas"
                 }
             },
             debuffed_playing_card = {
-                name = "Com desvantagem",
+                name = "Desactivada",
                 text = {
-                    "Não pontua fichas",
+                    "Não pontua nenhuma ficha",
                     "e todas as habilidades",
-                    "são desativadas"
+                    "são desactivadas"
                 }
             },
             demo_locked = {
                 name = "Bloqueada",
                 text = {
                     "Não disponível",
-                    "neste demo"
+                    "nesta demo"
                 }
             },
             challenge_locked = {
                 name = "Bloqueado",
                 text = {
-                    "Vença uma tentativa com pelo menos",
+                    "Vença uma partida com pelo menos",
                     "#1# baralhos diferentes para desbloquear",
-                    "Modo Desafio",
+                    "Modo de Desafio",
                     "{C:attention,s:2}#2#/#1#"
                 }
             },
@@ -3040,7 +3039,7 @@ return {
                 name = "Bloqueada",
                 text = {
                     "Carta da coleção",
-                    "pessoal do {C:attention}Jimbo",
+                    "pessoal do {C:attention}Batatinha",
                     "disponível na versão",
                     "completa de {E:1,C:red}Balatro"
                 }
@@ -3055,7 +3054,7 @@ return {
             deck_locked_win = {
                 name = "Bloqueada",
                 text = {
-                    "Vença uma tentativa com",
+                    "Vença uma partida com",
                     "{C:attention}#1#{}",
                     "em qualquer dificuldade"
                 }
@@ -3071,7 +3070,7 @@ return {
             deck_locked_stake = {
                 name = "Bloqueada",
                 text = {
-                    "Vença uma tentativa com qualquer",
+                    "Vença uma partida com qualquer",
                     "baralho pelo menos na",
                     "dificuldade {V:1}#1#{}"
                 }
@@ -3080,7 +3079,7 @@ return {
                 name = "Bloqueada",
                 text = {
                     "Encontre este Joker",
-                    "através da carta de {C:spectral}Alma{}"
+                    "através da carta {C:spectral}A Alma{}"
                 }
             },
             undiscovered_joker = {
@@ -3088,7 +3087,7 @@ return {
                 text = {
                     "Compre ou use",
                     "esta carta em uma",
-                    "tentativa sem código",
+                    "partida sem código",
                     "para descobrir o que ela faz"
                 }
             },
@@ -3096,8 +3095,8 @@ return {
                 name = "Não descoberto",
                 text = {
                     "Compre ou use",
-                    "esta carta em uma",
-                    "tentativa sem código",
+                    "esta carta numa",
+                    "partida sem semente aleatória",
                     "para descobrir o que ela faz"
                 }
             },
@@ -3105,8 +3104,8 @@ return {
                 name = "Não descoberto",
                 text = {
                     "Compre ou use",
-                    "esta carta em uma",
-                    "tentativa sem código",
+                    "esta carta numa",
+                    "partida sem semente aleatória",
                     "para descobrir o que ela faz"
                 }
             },
@@ -3114,17 +3113,17 @@ return {
                 name = "Não descoberto",
                 text = {
                     "Compre ou use",
-                    "esta carta em uma",
-                    "tentativa sem código",
+                    "esta carta numa",
+                    "partida sem semente aleatória",
                     "para descobrir o que ela faz"
                 }
             },
             undiscovered_voucher = {
                 name = "Não descoberto",
                 text = {
-                    "Resgate este",
-                    "cupão em uma",
-                    "tentativa sem código",
+                    "Redima este",
+                    "cupão numa partida",
+                    "sem semente aleatória",
                     "para descobrir o que ele faz"
                 }
             },
@@ -3132,7 +3131,7 @@ return {
                 name = "Não descoberto",
                 text = {
                     "Abra este pacote",
-                    "em uma tentativa sem código",
+                    "nma partida sem semente aleatória",
                     "para descobrir o que ele faz"
                 }
             },
@@ -3140,64 +3139,64 @@ return {
                 name = "Não descoberto",
                 text = {
                     "Encontre esta edição",
-                    "em uma tentativa sem código",
+                    "numa partida sem semente aleatória",
                     "para descobrir o que ela faz"
                 }
             },
             undiscovered_tag = {
                 name = "Não descoberto",
                 text = {
-                    "Use esta marca em",
-                    "uma tentativa sem código",
-                    "para descobrir o que ela faz"
+                    "Use este crachá numa",
+                    "partida sem semente aleatória",
+                    "para descobrir o que ele faz"
                 }
             },
             p_arcana_normal = {
-                name = "Pacote Arcano",
+                name = "Pacote Vidente",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:tarot} cartas de Tarô{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_arcana_jumbo = {
-                name = "Pacote Arcano Jumbo",
+                name = "Pacote Vidente Jumbo",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:tarot} cartas de Tarô{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_arcana_mega = {
-                name = "Pacote Arcano Mega",
+                name = "Mega Pacote Vidente",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:tarot} cartas de Tarô{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_celestial_normal = {
-                name = "Pacote Celestial",
+                name = "Pacote Celeste",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:planet} cartas de Planeta{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_celestial_jumbo = {
-                name = "Pacote Celestial Jumbo",
+                name = "Pacote Celeste Jumbo",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:planet} cartas de Planeta{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_celestial_mega = {
-                name = "Pacote Celestial Mega",
+                name = "Mega Pacote Celeste",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:planet} cartas de Planeta{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_spectral_normal = {
@@ -3205,7 +3204,7 @@ return {
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:spectral} cartas Espectrais{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_spectral_jumbo = {
@@ -3213,68 +3212,68 @@ return {
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:spectral} cartas Espectrais{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_spectral_mega = {
-                name = "Pacote Espectral Mega",
+                name = "Mega Pacote Espectral",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:spectral} cartas Espectrais{} para",
-                    "serem usadas imediatamente"
+                    "usar imediatamente"
                 }
             },
             p_standard_normal = {
-                name = "Pacote Padrão",
+                name = "Pacote de Jogo",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:attention} cartas de Jogo{} para",
-                    "serem adicionadas ao seu baralho"
+                    "usar imediatamente"
                 }
             },
             p_standard_jumbo = {
-                name = "Pacote Padrão Jumbo",
+                name = "Pacote de Jogo Jumbo",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:attention} cartas de Jogo{} para",
-                    "serem adicionadas ao seu baralho"
+                    "usar imediatamente"
                 }
             },
             p_standard_mega = {
-                name = "Pacote Padrão Mega",
+                name = "Mega Pacote de Jogo",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:attention} cartas de Jogo{} para",
-                    "serem adicionadas ao seu baralho"
+                    "usar imediatamente"
                 }
             },
             p_buffoon_normal = {
-                name = "Pacote Bufão",
+                name = "Pacote Paspálho",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:joker} cartas Joker{}"
                 }
             },
             p_buffoon_jumbo = {
-                name = "Pacote Bufão Jumbo",
+                name = "Pacote Paspálho Jumbo",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:joker} cartas Joker{}"
                 }
             },
             p_buffoon_mega = {
-                name = "Pacote Bufão Mega",
+                name = "Mega Pacote Paspálho",
                 text = {
                     "Escolha {C:attention}#1#{} de até",
                     "{C:attention}#2#{C:joker} cartas Joker{}"
                 }
             },
             pinned_left = {
-                name = "Encurralado",
+                name = "Fixado",
                 text = {
                     "Este Joker permanece",
-                    "encurralado na",
-                    "posição mais à esquerda"
+                    "fixo na posição",
+                    "mais à esquerda"
                 }
             }
         }
@@ -3364,15 +3363,15 @@ return {
         achievement_descriptions = {
             ante_up = "Alcance Aposta 4",
             ante_upper = "Alcance Aposta 8",
-            heads_up = "Vença uma Tentativa",
-            low_stakes = "Vença uma tentativa com no mínimo a dificuldade Aposta Vermelha",
-            mid_stakes = "Vença uma tentativa com no mínimo a dificuldade Aposta Negra",
-            high_stakes = "Vença uma tentativa com no mínimo a dificuldade Aposta Dourada",
+            heads_up = "Vença uma Partida",
+            low_stakes = "Vença uma partida com no mínimo a dificuldade Aposta Vermelha",
+            mid_stakes = "Vença uma partida com no mínimo a dificuldade Aposta Negra",
+            high_stakes = "Vença uma partida com no mínimo a dificuldade Aposta Dourada",
             card_player = "Jogue no mínimo 2500 cartas",
             card_discarder = "Descarte no mínimo 2500 cartas",
-            nest_egg = "Tenha $400 ou mais durante uma única tentativa",
+            nest_egg = "Tenha $400 ou mais durante uma única partida",
             flushed = "Jogue um Flush com 5 Cartas Joker",
-            speedrunner = "Vença uma tentativa em 12 ou menos vazas",
+            speedrunner = "Vença uma partida em 12 ou menos vazas",
             roi = "Compre 5 Cupons em Aposta 4",
             shattered = "Quebre 2 Cartas de Vidro em uma mão",
             royale = "Jogue um Royal Flush",
@@ -3382,9 +3381,9 @@ return {
             _100000k = "Pontue 100.000.000 Fichas com uma só mão",
             tiny_hands = "Reduza o seu baralho para 20 cartas ou menos.",
             big_hands = "Tenha 80 cartas ou mais no seu baralho",
-            you_get_what_you_get = "Vença uma tentativa sem atualizar a loja",
-            rule_bender = "Complete qualquer tentativa de desafio",
-            rule_breaker = "Complete todas as tentativas de desafio",
+            you_get_what_you_get = "Vença uma partida sem atualizar a loja",
+            rule_bender = "Complete qualquer partida de desafio",
+            rule_breaker = "Complete todas as partidas de desafio",
             legendary = "Descubra um Joker Lendário",
             astronomy = "Descubra todas as cartas de Planeta",
             cartomancy = "Descubra todas as cartas de Tarô",
@@ -3658,7 +3657,7 @@ return {
             k_unlocked_ex = "Desbloqueado!",
             k_achievement = "Conquista",
             k_trophy = "Troféu",
-            k_challenge_mode = "Modo Desafio",
+            k_challenge_mode = "Modo de Desafio",
             k_daily_run = "Partida Diária",
             k_profile = "Perfil",
             k_wins = "Vitórias",
@@ -3926,7 +3925,7 @@ return {
                 "{E:1,s:1.2,C:red}Desafio Diário!"
             },
             ch_c_set_seed = {
-                "1 tentativa com semente aleatória definida: {C:inactive}{Hidden}"
+                "1 partida com semente aleatória definida: {C:inactive}{Hidden}"
             },
             ch_c_chips_dollar_cap = {
                 "As {C:blue}Fichas{} não podem exceder {C:money}$"

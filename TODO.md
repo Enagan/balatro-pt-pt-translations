@@ -13,8 +13,11 @@ Traduções a fazer:
   - Enhanced Done
   - Stakes Done
   - Tags Done
+  - Blinds Done
+  - Decks Done
+  - Others Done
 
 - Misc: 
-  - Achievements & Achievement Descriptions
-  - challenge_names
+  - Done all Achievements & Achievement Descriptions
+  - Done challenge_names
   - Done dictonaries, texts, quips and tutorial

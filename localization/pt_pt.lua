@@ -2540,191 +2540,194 @@ return {
                 name = "O Gancho",
                 text = {
                     "Descarta 2 cartas",
-                    "aleatórias por mão jogada"
+                    "aleatórias a cada mão jogada"
                 }
             },
             bl_wall = {
-                name = "O Muro",
+                name = "A Muralha",
                 text = {
-                    "Blind ainda maior"
+                    "Esta vaza é extra grande"
                 }
             },
             bl_wheel = {
                 name = "A Roda",
                 text = {
-                    " em 7 cartas são",
-                    "compradas viradas para baixo"
+                    " em cada 7 cartas são",
+                    "biscadas viradas para baixo"
                 }
             },
             bl_arm = {
-                name = "O Braço",
+                name = "O Braço Forte",
                 text = {
-                    "Reduz o nível da",
+                    "Reduz o nível de cada",
                     "mão de pôquer jogada"
                 }
             },
             bl_psychic = {
                 name = "O Psíquico",
                 text = {
-                    "Deve jogar 5 cartas"
+                    "Não permite jogar menos",
+                    "que 5 cartas"
                 }
             },
             bl_goad = {
-                name = "Aguilhão",
+                name = "O Isco",
                 text = {
-                    "Todas as cartas de Espadas",
-                    "recebem desvantagem"
+                    "Cartas de Espadas",
+                    "não pontuam nesta vaza"
                 }
             },
             bl_water = {
                 name = "A Água",
                 text = {
-                    "Inicia com",
-                    "0 descartes"
+                    "Começa esta vaza",
+                    "com 0 descartes"
                 }
             },
             bl_eye = {
                 name = "O Olho",
                 text = {
-                    "Nenhum tipo de",
-                    "mão repetida nesta vaza"
+                    "Não permite jogar tipos de",
+                    "mão repetidos nesta vaza"
                 }
             },
             bl_mouth = {
                 name = "A Boca",
                 text = {
-                    "Jogue só 1 tipo",
-                    "de mão nesta vaza"
+                    "Permite jogar apenas 1",
+                    "tipo de mão nesta vaza"
                 }
             },
             bl_plant = {
                 name = "A Planta",
                 text = {
-                    "Todas as cartas de Realeza",
-                    "recebem desvantagem"
+                    "Cartas de figura",
+                    "não pontuam nesta vaza"
                 }
             },
             bl_needle = {
                 name = "A Agulha",
                 text = {
-                    "Jogue somente 1 mão"
+                    "Só permite jogar uma", 
+                    "unica mão"
                 }
             },
             bl_head = {
                 name = "A Cabeça",
                 text = {
-                    "Todas as cartas de Copas",
-                    "recebem desvantagem"
+                    "Cartas de Copas",
+                    "não pontuam nesta vaza"
                 }
             },
             bl_tooth = {
                 name = "O Dente",
                 text = {
-                    "Perde $1 por",
-                    "carta jogada"
+                    "Paga $1 por",
+                    "carta mão jogada"
                 }
             },
             bl_final_leaf = {
-                name = "Folha Verdejante",
+                name = "Folha Verde",
                 text = {
-                    "Todas as cartas têm desvantagem",
+                    "Nesta vaza, nenhuma carta pontua",
                     "até 1 Joker ser vendido"
                 }
             },
             bl_final_vessel = {
-                name = "Recipiente Roxo",
+                name = "O Veínculo Violeta",
                 text = {
-                    "Blind muito grande"
+                    "Esta vaza é maior que o normal"
                 }
             },
             bl_ox = {
                 name = "O Touro",
                 text = {
                     "Jogar #1#",
-                    "define o dinheiro para $0"
+                    "nulifica o dinheiro (para $0)"
                 }
             },
             bl_house = {
                 name = "A Casa",
                 text = {
-                    "A primeira mão é",
-                    "comprada virada para baixo"
+                    "A primeira mão de cartas",
+                    "é biscada virada para baixo"
                 }
             },
             bl_club = {
-                name = "Paulada",
+                name = "O Pau",
                 text = {
-                    "Todas as cartas de Paus",
-                    "recebem desvantagem"
+                    "Cartas de Paus",
+                    "não pontuam nesta vaza"
                 }
             },
             bl_fish = {
                 name = "O Peixe",
                 text = {
-                    "Cartas vêm viradas para baixo",
-                    "após cada mão jogada"
+                    "Cartas biscadas após jogar uma mão",
+                    "vêm viradas para baixo"
                 }
             },
             bl_window = {
                 name = "A Janela",
                 text = {
-                    "Todas as cartas de Ouros",
-                    "recebem desvantagem"
+                    "Cartas de Ouros",
+                    "não pontuam nesta vaza"
                 }
             },
             bl_manacle = {
                 name = "As Algemas",
                 text = {
-                    "-1 de tamanho de mão"
+                    "-1 de tamanho de mão",
+                    "durante esta vaza"
                 }
             },
             bl_serpent = {
                 name = "A Serpente",
                 text = {
-                    "Após Jogar ou Descartar,",
-                    "sempre compre 3 cartas"
+                    "Após descartar ou jogar uma mão,",
+                    "bisca apenas 3 cartas"
                 }
             },
             bl_pillar = {
                 name = "O Pilar",
                 text = {
-                    "Cartas jogadas antes",
-                    "desta Aposta recebem desvantagem"
+                    "Nenhuma carta que tenha sido jogada neste ante",
+                    "pontua durante esta vaza"
                 }
             },
             bl_flint = {
                 name = "A Pederneira",
                 text = {
-                    "Fichas Básicas e",
-                    "Multi são reduzidas pela metade"
+                    "Fichas Base e Multis",
+                    "são reduzidas para metade"
                 }
             },
             bl_mark = {
                 name = "A Marca",
                 text = {
-                    "Todas as cartas de Realeza são",
-                    "compradas viradas para baixo"
+                    "Todas as cartas de figura são",
+                    "biscadas viradas para baixo"
                 }
             },
             bl_final_acorn = {
-                name = "Semente Dourada",
+                name = "Avelã Dourada",
                 text = {
-                    "Vira e embaralha",
-                    "todas as cartas Joker"
+                    "Durante esta vaza, os jokers",
+                    "são"
                 }
             },
             bl_final_heart = {
                 name = "Coração Rubro",
                 text = {
-                    "Um Joker aleatório",
-                    "desativado em cada mão"
+                    "A cada mão jogada, um Joker",
+                    "aleatório é desactivado"
                 }
             },
             bl_final_bell = {
                 name = "Sino Cerúleo",
                 text = {
-                    "Obriga 1 carta a",
-                    "sempre ser selecionada"
+                    "Obriga 1 carta a estar",
+                    "pre-selecionada, a cada jogada"
                 }
             }
         },

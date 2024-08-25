@@ -2750,65 +2750,65 @@ return {
                 name = "Baralho Amarelo",
                 text = {
                     "Inicia com",
-                    "mais {C:money}$#1#"
+                    "{C:money}$#1# extra"
                 }
             },
             b_green = {
                 name = "Baralho Verde",
                 text = {
                     "No fim de cada Vaza:",
-                    "{C:money}$#1#{s:0.85} por {C:blue}Mão restante",
-                    "{C:money}$#2#{s:0.85} por {C:red}Descarte restante",
-                    "Sem {C:attention}Juros"
+                    "{C:money}$#1#{s:0.85} por cada {C:blue}Mão restante",
+                    "{C:money}$#2#{s:0.85} por cada {C:red}Descarte restante",
+                    "Nunca recebe {C:attention}Juros"
                 }
             },
             b_black = {
                 name = "Baralho Preto",
                 text = {
-                    "{C:attention}+#1#{} Espaço de Joker",
+                    "{C:attention}+#1#{} Espaço para Jokers",
                     "",
-                    "{C:blue}-#2#{} mão",
+                    "{C:blue}-#2#{} mãos",
                     "em cada vaza"
                 }
             },
             b_magic = {
                 name = "Baralho Mágico",
                 text = {
-                    "Comece a tentativa com o",
-                    "cupom de {C:tarot,T:v_crystal_ball}#1#{}",
+                    "Comece a partida com o",
+                    "cupão de {C:tarot,T:v_crystal_ball}#1#{}",
                     "e {C:attention}2{} cópias",
                     "de {C:tarot,T:c_fool}#2#"
                 }
             },
             b_nebula = {
-                name = "Baralho de Nebulosa",
+                name = "Baralho da Nébula",
                 text = {
-                    "Comece a tentativa com o",
-                    "cupom de {C:planet,T:v_telescope}#1#{}",
+                    "Comece a partida com o",
+                    "cupão de {C:planet,T:v_telescope}#1#{}",
                     "",
-                    "{C:red}#2#{} espaço(s) de consumível"
+                    "{C:red}#2#{} espaço para consumíveis"
                 }
             },
             b_ghost = {
                 name = "Baralho Fantasma",
                 text = {
                     "Cartas {C:spectral}Espectrais{} podem",
-                    "aparecer na loja,",
-                    "comece com uma carta de {C:spectral,T:c_hex}Feitiço{}"
+                    "aparecer na loja, comece com",
+                    "uma carta de {C:spectral,T:c_hex}Maldição{}"
                 }
             },
             b_abandoned = {
                 name = "Baralho Abandonado",
                 text = {
-                    "Comece a tentativa",
-                    "sem {C:attention}Cartas de Realeza",
+                    "Comece a partida",
+                    "sem {C:attention}Cartas de Figura",
                     "no seu baralho"
                 }
             },
             b_checkered = {
-                name = "Baralho Xadrez",
+                name = "Baralho de Xadrez",
                 text = {
-                    "Comece a tentativa com",
+                    "Comece a partida com",
                     "{C:attention}26{C:spades} Espadas{} e",
                     "{C:attention}26{C:hearts} Copas{} no baralho"
                 }
@@ -2816,7 +2816,7 @@ return {
             b_zodiac = {
                 name = "Baralho do Zodíaco",
                 text = {
-                    "Comece a tentativa com",
+                    "Comece a partida com",
                     "{C:tarot,T:v_tarot_merchant}#1#{},",
                     "{C:planeta,T:v_planet_merchant}#2#{},",
                     "e {C:attention,T:v_overstock_norm}#3#"
@@ -2826,11 +2826,11 @@ return {
                 name = "Baralho Pintado",
                 text = {
                     "{C:attention}+#1#{} tamanho de mão",
-                    "{C:red}#2#{} espaço de Joker"
+                    "{C:red}#2#{} espaço para Jokers"
                 }
             },
             b_anaglyph = {
-                name = "Baralho Anáglifo",
+                name = "Baralho Anáglifico",
                 text = {
                     "Após derrotar cada",
                     "{C:attention}Botão{}, ganhe",
@@ -2840,16 +2840,16 @@ return {
             b_plasma = {
                 name = "Baralho de Plasma",
                 text = {
-                    "Equilibre {C:blue}Fichas{} e",
+                    "Equilibra as {C:blue}Fichas{} e",
                     "{C:red}Multi{} ao calcular a",
-                    "pontuação para a mão preferida",
-                    "{C:red}X#1#{} de tamanho base do Blind"
+                    "pontuação para a mão jogada,",
+                    "{C:red}X#1#{} à dificuldade de cada vaza"
                 }
             },
             b_erratic = {
                 name = "Baralho Errático",
                 text = {
-                    "Todas as {C:attention}Classes{} e",
+                    "Todos os {C:attention}Valores{} e",
                     "{C:attention}Naipes{} no baralho",
                     "são aleatórios"
                 }
@@ -3123,7 +3123,7 @@ return {
                 name = "Não descoberto",
                 text = {
                     "Resgate este",
-                    "cupom em uma",
+                    "cupão em uma",
                     "tentativa sem código",
                     "para descobrir o que ele faz"
                 }

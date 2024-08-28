@@ -144,8 +144,8 @@ return {
             j_four_fingers = {
                 name = "Quatro Dedos",
                 text = {
-                    "Todas as {C:attention}Sequências{} e ",
-                    "{C:attention}Flushes{} podem ser jogadas",
+                    "Todos os {C:attention}Flushes{} e ",
+                    "{C:attention}Sequências{} podem ser jogados",
                     "com apenas {C:attention}4{} cartas"
                 }
             },
@@ -167,32 +167,32 @@ return {
             j_greedy_joker = {
                 name = "Joker Ganancioso",
                 text = {
-                    "Cartas de {C:diamonds}#2#{}",
-                    "jogadas, dão {C:mult}+#1#{} Multi",
+                    "Cartas de {C:diamonds}#2#s{}",
+                    "jogadas dão {C:mult}+#1#{} Multi",
                     "quando pontuam", 
                 }
             },
             j_lusty_joker = {
                 name = "Joker Luxuoso",
                 text = {
-                    "Cartas de {C:hearts}#2#{}",
-                    "jogadas, dão {C:mult}+#1#{} Multi",
+                    "Cartas de {C:hearts}#2#s{}",
+                    "jogadas dão {C:mult}+#1#{} Multi",
                     "quando pontuam", 
                 }
             },
             j_wrathful_joker = {
                 name = "Joker Raivoso",
                 text = {
-                    "Cartas de {C:spades}#2#{}",
-                    "jogadas, dão {C:mult}+#1#{} Multi",
+                    "Cartas de {C:spades}#2#s{}",
+                    "jogadas dão {C:mult}+#1#{} Multi",
                     "quando pontuam", 
                 }
             },
             j_gluttenous_joker = {
                 name = "Joker Guloso",
                 text = {
-                    "Cartas de {C:clubs}#2#{}",
-                    "jogadas, dão {C:mult}+#1#{} Multi",
+                    "Cartas de {C:clubs}#2#s{}",
+                    "jogadas dão {C:mult}+#1#{} Multi",
                     "quando pontuam", 
                 }
             },

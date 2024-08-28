@@ -12,15 +12,15 @@ return {
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "um {C:attention}#2#"
                 }
             },
             j_zany = {
-                name = "Joker Bobo",
+                name = "Joker Tolo",
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "uma {C:attention}#2#"
                 }
             },
             j_mad = {
@@ -28,15 +28,15 @@ return {
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "{C:attention}#2#"
                 }
             },
             j_crazy = {
-                name = "Joker Maluco",
+                name = "Joker Louco",
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "uma {C:attention}#2#"
                 }
             },
             j_droll = {
@@ -44,7 +44,7 @@ return {
                 text = {
                     "{C:red}+#1#{} Multi se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "um {C:attention}#2#"
                 }
             },
             j_sly = {
@@ -52,7 +52,7 @@ return {
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "um {C:attention}#2#"
                 }
             },
             j_wily = {
@@ -60,7 +60,7 @@ return {
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "uma {C:attention}#2#"
                 }
             },
             j_clever = {
@@ -76,7 +76,7 @@ return {
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "uma {C:attention}#2#"
                 }
             },
             j_crafty = {
@@ -84,7 +84,7 @@ return {
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "um {C:attention}#2#"
                 }
             },
             j_half = {
@@ -98,102 +98,102 @@ return {
             j_fortune_teller = {
                 name = "Vidente",
                 text = {
-                    "{C:red}+#1#{} Multi por",
-                    "carta de {C:purple}Tarô{} usada",
-                    "{C:inactive}(No momento {C:red}+#2#{C:inactive})"
+                    "{C:red}+#1#{} Multi por cada carta",
+                    "de {C:purple}Tarô{} usada esta partida",
+                    "{C:inactive}(De momento {C:red}+#2#{C:inactive})"
                 }
             },
             j_juggler = {
                 name = "Malabarista",
                 text = {
-                    "{C:attention}+#1#{} tamanho de mão"
+                    "{C:attention}+#1#{} carta na mão"
                 }
             },
             j_drunkard = {
                 name = "Bêbado",
                 text = {
                     "{C:red}+#1#{} descarte",
-                    "a cada vaza"
+                    "em cada vaza"
                 }
             },
             j_stone = {
                 name = "Joker de Pedra",
                 text = {
-                    "Dá {C:chips}+#1#{} Fichas para",
+                    "Dá {C:chips}+#1#{} Fichas por",
                     "cada {C:attention}Carta de Pedra",
-                    "do seu {C:attention}baralho completo",
-                    "{C:inactive}(No momento, {C:chips}+#2#{C:inactive} Fichas)"
+                    "no {C:attention}baralho",
+                    "{C:inactive}(De momento, {C:chips}+#2#{C:inactive} Fichas)"
                 }
             },
             j_golden = {
                 name = "Joker Dourado",
                 text = {
-                    "Ganhe {C:money}$#1#{} no",
-                    "fim da vaza"
+                    "Rende {C:money}$#1#{} no",
+                    "fim de cada vaza"
                 }
             },
             j_stencil = {
-                name = "Joker Estampado",
+                name = "Joker Recortado",
                 text = {
                     "{X:red,C:white} X1 {} Multi por cada",
-                    "espaço de {C:attention}Joker{} vazio",
-                    "{s:0.8}Joker Estampado incluído",
-                    "{C:inactive}(No momento {X:red,C:white} X#1# {C:inactive})"
+                    "espaço para {C:attention}Joker{} vazio",
+                    "{s:0.8}incluindo o Joker Recortado",
+                    "{C:inactive}(De momento {X:red,C:white} X#1# {C:inactive})"
                 }
             },
             j_four_fingers = {
                 name = "Quatro Dedos",
                 text = {
-                    "Todos os {C:attention}Flushes{} e",
-                    "{C:attention}Sequências{} podem",
-                    "ser efetuados com {C:attention}4{} cartas"
+                    "Todas as {C:attention}Sequências{} e ",
+                    "{C:attention}Flushes{} podem ser jogadas",
+                    "com apenas {C:attention}4{} cartas"
                 }
             },
             j_mime = {
                 name = "Mímico",
                 text = {
-                    "Reativa todas as",
-                    "habilidades das cartas {C:attention}na sua",
-                    "{C:attention}mão{}"
+                    "Reactiva todas as habilidades",
+                    "das cartas que permanencem",
+                    "{C:attention}na sua mão{}"
                 }
             },
             j_credit_card = {
                 name = "Cartão de Crédito",
                 text = {
-                    "Tenha até",
-                    "{C:red}-$#1#{} em dívida"
+                    "Permite acumular dívida",
+                    "até {C:red}-$#1#{}"
                 }
             },
             j_greedy_joker = {
                 name = "Joker Ganancioso",
                 text = {
-                    "Cartas jogadas com",
-                    "naipe de {C:diamonds}#2#{} dão",
-                    "{C:mult}+#1#{} Multi quando pontuadas", 
+                    "Cartas de {C:diamonds}#2#{}",
+                    "jogadas, dão {C:mult}+#1#{} Multi",
+                    "quando pontuam", 
                 }
             },
             j_lusty_joker = {
-                name = "Joker Vigoroso",
+                name = "Joker Luxuoso",
                 text = {
-                    "Cartas jogadas com",
-                    "naipe de {C:hearts}#2#{} dão",
-                    "{C:mult}+#1#{} Multi quando pontuadas", 
+                    "Cartas de {C:hearts}#2#{}",
+                    "jogadas, dão {C:mult}+#1#{} Multi",
+                    "quando pontuam", 
                 }
             },
             j_wrathful_joker = {
-                name = "Joker Furioso",
+                name = "Joker Raivoso",
                 text = {
-                    "Cartas jogadas com",
-                    "naipe de {C:spades}#2#{} dão",
-                    "{C:mult}+#1#{} Multi quando pontuadas", 
+                    "Cartas de {C:spades}#2#{}",
+                    "jogadas, dão {C:mult}+#1#{} Multi",
+                    "quando pontuam", 
                 }
             },
             j_gluttenous_joker = {
                 name = "Joker Guloso",
                 text = {
-                    "Cartas jogadas com",
-                    "naipe de {C:clubs}#2#{} dão",
-                    "{C:mult}+#1#{} Multi quando pontuadas", 
+                    "Cartas de {C:clubs}#2#{}",
+                    "jogadas, dão {C:mult}+#1#{} Multi",
+                    "quando pontuam", 
                 }
             },
             j_ceremonial = {

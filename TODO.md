@@ -1,8 +1,7 @@
-
-Help:
-https://pt.pokerstrategy.com/glossary/
-
 Traduções a fazer:
+
+- Jokers:
+ - Done up to j_ceremonial (non-inclusive)
 
 - Descriptions:
   - Vouchers Done

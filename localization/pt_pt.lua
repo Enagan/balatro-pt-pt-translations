@@ -3316,6 +3316,24 @@ return {
             ['3'] = "3",
             ['2'] = "2"
         },
+        collabs = {
+            Spades = {
+                ['1'] = 'Normal', 
+                ['2'] = 'The Witcher',
+            },
+            Hearts = {
+                ['1'] = 'Normal', 
+                ['2'] = 'Among Us'
+            },
+            Clubs = {
+                ['1'] = 'Normal', 
+                ['2'] = 'Vampire Survivors'
+            },
+            Diamonds = {
+                ['1'] = 'Normal', 
+                ['2'] = 'Dave the Diver'
+            },
+        },
         high_scores = {
             hand = "Melhor Mão",
             furthest_round = "Vaza Mais Alta",
@@ -3530,6 +3548,7 @@ return {
             b_copy = "Copiar",
             b_credits = "Créditos",
             b_stats = "Estatísticas",
+            b_customize_deck = "Customizar o Deck",
             b_settings = "Configurações",
             b_set_game = "Jogabilidade",
             b_set_video = "Vídeo",
@@ -3698,6 +3717,7 @@ return {
             k_choose = "Escolha",
             k_achievements_disabled = "Conquistas Desativadas",
             k_trophies_disabled = "Troféus Desativados",
+            ph_display_stickers = "Mostrar Autocolantes de Joker durante a partida",
             ph_improve_run = "Melhore a sua partida!",
             ph_no_boss_active = "sem botão ativo",
             ph_sneak_peek = "Espreitadela",

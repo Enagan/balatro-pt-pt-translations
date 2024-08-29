@@ -199,11 +199,11 @@ return {
             j_ceremonial = {
                 name = "Adaga Cerimonial",
                 text = {
-                    "Quando o {C:attention}Blind{} é selecionado,",
-                    "destrói o Joker da direita",
+                    "No inicio de cada {C:attention}Vaza{},",
+                    "a adaga destroi o próximo joker à sua direita",
                     "e adiciona, permanentemente, o {C:attention}dobro",
-                    "do valor de venda a esta {C:red}Multi",
-                    "{C:inactive}(No momento {C:mult}+#1#{C:inactive} Multi)"
+                    "do valor de venda desse Joker ao seu {C:red}Multi",
+                    "{C:inactive}(de momento {C:mult}+#1#{C:inactive} Multi)"
                 }
             },
             j_banner = {
@@ -211,27 +211,27 @@ return {
                 text = {
                     "{C:chips}+#1#{} Fichas",
                     "por cada",
-                    "{C:attention}descarte restante"
+                    "{C:attention}descarte por usar"
                 }
             },
             j_mystic_summit = {
                 name = "Pico Místico",
                 text = {
                     "{C:mult}+#1#{} Multi quando",
-                    "{C:attention}#2#{} descartes",
-                    "restantes"
+                    "restam {C:attention}#2#{} descartes",
+                    "por usar"
                 }
             },
             j_marble = {
                 name = "Joker de Mármore",
                 text = {
                     "Adiciona uma carta de {C:attention}Pedra{}",
-                    "ao seu baralho quando",
-                    "o {C:attention}Blind{} é selecionado"
+                    "ao seu baralho no",
+                    "início de cada {C:attention}Vaza{}"
                 }
             },
             j_loyalty_card = {
-                name = "Carta de Lealdade",
+                name = "Cartão de Descontos",
                 text = {
                     "{X:red,C:white} X#1# {} Multi a cada",
                     "{C:attention}#2#{} mãos jogadas",
@@ -241,25 +241,24 @@ return {
             j_8_ball = {
                 name = "Bola 8",
                 text = {
-                    "Chance de {C:green}#1# em #2#{} para cada",
-                    "{C:attention}8{} jogado para criar",
-                    "uma carta de {C:tarot}Tarô{} quando pontuada",
+                    "Sempre que um {C:attention}8{} for jogado,", 
+                    "há {C:green}#1# em #2#{} chances de",
+                    "uma carta de {C:tarot}Tarô{} ser criada",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
             j_dusk = {
-                name = "Anoitecer",
+                name = "Lusco-fusco",
                 text = {
-                    "Reativa as cartas",
-                    "pontuadoras na {C:attention}mão",
-                    "{C:attention}final{} da vaza"
+                    "Reactiva as abilidades de todas as cartas",
+                    "jogadas na {C:attention}ultima mão{} da vaza"
                 }
             },
             j_chaos = {
                 name = "Caos, o Palhaço",
                 text = {
-                    "{C:attention}#1#{} {C:green}atualização(ões) grátis",
-                    "na loja"
+                    "{C:attention}#1#{} {C:green}reabastecimento grátis",
+                    "por cada loja"
                 }
             },
             j_misprint = {
@@ -271,9 +270,9 @@ return {
             j_raised_fist = {
                 name = "Punho Erguido",
                 text = {
-                    "Adiciona o {C:attention}dobro{} da classe",
-                    "da carta de classe {C:attention}mais baixa{}",
-                    "presente na mão ao Multi"
+                    "Adiciona ao Multi o {C:attention}dobro{} do valor",
+                    "da carta {C:attention}mais baixa{}",
+                    "permanecente na mão"
                 }
             },
             j_fibonacci = {
@@ -281,36 +280,36 @@ return {
                 text = {
                     "Cada {C:attention}Ás{},",
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}5{} ou {C:attention}8{} jogados dão",
-                    "{C:mult}+#1#{} Multi quando pontuados"
+                    "{C:mult}+#1#{} Multi quando pontuam"
                 }
             },
             j_steel_joker = {
                 name = "Joker de Aço",
                 text = {
-                    "Dá {X:mult,C:white} X#1# {} Multi",
-                    "para cada {C:attention}Carta de Aço",
-                    "do seu {C:attention}baralho completo",
-                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "Dá {X:mult,C:white} X#1# {} Multi por",
+                    "cada {C:attention}Carta de Aço",
+                    "no {C:attention}baralho",
+                    "{C:inactive}(De momento, {C:chips}+#2#{C:inactive} Fichas)"
                 }
             },
             j_scary_face = {
-                name = "Realeza Assustadora",
+                name = "Más Figuras",
                 text = {
-                    "Cartas de {C:attention}realeza{} jogadas",
+                    "Cartas de {C:attention}figura{}",
                     "dão {C:chips}+#1#{} Fichas",
-                    "quando pontuadas"
+                    "quando pontuam"
                 }
             },
             j_abstract = {
                 name = "Joker Abstrato",
                 text = {
                     "{C:mult}+#1#{} Multi por",
-                    "cada carta {C:attention}Joker{}",
-                    "{C:inactive}(No momento {C:red}+#2#{C:inactive} Multi)"
+                    "cada {C:attention}Joker{}",
+                    "{C:inactive}(De momento {C:red}+#2#{C:inactive} Multi)"
                 }
             },
             j_delayed_grat = {
-                name = "Gratificação Atrasada",
+                name = "Gratificação A Prazo",
                 text = {
                     "Ganhe {C:money}$#1#{} por {C:attention}descarte{} se",
                     "nenhum descarte for usado",

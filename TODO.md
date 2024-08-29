@@ -1,7 +1,7 @@
 Traduções a fazer:
 
 - Jokers:
- - Done up to j_ceremonial (non-inclusive)
+ - Done up to j_pareidolia (non-inclusive)
 
 - Descriptions:
   - Vouchers Done

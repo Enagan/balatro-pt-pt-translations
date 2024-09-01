@@ -320,47 +320,46 @@ return {
                 name = "Pareidolia",
                 text = {
                     "Todas as cartas são",
-                    "consideradas",
-                    "cartas de {C:attention}Realeza{}"
+                    "consideradas cartas de",
+                    "{C:attention}Figura{} (J, Q, K)"
                 }
             },
             j_hack = {
-                name = "Impostor",
+                name = "Humorista Falhado",
                 text = {
-                    "Reativa",
-                    "cada",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} ou {C:attention}5{}"
+                    "Reactiva as abilidades de",
+                    "cada {C:attention}2{}, {C:attention}3{}, {C:attention}4{} ou {C:attention}5{}"
                 }
             },
             j_gros_michel = {
-                name = "Banana-prata",
+                name = "Gros Michel",
                 text = {
-                    "{C:mult}+#1#{} Multi",
-                    "{C:green}#2# de #3#{} chance desta",
+                    "{C:mult}+#1#{} Multi,",
+                    "{C:green}#2# de #3#{} chances desta",
                     "carta ser destruída",
-                    "no fim da vaza"
+                    "no final da vaza"
                 }
             },
             j_even_steven = {
-                name = "Osmar Vados",
+                name = "Pedro Par",
                 text = {
                     "Cartas jogadas com",
-                    "classe {C:attention}par{} dão",
+                    "valor {C:attention}par{} dão",
                     "{C:mult}+#1#{} Multi quando pontuadas",
                     "{C:inactive}(10, 8, 6, 4, 2)"
                 }
             },
             j_odd_todd = {
-                name = "Ímpar Imperfeito",
+                name = "Ivo Ímpar",
                 text = {
                     "Cartas jogadas com",
-                    "classe {C:attention}ímpar{} dão",
+                    "valor {C:attention}ímpar{} dão",
                     "{C:chips}+#1#{} Fichas quando pontuadas",
                     "{C:inactive}(A, 9, 7, 5, 3)"
                 }
             },
             j_scholar = {
-                name = "Estudioso",
+                name = "Académico",
                 text = {
                     "{C:attention}Ases{} jogados",
                     "dão {C:chips}+#2#{} Fichas",
@@ -371,8 +370,8 @@ return {
             j_business = {
                 name = "Cartão de Visita",
                 text = {
-                    "Cartas de {C:attention}realeza{} jogadas têm",
-                    "a chance de {C:green}#1# em #2#{} de",
+                    "Cartas de {C:attention}figura{} têm",
+                    "{C:green}#1# em #2#{} chances de",
                     "dar {C:money}$2{} quando pontuadas"
                 }
             },
@@ -380,7 +379,7 @@ return {
                 name = "Supernova",
                 text = {
                     "Adiciona o número de vezes",
-                    "que a {C:attention}mão de pôquer{} foi",
+                    "que a {C:attention}mão de póquer{} foi",
                     "jogada nesta partida ao Multi"
                 }
             },
@@ -388,47 +387,47 @@ return {
                 name = "Sobreposição",
                 text = {
                     "Cria uma carta de {C:tarot}Tarô{} se",
-                    "a mão de pôquer tiver um",
+                    "a mão jogada tiver um",
                     "{C:attention}Às{} e uma {C:attention}Sequência{}",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
             j_ride_the_bus = {
-                name = "Passear de Ônibus",
+                name = "Passear de Autocarro",
                 text = {
                     "Este Joker ganha {C:mult}+#1#{} Multi",
-                    "por mão jogada {C:attention}consecutiva{}",
-                    "sem nenhuma",
-                    "carta de {C:attention}realeza{} de pontuação",
-                    "{C:inactive}(No momento, {C:mult}+#2#{C:inactive} Multi)"
+                    "por cada mão jogada {C:attention}consecutivamente{}",
+                    "sem nenhuma carta de",
+                    "{C:attention}figura{} que pontue",
+                    "{C:inactive}(De momento, {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_space = {
-                name = "Joker Espacial",
+                name = "Joker Astronauta",
                 text = {
-                    "Chance de {C:green}#1# em #2#{} para",
-                    "aprimorar o nível da",
-                    "{C:attention}mão de pôquer{} jogada"
+                    "{C:green}#1# em #2#{} chances de",
+                    "aumentar o nível da",
+                    "{C:attention}mão de póquer{} jogada"
                 }
             },
             j_egg = {
                 name = "Ovo",
                 text = {
-                    "Ganha {C:money}$#1#{} do",
-                    "{C:attention}valor de venda{} ao",
-                    "fim da vaza"
+                    "Acumula {C:money}$#1#{} ao",
+                    "{C:attention}valor de venda{}",
+                    "deste joker no fim de cada vaza"
                 }
             },
             j_burglar = {
                 name = "Ladrão",
                 text = {
-                    "Quando o {C:attention}Blind{} é selecionado,",
-                    "ganha {C:blue}+#1#{} Mãos e",
-                    "{C:attention}perde todos os descartes"
+                    "Quando a {C:attention}Vaza{} é selecionada,",
+                    "adiciona {C:blue}+#1#{} mãos por jogar e",
+                    "{C:attention}gasta todos os descartes"
                 }
             },
             j_blackboard = {
-                name = "Quadro Negro",
+                name = "Quadro de Giz",
                 text = {
                     "{X:red,C:white} X#1# {} Multi se todas as",
                     "cartas mantidas na mão",
@@ -438,17 +437,17 @@ return {
             j_runner = {
                 name = "Atleta",
                 text = {
-                    "Ganha {C:chips}+#2#{} Fichas",
+                    "Acumula {C:chips}+#2#{} Fichas",
                     "se a mão jogada",
                     "tiver uma {C:attention}Sequência{}",
-                    "{C:inactive}(No momento {C:chips}+#1#{C:inactive} Fichas)"
+                    "{C:inactive}(De momento {C:chips}+#1#{C:inactive} Fichas)"
                 }
             },
             j_ice_cream = {
-                name = "Sorvete",
+                name = "Gelado",
                 text = {
-                    "{C:chips}+#1#{} Fichas",
-                    "{C:chips}-#2#{} Fichas por",
+                    "{C:chips}+#1#{} Fichas,",
+                    "Perde {C:chips}-#2#{} Fichas por",
                     "cada mão jogada"
                 }
             },
@@ -514,9 +513,9 @@ return {
             j_todo_list = {
                 name = "Lista de Tarefas",
                 text = {
-                    "Ganhe {C:money}$#1#{} se a {C:attention}mão de pôquer{}",
+                    "Ganhe {C:money}$#1#{} se a {C:attention}mão de póquer{}",
                     "for uma {C:attention}#2#{},",
-                    "a mão de pôquer muda",
+                    "a mão de póquer muda",
                     "no fim da vaza"
                 }
             },
@@ -738,7 +737,7 @@ return {
                 name = "Vaso de Flores",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se a mão",
-                    "de pôquer contém",
+                    "de póquer contém",
                     "uma carta de {C:diamonds}Ouros{}, uma carta de {C:clubs}Paus{},",
                     "uma carta de {C:hearts}Copas{} e uma carta de {C:spades}Espadas{}"
                 },
@@ -928,7 +927,7 @@ return {
                 name = "Carta Afiada",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se a",
-                    "{C:attention}mão de pôquer{} já tiver sido",
+                    "{C:attention}mão de póquer{} já tiver sido",
                     "jogada nesta vaza"
                 }
             },
@@ -962,7 +961,7 @@ return {
             j_seance = {
                 name = "Sessão Mediúnica",
                 text = {
-                    "Se a {C:attention}mão de pôquer{} for",
+                    "Se a {C:attention}mão de póquer{} for",
                     "{C:attention}#1#{}, cria um(a)",
                     "carta {C:spectral}Espectral{} aleatória",
                     "{C:inactive}(Deve ter espaço)"
@@ -1042,7 +1041,7 @@ return {
                     "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "por mão jogada {C:attention}consecutiva{}",
                     "sem jogar a sua",
-                    "{C:attention}mão de pôquer mais jogada",
+                    "{C:attention}mão de póquer mais jogada",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
@@ -2182,7 +2181,7 @@ return {
                 name = "Buraco Negro",
                 text = {
                     "{C:attention}+1{} nível para",
-                    "todas as {C:legendary,E:1}mãos de pôquer{}",
+                    "todas as {C:legendary,E:1}mãos de póquer{}",
                 }
             }
         },
@@ -2559,7 +2558,7 @@ return {
                 name = "O Braço Forte",
                 text = {
                     "Reduz o nível de cada",
-                    "mão de pôquer jogada"
+                    "mão de póquer jogada"
                 }
             },
             bl_psychic = {
@@ -2879,7 +2878,7 @@ return {
                 name = "Selo Azul",
                 text = {
                     "Cria a carta de {C:planet}Planeta{} coorespondente",
-                    "à ultima {C:attention}mão de pôquer{} jogada",
+                    "à ultima {C:attention}mão de póquer{} jogada",
                     "na vaza, se esta carta {C:attention}permanecer{} na mão",
                     "{C:inactive}(Deve ter espaço)"
                 }
@@ -3392,7 +3391,7 @@ return {
             roi = "Compre 5 Cupões antes do ante 4",
             shattered = "Quebre 2 Cartas de Vidro numa única mão",
             royale = "Jogue um Royal Flush",
-            retrograde = "Suba qualquer mão de pôquer até nível 10",
+            retrograde = "Suba qualquer mão de póquer até nível 10",
             _10k = "Pontue 10.000 Fichas com uma só mão",
             _1000k = "Pontue 1.000.000 Fichas com uma só mão",
             _100000k = "Pontue 100.000.000 Fichas com uma só mão",

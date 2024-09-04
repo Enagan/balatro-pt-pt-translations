@@ -447,24 +447,24 @@ return {
                 name = "Gelado",
                 text = {
                     "{C:chips}+#1#{} Fichas,",
-                    "Perde {C:chips}-#2#{} Fichas por",
-                    "cada mão jogada"
+                    "O gelado {C:chips}-#2#{} Fichas",
+                    "por cada mão jogada"
                 }
             },
             j_dna = {
                 name = "DNA",
                 text = {
-                    "Se a {C:attention}primeira mão{} da vaza",
-                    "tiver somente {C:attention}1{} carta, adiciona uma",
-                    "cópia permanente ao baralho",
-                    "e a coloca na {C:attention}mão"
+                    "Se a {C:attention}primeira mão{} jogada",
+                    "de cada vaza, tiver apenas {C:attention}1{} carta,",
+                    "DNA cria uma cópia permanente dessa mesma carta",
+                    "e bisca-a para a {C:attention}mão"
                 }
             },
             j_splash = {
                 name = "Splash",
                 text = {
-                    "Cada {C:attention}carta jogada",
-                    "conta na pontuação"
+                    "Todas as {C:attention}carta",
+                    "jogadas são pontuadas"
                 }
             },
             j_blue_joker = {
@@ -472,14 +472,15 @@ return {
                 text = {
                     "{C:chips}+#1#{} Fichas por cada",
                     "carta restante no {C:attention}baralho",
-                    "{C:inactive}(No momento {C:chips}+#2#{C:inactive} Fichas)"
+                    "{C:inactive}(De momento {C:chips}+#2#{C:inactive} Fichas)"
                 }
             },
             j_sixth_sense = {
                 name = "Sexto Sentido",
                 text = {
-                    "Se a {C:attention}primeira mão{} da vaza for",
-                    "um único {C:attention}6{}, destrói a mesma e",
+                    "Se a {C:attention}primeira mão jogada{} da vaza for",
+                    "um único {C:attention}6{}," 
+                    "o Sexto Sentido destrói esse 6 e",
                     "cria uma carta {C:spectral}Espectral{}",
                     "{C:inactive}(Deve ter espaço)"
                 }
@@ -490,7 +491,7 @@ return {
                     "Este Joker ganha",
                     "{X:mult,C:white} X#1# {} Multi sempre",
                     "que uma carta de {C:planet}Planeta{} é usada",
-                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "{C:inactive}(De momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
             j_hiker = {
@@ -502,19 +503,18 @@ return {
                 }
             },
             j_faceless = {
-                name = "Joker Plebeu",
+                name = "Joker sem Cara",
                 text = {
                     "Ganhe {C:money}$#1#{} se {C:attention}#2#{} ou",
-                    "mais {C:attention}cartas de Realeza{}",
-                    "são descartadas",
-                    "ao mesmo tempo"
+                    "mais {C:attention}cartas de figura{}",
+                    "forem descartadas ao mesmo tempo"
                 }
             },
             j_todo_list = {
                 name = "Lista de Tarefas",
                 text = {
-                    "Ganhe {C:money}$#1#{} se a {C:attention}mão de póquer{}",
-                    "for uma {C:attention}#2#{},",
+                    "Ganhe {C:money}$#1#{} se a {C:attention}mão jogada{}",
+                    "for um(a) {C:attention}#2#{},",
                     "a mão de póquer muda",
                     "no fim da vaza"
                 }
@@ -522,8 +522,8 @@ return {
             j_ticket = {
                 name = "Bilhete Dourado",
                 text = {
-                    "Cartas {C:attention}Douradas{} jogadas",
-                    "ganham {C:money}$#1#{} quando pontuadas"
+                    "Cartas {C:attention}Douradas{}, quando jogadas,",
+                    "rendem {C:money}$#1#{} ao pontuar"
                 },
                 unlock = {
                     "Jogue uma mão de 5 cartas",
@@ -532,13 +532,13 @@ return {
                 }
             },
             j_mr_bones = {
-                name = "Sr. Osso",
+                name = "Sr. Ossudo",
                 text = {
-                    "Evita a Morte",
-                    "se as fichas pontuadas",
+                    "Evita perder a partida",
+                    "se as fichas ganhas",
                     "forem, pelo menos, {C:attention}25%",
                     "das fichas necessárias",
-                    "{S:1.1,C:red,E:2}se autodestrói{}"
+                    "{S:1.1,C:red,E:2}autodestrói-se quando usado{}"
                 },
                 unlock = {
                     "Perca {C:attention,E:1}#1#{} partidas",
@@ -548,8 +548,8 @@ return {
             j_acrobat = {
                 name = "Acrobata",
                 text = {
-                    "{X:red,C:white} X#1# {} Multi na {C:attention}mão",
-                    "{C:attention}final{} da vaza"
+                    "{X:red,C:white} X#1# {} Multi na {C:attention}ultima",
+                    "{C:attention}mão{} da vaza"
                 },
                 unlock = {
                     "Jogue {C:attention,E:1}#1#{} mãos",
@@ -557,14 +557,14 @@ return {
                 }
             },
             j_sock_and_buskin = {
-                name = "A Meia e o Coturno",
+                name = "O Feliz e o Triste",
                 text = {
-                    "Reativa todas as",
-                    "cartas de {C:attention}realeza{} jogadas"
+                    "Reativa as abilidades de todas as",
+                    "cartas de {C:attention}figura{} jogadas"
                 },
                 unlock = {
                     "Jogue um total de",
-                    "{C:attention,E:1}#1#{} cartas de Realeza",
+                    "{C:attention,E:1}#1#{} cartas de figura",
                     "{C:inactive}(#2#)"
                 }
             },
@@ -573,16 +573,16 @@ return {
                 text = {
                     "{C:mult}+#1#{} Multi por mão jogada",
                     "{C:mult}-#2#{} Multi por descarte",
-                    "{C:inactive}(No momento {C:mult}+#3#{C:inactive} Multi)"
+                    "{C:inactive}(De momento {C:mult}+#3#{C:inactive} Multi)"
                 }
             },
             j_swashbuckler = {
-                name = "Aventureiro",
+                name = "Pirata",
                 text = {
                     "Adiciona o valor de venda",
                     "de todos os outros ",
-                    "{C:attention}Jokers{} em posse ao Multi",
-                    "{C:inactive}(No momento, {C:mult}+#1#{C:inactive} Multi)"
+                    "{C:attention}Jokers{} ao Multi",
+                    "{C:inactive}(De momento, {C:mult}+#1#{C:inactive} Multi)"
                 },
                 unlock = {
                     "Venda um total de",
@@ -593,13 +593,13 @@ return {
             j_troubadour = {
                 name = "Trovador",
                 text = {
-                    "{C:attention}+#1#{} de tamanho de mão,",
-                    "{C:blue}-#2#{} mão a cada vaza"
+                    "{C:attention}+#1#{} ao tamanho da mão,",
+                    "{C:blue}-#2#{} mão por vaza"
                 },
                 unlock = {
                     "Vença {C:attention,E:1}#1#{} vazas",
                     "consecutivas jogando",
-                    "somente 1 mão"
+                    "sempre a mesma mão"
                 }
             },
             j_certificate = {
@@ -608,11 +608,11 @@ return {
                     "Quando a vaza começa,",
                     "adiciona uma {C:attention}carta de jogo",
                     "{C:attention}aleatória{} com um",
-                    "{C:attention}selo{} para a sua mão"
+                    "{C:attention}selo aleatório{} à mão"
                 },
                 unlock = {
                     "Tenha uma",
-                    "carta de jogo de Ouro com",
+                    "carta de jogo dourada com",
                     "um {C:attention,E:1}Selo Dourado"
                 }
             },
@@ -631,15 +631,15 @@ return {
                 }
             },
             j_throwback = {
-                name = "Retorno",
+                name = "Retro",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi por cada",
-                    "{C:attention}Blind{} ignorado nesta vaza",
-                    "{C:inactive}(No momento {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "{C:attention}vaza{} ignorada nesta partida",
+                    "{C:inactive}(De momento {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
-                    "Continue uma partida salva",
-                    "através do menu principal"
+                    "Continue uma partida",
+                    "préviamente gravada"
                 }
             },
             j_hanging_chad = {

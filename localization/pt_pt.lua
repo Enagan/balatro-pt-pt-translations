@@ -2284,8 +2284,8 @@ return {
             stake_red = {
                 name = "Aposta Vermelha",
                 text = {
-                    "{C:attention}Small Blind{} não",
-                    "rende dinheiro",
+                    "Os {C:attention}Small Blinds{} não",
+                    "rendem dinheiro",
                     "{s:0.8}Inclui os efeitos de todas as Apostas anteriores"
                 }
             },
@@ -3286,7 +3286,7 @@ return {
         blind_states = {
             Select = "Ir a Jogo",
             Skipped = "Passado",
-            Current = "Atual",
+            Current = "Actual",
             Defeated = "Vencido",
             Upcoming = "Próximo",
             Selected = "Seleccionado"
@@ -3330,7 +3330,7 @@ return {
             furthest_ante = "Ante Mais Alto",
             most_money = "Record de Dinheiro",
             boss_streak = "Record de Botões Consecutivos",
-            collection = "Coleção",
+            collection = "Colecção",
             win_streak = "Vitórias Consecutivas",
             current_streak = "",
             poker_hand = "Mão Mais Jogada"
@@ -3574,7 +3574,7 @@ return {
             b_remaining = "Restante(s)",
             b_full_deck = "Baralho Completo",
             b_poker_hands = "Mãos de Póquer",
-            b_blinds = "Blinds",
+            b_blinds = "Vazas",
             b_vouchers = "Cupões",
             b_stake = "Aposta",
             b_jokers = "Jokers",
@@ -3595,7 +3595,7 @@ return {
             b_new_run = "Nova Partida",
             b_challenges = "Desafios",
             b_new_challenge = "Iniciar Novo Desafio",
-            b_current_profile = "Perfil Atual",
+            b_current_profile = "Perfil Actual",
             b_load_profile = "Carregar Perfil",
             b_create_profile = "Criar Perfil",
             b_delete_profile = "Eliminar Perfil",
@@ -3605,14 +3605,14 @@ return {
             b_deck = "Baralho",
             b_play_cap = "JOGAR",
             b_options_cap = "OPÇÕES",
-            b_collection_cap = "COLEÇÃO",
+            b_collection_cap = "COLECÇÃO",
             b_quit_cap = "SAIR",
             b_cash_out = "Receber a Guita",
             b_unlock_all = "Desbloquear Tudo",
             k_unknown = "?????",
             k_compatible = "compatível",
             k_incompatible = "incompatível",
-            k_active = "ativo",
+            k_active = "activo",
             k_round = "Vaza",
             k_ante = "Ante",
             k_seed = "Semente Aleatória",
@@ -3709,16 +3709,16 @@ return {
             k_trophies_disabled = "Troféus Desativados",
             ph_display_stickers = "Mostrar Autocolantes de Joker durante a partida",
             ph_improve_run = "Melhore a sua partida!",
-            ph_no_boss_active = "sem botão ativo",
+            ph_no_boss_active = "sem botão activo",
             ph_sneak_peek = "Espreitadela",
             ph_deck_preview_stones = "Pedras",
-            ph_deck_preview_effective = "Total effectivo de Jokers, Blinds e Modificações de carta",
+            ph_deck_preview_effective = "Total effectivo de Jokers, Vazas e Modificações de carta",
             ph_blind_score_at_least = "Pontue pelo menos",
             ph_blind_reward = "Ganho: ",
             ph_4_7_of_clubs = "quatro 7 de Paus",
             ph_up_ante_1 = "Aumentar o Ante",
-            ph_up_ante_2 = "Aumentar todos os Blinds",
-            ph_up_ante_3 = "Alterar Blinds",
+            ph_up_ante_2 = "Aumentar todos as Vazas",
+            ph_up_ante_3 = "Alterar Vazas",
             ph_select_challenge = "Escolha um Desafio",
             ph_stat_joker = "Total de vazas concluídas com esta carta",
             ph_stat_consumable = "Número de vezes que esta carta foi usada",
@@ -3730,11 +3730,11 @@ return {
             ph_you_win_demo = "VOCÊ VENCEU A DEMO!",
             ph_vouchers_redeemed = "Cupões redimidos nesta partida",
             ph_no_vouchers = "Nenhum cupão redimido nesta partida",
-            ph_defeat_this_blind_1 = "Derrote este Blind",
+            ph_defeat_this_blind_1 = "Derrote esta Vaza",
             ph_defeat_this_blind_2 = "para o descobrir",
             ph_click_confirm = "Clique novamente para confirmar",
-            ph_choose_blind_1 = "Escolha o seu",
-            ph_choose_blind_2 = "próximo Blind",
+            ph_choose_blind_1 = "Escolha a sua",
+            ph_choose_blind_2 = "próxima Vaza",
             ph_mr_bones = "Salvo pelo Sr. Ossudo",
             ph_score_at_least = "Pontue pelo menos",
             ph_all_poker_hand = "Todas as Mãos de Póquer",
@@ -3815,11 +3815,11 @@ return {
                 "Modificações, Edições e Selos"
             },
             ml_unlock_all_explanation = {
-                "AVISO! Desloquear a Coleção completa",
+                "AVISO! Desloquear a Colecção completa",
                 "desativará as conquistas para este perfil!"
             },
             ml_unlock_all_trophies = {
-                "AVISO! Desloquear a Coleção completa",
+                "AVISO! Desloquear a Colecção completa",
                 "desativará os troféus para este perfil!"
             },
             ['$'] = "$",
@@ -3833,7 +3833,7 @@ return {
             k_plus_planet = "+1 Planeta",
             k_plus_spectral = "+1 Espectral",
             k_plus_joker = "+1 Joker",
-            k_active_ex = "Ativo!",
+            k_active_ex = "Activo!",
             k_level_up_ex = "Subiu de nível!",
             k_upgrade_ex = "Modificada!",
             k_again_ex = "Outra Vez!",
@@ -3863,7 +3863,7 @@ return {
             a_sold_tally = "#1#/#2# Vendido(s)",
             a_remaining = "#1# Restante(s)",
             ante_x_voucher = "CUPÃO DO ANTE #1#",
-            loyalty_active = "Ativo!",
+            loyalty_active = "Activo!",
             loyalty_inactive = "#1# restante(s)",
             deck_preview_wheel_singular = "As quantidades podem ser mais baixas devido a #1# carta na mão virada para baixo",
             deck_preview_wheel_plural = "As quantidades podem ser mais baixas devido às #1# cartas na mão viradas para baixo",
@@ -3920,10 +3920,10 @@ return {
                 "{C:inactive}Nenhum(a)"
             },
             ch_c_no_reward = {
-                "Nenhum {C:attention}Blind{} dá dinheiro"
+                "Nenhuma {C:attention}Vaza{} dá dinheiro"
             },
             ch_c_no_reward_specific = {
-                "{C:attention}#1# Blind(s){} não dão dinheiro"
+                "{C:attention}#1# Vaza(s){} não dão dinheiro"
             },
             ch_c_no_extra_hand_money = {
                 "{C:blue}Mãos{} por jogar não dão dinheiro"
@@ -3999,21 +3999,21 @@ return {
             },
             sb_2 = {
                 "O teu objetivo é ganhar",
-                "{C:blue}Fichas{} pra derrotar",
-                "o {C:attention}Blind inimigo"
+                "{C:blue}Fichas{} pra vencer",
+                "a {C:attention}Vaza"
             },
             sb_3 = {
-                "Aqui temos um {C:blue}Small Blind{}.",
+                "Aqui temos uma vaza {C:blue}Small Blind{}.",
                 "Só precisas de ganhar",
-                "{C:attention}300 Fichas{} para derrotá-lo."
+                "{C:attention}300 Fichas{} para vence-la."
             },
             sb_4 = {
-                "Seleciona o {C:blue}Small Blind",
+                "Selecciona o {C:blue}Small Blind",
                 "para iniciar a vaza!"
             },
             bb_1 = {
-                "Jogar contra um {C:attention}Big Blind",
-                "permite ganhar uma guita valente..."
+                "Jogar um {C:attention}Big Blind",
+                "permite ganhar uns valentes trocos..."
             },
             bb_2 = {
                 "Ou podes escolher {C:attention}ignorá-lo",
@@ -4023,13 +4023,13 @@ return {
             bb_3 = {
                 "Mas fica de olho",
                 "no {C:attention}Botão{}. Ele",
-                "tem uma condicionante especial que",
+                "tem uma habilidade especial que",
                 "vai exigir desenrascanço..."
             },
             bb_4 = {
                 "Se o derrotares, o nível do",
-                "{C:attention}Ante{} sobe e todos os",
-                "{C:attention}Blinds{} ficam mais difíceis"
+                "{C:attention}Ante{} sobe e todos as",
+                "{C:attention}Vazas{} ficam mais difíceis"
             },
             bb_5 = {
                 "Bate o {C:attention}Ante{} #1# para ganhar.",
@@ -4048,7 +4048,7 @@ return {
                 "Veja as {C:attention}mãos de póquer",
                 "na área de {C:attention}Informação da Partida{},",
                 "junto com outras informações",
-                "sobre a partida atual"
+                "sobre a partida actual"
             },
             fh_4 = {
                 "As cartas também valem",

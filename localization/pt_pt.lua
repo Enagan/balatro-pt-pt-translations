@@ -335,7 +335,7 @@ return {
                 name = "Gros Michel",
                 text = {
                     "{C:mult}+#1#{} Multi,",
-                    "{C:green}#2# de #3#{} chances desta",
+                    "{C:green}#2# em #3#{} chances desta",
                     "carta ser destruída",
                     "no final da vaza"
                 }
@@ -643,23 +643,21 @@ return {
                 }
             },
             j_hanging_chad = {
-                name = "Comprovante",
+                name = "Recorte Pendurado",
                 text = {
-                    "Reativa a {C:attention}primeira{} carta",
-                    "jogada usada em pontuação",
-                    "{C:attention}#1#{} vezes adicionais"
+                    "Reactiva as abilidades da {C:attention}primeira{} carta",
+                    "jogada {C:attention}#1#{} vezes mais"
                 },
                 unlock = {
-                    "Acabe com o Botão",
-                    "com uma {E:1,C:attention}#1#"
+                    "Derrote um Botão",
+                    "com uma mão {E:1,C:attention}#1#"
                 }
             },
             j_rough_gem = {
-                name = "Joia Bruta",
+                name = "Diamante Bruto",
                 text = {
-                    "Cartas jogadas com",
-                    "naipe de {C:diamonds}Ouros{} ganham",
-                    "{C:money}$#1#{} quando pontuadas", 
+                    "Cartas de {C:diamonds}Ouros{}",
+                    "rendem {C:money}$#1#{} quando pontuadas", 
                 },
                 unlock = {
                     "Tenha pelo menos {E:1,C:attention}#1#",
@@ -670,40 +668,37 @@ return {
             j_bloodstone = {
                 name = "Pedra de Sangue",
                 text = {
-                    "Chance de {C:green}#1# em #2#{} para",
-                    "cartas jogadas com",
-                    "naipe de {C:hearts}Copas{} darem",
-                    "{X:mult,C:white} X#3# {} Multi ao pontuar,", 
+                    "{C:green}#1# em #2#{} chances de",
+                    "cartas de {C:hearts}Copas{} darem",
+                    "{X:mult,C:white} X#3# {} Multi ao pontuar", 
                 },
                 unlock = {
                     "Tenha pelo menos {E:1,C:attention}#1#",
-                    "cartas com naipe de {E:1,C:attention}#2#",
+                    "cartas de {E:1,C:attention}#2#",
                     "no seu baralho"
                 }
             },
             j_arrowhead = {
                 name = "Ponta de Flecha",
                 text = {
-                    "Cartas jogadas com",
-                    "naipe de {C:spades}Espadas{} dão",
+                    "Cartas de {C:spades}Espadas{} dão",
                     "{C:chips}+#1#{} Fichas quando pontuadas"
                 },
                 unlock = {
                     "Tenha pelo menos {E:1,C:attention}#1#",
-                    "cartas com naipe de {E:1,C:attention}#2#",
+                    "cartas de {E:1,C:attention}#2#",
                     "no seu baralho"
                 }
             },
             j_onyx_agate = {
-                name = "Ágata Ônix",
+                name = "Ónix",
                 text = {
-                    "Cartas jogadas com",
-                    "naipe de {C:clubs}Paus{} dão",
+                    "Cartas de {C:clubs}Paus{} dão",
                     "{C:mult}+#1#{} Multi quando pontuadas", 
                 },
                 unlock = {
                     "Tenha pelo menos {E:1,C:attention}#1#",
-                    "cartas com naipe de {E:1,C:attention}#2#",
+                    "cartas de {E:1,C:attention}#2#",
                     "no seu baralho"
                 }
             },
@@ -711,9 +706,9 @@ return {
                 name = "Joker de Vidro",
                 text = {
                     "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
-                    "para cada {C:attention}Carta de Vidro",
+                    "por cada {C:attention}Carta de Vidro",
                     "destruída",
-                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "{C:inactive}(De momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
                     "Tenha pelo menos {E:1,C:attention}#1#",
@@ -722,47 +717,47 @@ return {
                 }
             },
             j_ring_master = {
-                name = "Mestre do Ringue",
+                name = "Mestre do Circo",
                 text = {
                     "Cartas de {C:attention}Joker{}, {C:tarot}Tarô{}, {C:planet}Planeta{}",
-                    "e {C:spectral}Espectral{} podem",
-                    "aparecer várias vezes"
+                    "e {C:spectral}Espectrais{} podem",
+                    "aparecer em duplicado"
                 },
                 unlock = {
                     "Alcance",
-                    "Nível de Aposta {E:1,C:attention}#1#"
+                    "o Ante {E:1,C:attention}#1#"
                 }
             },
             j_flower_pot = {
                 name = "Vaso de Flores",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se a mão",
-                    "de póquer contém",
+                    "jogada contiver",
                     "uma carta de {C:diamonds}Ouros{}, uma carta de {C:clubs}Paus{},",
                     "uma carta de {C:hearts}Copas{} e uma carta de {C:spades}Espadas{}"
                 },
                 unlock = {
                     "Alcance",
-                    "Nível de Aposta {E:1,C:attention}#1#"
+                    "o Ante {E:1,C:attention}#1#"
                 }
             },
             j_blueprint = {
-                name = "Projeto",
+                name = "Esquemática",
                 text = {
                     "Copia a habilidade do",
-                    "{C:attention}Joker{} da direita"
+                    "{C:attention}Joker{} à sua direita"
                 },
                 unlock = {
                     "Vença uma partida"
                 }
             },
             j_wee = {
-                name = "Curinguinha",
+                name = "Mini-Joker",
                 text = {
-                    "Este Joker ganha",
+                    "Este Joker acumula",
                     "{C:chips}+#2#{} Fichas quando cada",
                     "{C:attention}2{} jogado pontua",
-                    "{C:inactive}(No momento {C:chips}+#1#{C:inactive} Fichas)"
+                    "{C:inactive}(De momento {C:chips}+#1#{C:inactive} Fichas)"
                 },
                 unlock = {
                     "Vença uma partida em {E:1,C:attention}#1#",
@@ -770,7 +765,7 @@ return {
                 }
             },
             j_merry_andy = {
-                name = "Jogada de Descartes",
+                name = "Descartes",
                 text = {
                     "{C:red}+#1#{} descartes",
                     "a cada vaza,",
@@ -782,14 +777,14 @@ return {
                 }
             },
             j_oops = {
-                name = "Opa! Tudo 6",
+                name = "Dado da Sorte",
                 text = {
                     "Dobra {C:attention}todas as",
                     "{C:green,E:1,S:1.1}probabilidades",
                     "{C:inactive}(ex: {C:green}1 em 3{C:inactive} -> {C:green}2 em 3{C:inactive})"
                 },
                 unlock = {
-                    "Em uma mão,",
+                    "Numa única mão,",
                     "ganhe pelo menos",
                     "{E:1,C:attention}#1#{} fichas"
                 }
@@ -798,27 +793,27 @@ return {
                 name = "O Ídolo",
                 text = {
                     "Cada {C:attention}#2#",
-                    "de {V:1}#3#{} jogado dá",
-                    "{X:mult,C:white} X#1# {} Multi ao pontuar",
-                    "{s:0.8}Carta muda em cada vaza"
+                    "de {V:1}#3#{} dá",
+                    "{X:mult,C:white} X#1# {} Multi quando pontua",
+                    "{s:0.8}A carta a pontuar muda em cada vaza"
                 },
                 unlock = {
-                    "Em uma mão,",
+                    "Numa única mão,",
                     "ganhe pelo menos",
                     "{E:1,C:attention}#1#{} fichas"
                 }
             },
             j_seeing_double = {
-                name = "Visão Duplicada",
+                name = "Visão a Dobrar",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se jogar",
-                    "uma mão com carta pontuadora de",
-                    "Carta de {C:clubs}Paus{} e uma carta",
-                    "de pontuação de qualquer outro {C:attention}naipe"
+                    "uma mão que pontue uma",
+                    "Carta de {C:clubs}Paus{} e outra carta",
+                    "de qualquer {C:attention}naipe{} diferente"
                 },
                 unlock = {
                     "Jogue uma mão",
-                    "que contém",
+                    "que contenha",
                     "{E:1,C:attention}#1#"
                 }
             },
@@ -826,22 +821,22 @@ return {
                 name = "Matador",
                 text = {
                     "Ganhe {C:money}$#1#{} se a",
-                    "mão jogada ativa a",
-                    "habilidade {C:attention}Botão{}"
+                    "mão jogada ativar a",
+                    "habilidade do {C:attention}Botão{}"
                 },
                 unlock = {
                     "Derrote um Botão",
-                    "em {E:1,C:attention}1 mão{} sem",
+                    "com {E:1,C:attention}1 única mão{} sem",
                     "usar qualquer descarte"
                 }
             },
             j_hit_the_road = {
-                name = "Cai Fora",
+                name = "Faz-te à Estrada",
                 text = {
-                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
-                    "para cada {C:attention}Valete{}",
+                    "Este Joker acumula {X:mult,C:white} X#1# {} Multi",
+                    "por cada {C:attention}Valete{}",
                     "descartado nesta vaza",
-                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "{C:inactive}(De momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
                     "Descarte {E:1,C:attention}5",
@@ -858,7 +853,7 @@ return {
                 },
                 unlock = {
                     "Vença uma partida",
-                    "sem jogar",
+                    "sem jogar um",
                     "{E:1,C:attention}#1#"
                 }
             },
@@ -871,8 +866,8 @@ return {
                 },
                 unlock = {
                     "Vença uma partida",
-                    "sem jogar",
-                    "um {E:1,C:attention}#1#"
+                    "sem jogar uma",
+                    "{E:1,C:attention}#1#"
                 }
             },
             j_family = {
@@ -880,12 +875,12 @@ return {
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "uma {C:attention}#2#"
                 },
                 unlock = {
                     "Vença uma partida",
                     "sem jogar",
-                    "um {E:1,C:attention}#1#"
+                    "uma {E:1,C:attention}#1#"
                 }
             },
             j_order = {
@@ -893,7 +888,7 @@ return {
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "uma {C:attention}#2#"
                 },
                 unlock = {
                     "Vença uma partida",
@@ -918,51 +913,51 @@ return {
                 name = "Cavendish",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi",
-                    "{C:green}#2# de #3#{} chance desta",
+                    "{C:green}#2# em #3#{} chances desta",
                     "carta ser destruída",
-                    "no fim da vaza"
+                    "no fim de cada vaza"
                 }
             },
             j_card_sharp = {
-                name = "Carta Afiada",
+                name = "Às nas cartas",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se a",
-                    "{C:attention}mão de póquer{} já tiver sido",
-                    "jogada nesta vaza"
+                    "{C:attention}mão jogada{} já tiver sido",
+                    "jogada anteriormente nesta vaza"
                 }
             },
             j_red_card = {
-                name = "Carta Vermelha",
+                name = "Cartão Vermelho",
                 text = {
-                    "Este Joker ganha",
+                    "Este Joker acumula",
                     "{C:red}+#1#{} Multi quando qualquer",
-                    "{C:attention}Pacote de Reforço{} é ignorado",
-                    "{C:inactive}(No momento, {C:red}+#2#{C:inactive} Multi)"
+                    "{C:attention}Pacote de Cartas{} é passado",
+                    "{C:inactive}(De momento, {C:red}+#2#{C:inactive} Multi)"
                 }
             },
             j_madness = {
                 name = "Insanidade",
                 text = {
-                    "Quando {C:attention}Small Blind{} ou {C:attention}Big Blind{}",
-                    "é selecionado, ganhe {X:mult,C:white} X#1# {} Multi",
-                    "e {C:attention}destrua{} um Joker aleatório",
+                    "Quando um {C:attention}Small Blind{} ou {C:attention}Big Blind{}",
+                    "é jogado, acumula {X:mult,C:white} X#1# {} Multi",
+                    "e {C:attention}destroi{} um Joker aleatório",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
             j_square = {
                 name = "Joker Quadrado",
                 text = {
-                    "Este Joker ganha {C:chips}+#2#{} Fichas",
-                    "se a mão jogada tem",
-                    "exatamente {C:attention}4{} cartas",
-                    "{C:inactive}(No momento, {C:chips}#1#{C:inactive} Fichas)"
+                    "Este Joker acumula {C:chips}+#2#{} Fichas",
+                    "por cada mão jogada que tiver",
+                    "exactamente {C:attention}4{} cartas",
+                    "{C:inactive}(De momento, {C:chips}#1#{C:inactive} Fichas)"
                 }
             },
             j_seance = {
-                name = "Sessão Mediúnica",
+                name = "Falar com Espiritos",
                 text = {
-                    "Se a {C:attention}mão de póquer{} for",
-                    "{C:attention}#1#{}, cria um(a)",
+                    "Sempre que um {C:attention}#1#{}",
+                    "for jogado, cria uma",
                     "carta {C:spectral}Espectral{} aleatória",
                     "{C:inactive}(Deve ter espaço)"
                 }
@@ -970,7 +965,7 @@ return {
             j_riff_raff = {
                 name = "Ralé",
                 text = {
-                    "Quando o {C:attention}Blind{} é selecionado,",
+                    "Sempre que jogar uma {C:attention}Vaza{},",
                     "cria {C:attention}#1# {C:blue}{C:attention}Joker Comum",
                     "{C:inactive}(Deve ter espaço)"
                 }
@@ -979,8 +974,8 @@ return {
                 name = "Vampiro",
                 text = {
                     "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
-                    "por {C:attention}carta Aprimorada{} de pontuação jogada,",
-                    "remove o {C:attention}Aprimoramento da carta",
+                    "por cada {C:attention}carta modificada{} jogada,",
+                    "remove a {C:attention}Modificação da carta",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
@@ -988,8 +983,8 @@ return {
                 name = "Atalho",
                 text = {
                     "Permite fazer {C:attention}Sequências{}",
-                    "com lacunas de {C:attention}1 classe",
-                    "{C:inactive}(ex.: {C:attention}10 8 6 5 3{C:inactive})"
+                    "com espaços de {C:attention}1 valor",
+                    "{C:inactive}(p.ex.: {C:attention}10 8 6 5 3{C:inactive})"
                 }
             },
             j_hologram = {
@@ -998,58 +993,57 @@ return {
                     "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
                     "sempre que uma {C:attention}carta de jogo{}",
                     "é adicionada ao seu baralho",
-                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "{C:inactive}(De momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
             j_vagabond = {
                 name = "Vagabundo",
                 text = {
                     "Cria uma carta de {C:purple}Tarô{}",
-                    "se a mão é jogada",
-                    "com {C:money}$#1#{} ou menos"
+                    "se tiver {C:money}$#1#{} ou menos,",
+                    "sempre que jogar uma mão"
                 }
             },
             j_baron = {
                 name = "Barão",
                 text = {
                     "Cada {C:attention}Rei{}",
-                    "na mão",
+                    "que permaneça na mão",
                     "dá {X:mult,C:white} X#1# {} Multi"
 
                 }
             },
             j_cloud_9 = {
-                name = "9dades",
+                name = "Núvem 9",
                 text = {
                     "Ganhe {C:money}$#1#{} por cada",
                     "{C:attention}9{} no seu {C:attention}baralho completo",
-                    "no fim da vaza",
-                    "{C:inactive}(No momento {C:money}$#2#{}{C:inactive})"
+                    "no fim de cada vaza",
+                    "{C:inactive}(De momento {C:money}$#2#{}{C:inactive})"
                 }
             },
             j_rocket = {
-                name = "Foguete",
+                name = "Foguetão",
                 text = {
-                    "Ganhe {C:money}$#1#{} no fim da vaza",
-                    "O pagamento aumenta em {C:money}$#2#{}",
-                    "quando o {C:attention}Botão{} é derrotado"
+                    "Rende {C:money}$#1#{} no fim da vaza",
+                    "Acumula {C:money}$#2#{} ao rendimento",
+                    "sempre que um {C:attention}Botão{} é derrotado"
                 }
             },
             j_obelisk = {
                 name = "Obelisco",
                 text = {
                     "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
-                    "por mão jogada {C:attention}consecutiva{}",
-                    "sem jogar a sua",
-                    "{C:attention}mão de póquer mais jogada",
-                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "por cada mão jogada {C:attention}consecutivamente{}",
+                    "que não seja a sua {C:attention}mão de póquer mais jogada",
+                    "{C:inactive}(De momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
             j_midas_mask = {
                 name = "Máscara de Midas",
                 text = {
-                    "Todas as cartas de {C:attention}realeza{}",
-                    "se tornam cartas de {C:attention}Ouro{}",
+                    "Todas as cartas de {C:attention}figura{}",
+                    "tornam-se cartas de {C:attention}Douradas{}",
                     "quando pontuadas"
                 }
             },
@@ -1057,14 +1051,14 @@ return {
                 name = "Luchador",
                 text = {
                     "Venda esta carta para",
-                    "desativar o",
-                    "{C:attention}Botão{} atual"
+                    "desactivar a habilidade do",
+                    "{C:attention}Botão{} actual"
                 }
             },
             j_photograph = {
                 name = "Fotografia",
                 text = {
-                    "Primeira carta de {C:attention}realeza",
+                    "A primeira carta de {C:attention}figura",
                     "jogada dá {X:mult,C:white} X#1# {} Multi",
                     "quando pontuada"
                 }
@@ -1072,27 +1066,27 @@ return {
             j_gift = {
                 name = "Cartão Presente",
                 text = {
-                    "Adiciona {C:money}$#1#{} do {C:attention}valor de venda",
-                    "a cada {C:attention}Joker{} e",
-                    "a cada carta {C:attention}Consumível{} em",
-                    "fim da vaza"
+                    "Adiciona {C:money}$#1#{} ao {C:attention}valor de venda",
+                    "de cada {C:attention}Joker{} e",
+                    "de cada carta {C:attention}Consumível{}",
+                    "no fim de cada vaza"
                 }
             },
             j_turtle_bean = {
                 name = "Feijão Preto",
                 text = {
-                    "{C:attention}+#1#{} tamanho de mão,",
-                    "reduz por",
+                    "{C:attention}+#1#{} ao tamanho de mão,",
+                    "É reduzido por",
                     "{C:red}#2#{} a cada vaza"
                 }
             },
             j_erosion = {
                 name = "Erosão",
                 text = {
-                    "{C:red}+#1#{} Multi por cada",
-                    "carta abaixo de {C:attention}#3#{}",
+                    "{C:red}+#1#{} Multi por cada carta",
+                    "a menos de {C:attention}#3#{}",
                     "no seu baralho completo",
-                    "{C:inactive}(No momento {C:red}+#2#{C:inactive} Multi)"
+                    "{C:inactive}(De momento {C:red}+#2#{C:inactive} Multi)"
                 }
             },
             j_reserved_parking = {
@@ -1106,17 +1100,17 @@ return {
                 }
             },
             j_mail = {
-                name = "Desconto de Correio",
+                name = "Reembolso por Correio",
                 text = {
-                    "Ganhe {C:money}$#1#{} por cada",
-                    "{C:attention}#2#{} descartado, a classe",
-                    "muda em cada vaza"
+                    "Rende {C:money}$#1#{} por cada",
+                    "{C:attention}#2#{} descartado, a carta",
+                    "muda a cada vaza"
                 }
             },
             j_to_the_moon = {
-                name = "Para a Lua",
+                name = "Até à Lua",
                 text = {
-                    "Ganhe {C:money}$#1#{} adicional de",
+                    "Rende {C:money}$#1#{} extra de",
                     "{C:attention}juros{} por cada {C:money}$5{} que",
                     "tiver no fim da vaza"
                 }
@@ -1126,121 +1120,121 @@ return {
                 text = {
                     "{C:green}#1# em #2#{} chances de criar",
                     "uma carta de {C:tarot}Tarô{} quando qualquer",
-                    "{C:attention}Pacote de Reforço{} for aberto",
+                    "{C:attention}Pacote de Cartas{} for aberto",
                     "{C:inactive}(Deve ter espaço)"
                 }
             },
             j_lucky_cat = {
-                name = "Gato Sortudo",
+                name = "Gato da Sorte",
                 text = {
                     "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
-                    "sempre que uma carta da {C:attention}Sorte{}",
-                    "ativa {C:green}com êxito{}",
+                    "sempre que uma carta da {C:attention}sorte{}",
+                    "é activada {C:green}com êxito{}",
                     "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
             j_baseball = {
-                name = "Carta de Beisebol",
+                name = "Carta de Baseball",
                 text = {
-                    "Jokers {C:green}Incomuns{}",
-                    "cada um dá {X:mult,C:white} X#1# {} Multi"
+                    "Todos of Jokers {C:green}Incomuns{}",
+                    "dão {X:mult,C:white} X#1# {} Multi"
                 }
             },
             j_bull = {
                 name = "Touro",
                 text = {
-                    "{C:chips}+#1#{} Fichas para",
-                    "cada {C:money}$1{} que você tem",
-                    "{C:inactive}(No momento, {C:chips}+#2#{C:inactive} Fichas)"
+                    "{C:chips}+#1#{} Fichas por",
+                    "cada {C:money}$1{} na conta",
+                    "{C:inactive}(De momento, {C:chips}+#2#{C:inactive} Fichas)"
                 }
             },
             j_diet_cola = {
-                name = "Cola Diet",
+                name = "Cola Zero",
                 text = {
                     "Venda esta carta para",
-                    "criar um(a)",
-                    "{C:attention}#1# grátis"
+                    "criar um",
+                    "{C:attention}#1#{} grátis"
                 }
             },
             j_trading = {
-                name = "Carta de Troca",
+                name = "Carta Coleccionável",
                 text = {
                     "Se o {C:attention}primeiro descarte{} da vaza",
-                    "tiver somente {C:attention}1{} carta, destrói",
-                    "a mesma e ganha {C:money}$#1#"
+                    "for apenas {C:attention}1{} carta, destroi-a",
+                    "e rende {C:money}$#1#"
                 }
             },
             j_flash = {
-                name = "Carta Relâmpago",
+                name = "Tabela Periódica",
                 text = {
-                    "Este Joker ganha {C:mult}+#1#{} Multi",
-                    "por {C:attention}atualização{} na loja",
-                    "{C:inactive}(No momento, {C:mult}+#2#{C:inactive} Multi)"
+                    "Este Joker acumula {C:mult}+#1#{} Multi",
+                    "por cada {C:attention}reabastecimento{} na loja",
+                    "{C:inactive}(De momento, {C:mult}+#2#{C:inactive} Multi)"
                 }
             },
             j_popcorn= {
-                name = "Pipoca",
+                name = "Pipocas",
                 text = {
                     "{C:mult}+#1#{} Multi",
-                    "{C:mult}-#2#{} Multi por",
+                    "{C:mult}-#2#{} Multi a cada",
                     "vaza jogada"
                 }
             },
             j_ramen= {
-                name = "Lámen",
+                name = "Rámen",
                 text = {
                     "{X:mult,C:white} X#1# {} Multi,",
                     "perde {X:mult,C:white} X#2# {} Multi",
-                    "por {C:attention}carta{} descartada"
+                    "por cada {C:attention}carta{} descartada"
                 }
             },
             j_trousers= {
-                name = "Calças Sobressalentes",
+                name = "Calças Sobresselentes",
                 text = {
-                    "Este Joker ganha {C:mult}+#1#{} Multi",
-                    "se a mão jogada contém",
-                    "um(a) {C:attention}#2#",
-                    "{C:inactive}(No momento, {C:red}+#3#{C:inactive} Multi)"
+                    "Este Joker acumula {C:mult}+#1#{} Multi",
+                    "por cada mão jogada que",
+                    "contenha um {C:attention}#2#",
+                    "{C:inactive}(De momento, {C:red}+#3#{C:inactive} Multi)"
                 }
             },
             j_ancient= {
-                name = "Joker Antigo",
+                name = "Joker Ancestral",
                 text = {
-                    "Cada carta jogada com",
-                    "naipe {V:1}#2#{} dá",
+                    "Cada carta jogada",
+                    "de {V:1}#2#{} dá",
                     "{X:mult,C:white} X#1# {} Multi ao pontuar,",
-                    "{s:0.8}naipe muda no fim da vaza"
+                    "{s:0.8}O naipe muda a cada vaza"
                 }
             },
             j_walkie_talkie = {
-                name = "Walkie Talkie",
+                name = "Walkie-Talkie",
                 text = {
-                    "Cada vez que joga {C:attention}10{} ou {C:attention}4",
-                    "dá {C:chips}+#1#{} Fichas e",
-                    "{C:mult}+#2#{} Multi ao pontuar"
+                    "Cada vez que jogar um {C:attention}10{} ou um {C:attention}4,",
+                    "{C:chips}+#1#{} Fichas e",
+                    "{C:mult}+#2#{} Multi"
                 },
             },
             j_selzer= {
-                name = "Seltzer",
+                name = "Spray",
                 text = {
-                    "Reativa todas as",
-                    "cartas jogadas para as",
-                    "próximas {C:attention}#1#{} mãos"
+                    "Reactiva as habilidades",
+                    "de todas as cartas jogadas",
+                    "nas próximas {C:attention}#1#{} mãos"
                 }
             },
             j_castle = {
                 name = "Castelo",
                 text = {
-                    "Este Joker ganha {C:chips}+#1#{} Fichas",
-                    "por cada carta {V:1}#2#{} descartada,",
-                    "naipe muda em cada vaza",
-                    "{C:inactive}(No momento {C:chips}+#3#{C:inactive} Fichas)"
+                    "Este Joker acumula {C:chips}+#1#{} Fichas",
+                    "por cada carta de {V:1}#2#{} descartada,",
+                    "O naipe muda a cada vaza",
+                    "{C:inactive}(De momento {C:chips}+#3#{C:inactive} Fichas)"
                 },
             },
             j_smiley = {
-                name = "Carinha Sorridente",
+                name = "Cara Laroca",
                 text = {
-                    "Cartas de {C:attention}realeza{} jogadas",
+                    "Cartas de {C:attention}Figura{} jogadas",
                     "dão {C:mult}+#1#{} Multi",
                     "quando pontuadas"
                 }
@@ -1248,14 +1242,12 @@ return {
             j_campfire = {
                 name = "Fogueira",
                 text = {
-                    "Este Joker ganha {X:mult,C:white}X#1#{} Multi",
-                    "por cada carta {C:attention}vendida{}, redefine",
-                    "quando o {C:attention}Botão{} é derrotado",
-                    "{C:inactive}(No momento {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "Este Joker acumula {X:mult,C:white}X#1#{} Multi",
+                    "por cada carta {C:attention}vendida{}, regressa a X1",
+                    "sempre que um {C:attention}Botão{} for derrotado",
+                    "{C:inactive}(De momento {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
             },
-
-
             j_stuntman = {
                 name = "Dublê",
                 text = {
@@ -1324,11 +1316,11 @@ return {
                 text = {
                     "{X:mult,C:white} X#1# {} Multi se você",
                     "tiver pelo menos {C:attention}16",
-                    "cartas aprimoradas",
+                    "cartas modificadas",
                     "{C:inactive}(No momento {C:attention}#2#{C:inactive})"
                 },
                 unlock = {
-                    "Aprimore {E:1,C:attention}#1#{} cartas",
+                    "Modifique {E:1,C:attention}#1#{} cartas",
                     "no seu baralho"
                 }
             },
@@ -1359,7 +1351,7 @@ return {
             j_burnt = {
                 name = "Joker Queimado",
                 text = {
-                    "Aprimore o nível da",
+                    "Modifique o nível da",
                     "primeira mão {C:attention}descartada",
                     "em cada vaza"
                 },
@@ -1715,7 +1707,7 @@ return {
                 name = "Ilusão",
                 text = {
                     "{C:attention}Cartas de jogo{} na loja",
-                    "podem aparecer para venda com {C:enhanced}Aprimoramento{},",
+                    "podem aparecer para venda com {C:enhanced}Modificações{},",
                     "{C:dark_edition}Edição{} e/ou {C:attention}Selo{}"
                 },
                 unlock = {
@@ -2048,7 +2040,7 @@ return {
                     "Destrói {C:attention}1{} carta",
                     "aleatória na mão, adiciona",
                     "{C:attention}#1# cartas de figura (J,Q,K)",
-                    "{C:attention}Aprimoradas{} à mão"
+                    "{C:attention}Modificadas{} à mão"
                 }
             },
             c_grim = {
@@ -2056,8 +2048,8 @@ return {
                 text = {
                     "Destrói {C:attention}1{} carta",
                     "aleatória na mão,",
-                    "adiciona {C:attention}#1#{} {C:attention}Ases aprimorados",
-                    "aleatórios à mão"
+                    "adiciona {C:attention}#1#{} {C:attention}Ases",
+                    "modificados à mão"
                 }
             },
             c_incantation = {
@@ -2066,7 +2058,7 @@ return {
                     "Destrói {C:attention}1{} carta",
                     "aleatória na mão, adiciona",
                     "{C:attention}#1# cartas numéricas (2-10)",
-                    "{C:attention}Aprimoradas{} à mão"
+                    "{C:attention}Modificadas{} à mão"
                 }
             },
             c_talisman = {
@@ -3589,7 +3581,7 @@ return {
             b_tarot_cards = "Cartas de Tarô",
             b_planet_cards = "Cartas de Planeta",
             b_spectral_cards = "Cartas Espectrais",
-            b_enhanced_cards = "Cartas Aprimoradas",
+            b_enhanced_cards = "Cartas Modificadas",
             b_editions = "Edições",
             b_booster_packs = "Pacotes de Cartas",
             b_tags = "Crachás",
@@ -3720,7 +3712,7 @@ return {
             ph_no_boss_active = "sem botão ativo",
             ph_sneak_peek = "Espreitadela",
             ph_deck_preview_stones = "Pedras",
-            ph_deck_preview_effective = "Total effectivo de Jokers, Blinds e aprimoramentos de carta",
+            ph_deck_preview_effective = "Total effectivo de Jokers, Blinds e Modificações de carta",
             ph_blind_score_at_least = "Pontue pelo menos",
             ph_blind_reward = "Ganho: ",
             ph_4_7_of_clubs = "quatro 7 de Paus",
@@ -3820,7 +3812,7 @@ return {
             },
             ml_edition_seal_enhancement_explanation = {
                 "As cartas de jogo podem ter",
-                "Aprimoramentos, Edições e Selos"
+                "Modificações, Edições e Selos"
             },
             ml_unlock_all_explanation = {
                 "AVISO! Desloquear a Coleção completa",
@@ -3843,7 +3835,7 @@ return {
             k_plus_joker = "+1 Joker",
             k_active_ex = "Ativo!",
             k_level_up_ex = "Subiu de nível!",
-            k_upgrade_ex = "Aprimoramento!",
+            k_upgrade_ex = "Modificada!",
             k_again_ex = "Outra Vez!",
             k_val_up = "Valorização!",
             k_reset = "Repôsto",

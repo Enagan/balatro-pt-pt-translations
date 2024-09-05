@@ -1249,13 +1249,13 @@ return {
                 }
             },
             j_stuntman = {
-                name = "Dublê",
+                name = "Duplo",
                 text = {
                     "{C:chips}+#1#{} Fichas,",
                     "{C:attention}-#2#{} de tamanho de mão"
                 },
                 unlock = {
-                    "Em uma mão,",
+                    "Numa só mão,",
                     "ganhe pelo menos",
                     "{E:1,C:attention}#1#{} fichas"
                 }
@@ -1264,18 +1264,18 @@ return {
                 name = "Joker Invisível",
                 text = {
                     "Após {C:attention}#1#{} vazas,",
-                    "venda esta carta para",
+                    "pode vender esta carta para",
                     "{C:attention}Duplicar{} um Joker aleatório",
-                    "{C:inactive}(No momento {C:attention}#2#{C:inactive}/#1#)"
+                    "{C:inactive}(De momento {C:attention}#2#{C:inactive}/#1#)"
                 },
                 unlock = {
                     "Vença uma partida sem",
-                    "ter mais de",
+                    "ter mais que",
                     "{E:1,C:attention}4 Jokers{}"
                 }
             },
             j_brainstorm = {
-                name = "Boa Ideia",
+                name = "O Plano",
                 text = {
                     "Copia a habilidade",
                     "do {C:attention}Joker que está mais à esquerda"
@@ -1288,10 +1288,10 @@ return {
             j_satellite = {
                 name = "Satélite",
                 text = {
-                    "Ganhe {C:money}$#1#{} no fim da",
-                    "vaza por {C:planet}Planeta único",
-                    "usada nesta partida",
-                    "{C:inactive}(No momento {C:money}$#2#{C:inactive})"
+                    "Ganhe {C:money}$#1#{} no fim de",
+                    "cada vaza por cada {C:planet}Planeta",
+                    "diferente usado nesta partida",
+                    "{C:inactive}(De momento {C:money}$#2#{C:inactive})"
                 },
                 unlock = {
                     "Tenha {E:1,C:money}$#1#",
@@ -1299,25 +1299,25 @@ return {
                 }
             },
             j_shoot_the_moon = {
-                name = "Alcance os Céus",
+                name = "A Imperatriz",
                 text = {
                     "Cada {C:attention}Dama{}",
-                    "na mão",
+                    "permanecente na mão",
                     "dá {C:mult}+#1#{} Multi"
                 },
                 unlock = {
-                    "Jogue cada carta de {E:1,C:attention}Copas",
-                    "do seu baralho em",
-                    "uma única vaza"
+                    "Jogue todas as carta de {E:1,C:attention}Copas",
+                    "do seu baralho",
+                    "numa única vaza"
                 }
             },
             j_drivers_license = {
-                name = "Carteira de Habilitação",
+                name = "Carta de Condução",
                 text = {
-                    "{X:mult,C:white} X#1# {} Multi se você",
+                    "{X:mult,C:white} X#1# {} Multi se",
                     "tiver pelo menos {C:attention}16",
-                    "cartas modificadas",
-                    "{C:inactive}(No momento {C:attention}#2#{C:inactive})"
+                    "cartas modificadas no baralho completo",
+                    "{C:inactive}(De momento {C:attention}#2#{C:inactive})"
                 },
                 unlock = {
                     "Modifique {E:1,C:attention}#1#{} cartas",
@@ -1328,7 +1328,7 @@ return {
                 name = "Cartomante",
                 text = {
                     "Cria uma carta de {C:tarot}Tarô{}",
-                    "quando o {C:attention}Blind{} é selecionado",
+                    "sempre que jogar uma {C:attention}Vaza{}",
                     "{C:inactive}(Deve ter espaço)"
                 },
                 unlock = {
@@ -1337,21 +1337,21 @@ return {
                 }
             },
             j_astronomer = {
-                name = "Astrônomo",
+                name = "Astrónomo",
                 text = {
                     "Todas as cartas de {C:planet}Planeta{} e",
-                    "{C:planet}Pacotes Celestiais{} em",
-                    "na loja ficam {C:attention}grátis"
+                    "{C:planet}Pacotes Celestes{}",
+                    "na loja são {C:attention}grátis"
                 },
                 unlock = {
-                    "Descubra cada",
-                    "carta de {E:1,C:planet}Planeta{}"
+                    "Descubra todas as",
+                    "cartas de {E:1,C:planet}Planeta{}"
                 }
             },
             j_burnt = {
                 name = "Joker Queimado",
                 text = {
-                    "Modifique o nível da",
+                    "Aumenta o nível da",
                     "primeira mão {C:attention}descartada",
                     "em cada vaza"
                 },
@@ -1362,24 +1362,24 @@ return {
                 }
             },
             j_bootstraps = {
-                name = "Bonificação",
+                name = "Estribos",
                 text = {
-                    "{C:mult}+#1#{} Multi para cada",
-                    "{C:money}$#2#{} que você tem",
-                    "{C:inactive}(No momento, {C:mult}+#3#{C:inactive} Multi)"
+                    "{C:mult}+#1#{} Multi por cada",
+                    "{C:money}$#2#{} na conta",
+                    "{C:inactive}(De momento, {C:mult}+#3#{C:inactive} Multi)"
                 },
                 unlock = {
                     "Tenha pelo menos {E:1,C:attention}#1#",
-                    "Jokers {C:dark_edition}Policromáticos{}"
+                    "Jokers {C:dark_edition}Policromáticos{} ao mesmo tempo"
                 }
             },
             j_caino = {
-                name = "Caino",
+                name = "Canio",
                 text = {
-                    "Este Joker ganha {X:mult,C:white} X#1# {} Multi",
-                    "quando uma carta de {C:attention}realeza{}",
-                    "é destruída",
-                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
+                    "Este Joker acumula {X:mult,C:white} X#1# {} Multi",
+                    "sempre que uma carta de {C:attention}figura{}",
+                    "for destruída",
+                    "{C:inactive}(De momento, {X:mult,C:white} X#2# {C:inactive} Multi)"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1399,10 +1399,10 @@ return {
             j_yorick = {
                 name = "Yorick",
                 text = {
-                    "Este Joker ganha",
+                    "Este Joker acumula",
                     "{X:mult,C:white} X#1# {} Multi a cada {C:attention}#2#{C:inactive} [#3#]{}",
                     "cartas descartadas",
-                    "{C:inactive}(No momento, {X:mult,C:white} X#4# {C:inactive} Multi)"
+                    "{C:inactive}(De momento, {X:mult,C:white} X#4# {C:inactive} Multi)"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1411,8 +1411,8 @@ return {
             j_chicot = {
                 name = "Chicot",
                 text = {
-                    "Desativa o efeito de",
-                    "cada {C:attention}Botão"
+                    "Desactiva as habilidades de",
+                    "todos os {C:attention}Botões"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1423,8 +1423,8 @@ return {
                 text = {
                     "Cria uma cópia {C:dark_edition}Negativa{} de",
                     "{C:attention}1{} carta {C:attention}consumível{} aleatória",
-                    "em sua posse",
-                    "no final da {C:attention}loja"
+                    "na sua posse",
+                    "no final de cada {C:attention}loja"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"

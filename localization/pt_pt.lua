@@ -68,7 +68,7 @@ return {
                 text = {
                     "{C:chips}+#1#{} Fichas se a mão",
                     "jogada contém",
-                    "um(a) {C:attention}#2#"
+                    "{C:attention}#2#"
                 }
             },
             j_devious = {
@@ -479,7 +479,7 @@ return {
                 name = "Sexto Sentido",
                 text = {
                     "Se a {C:attention}primeira mão jogada{} da vaza for",
-                    "um único {C:attention}6{}," 
+                    "um único {C:attention}6{},",
                     "o Sexto Sentido destrói esse 6 e",
                     "cria uma carta {C:spectral}Espectral{}",
                     "{C:inactive}(Deve ter espaço)"
@@ -1243,7 +1243,7 @@ return {
                 name = "Fogueira",
                 text = {
                     "Este Joker acumula {X:mult,C:white}X#1#{} Multi",
-                    "por cada carta {C:attention}vendida{}, regressa a X1",
+                    "por cada carta {C:attention}vendida{}, regressa a {X:mult,C:white}X1{}",
                     "sempre que um {C:attention}Botão{} for derrotado",
                     "{C:inactive}(De momento {X:mult,C:white} X#2# {C:inactive} Multi)"
                 }
@@ -3284,12 +3284,12 @@ return {
             Diamonds = "Ouros"
         },
         blind_states = {
-            Select = "Selecionar",
+            Select = "Ir a Jogo",
             Skipped = "Passado",
             Current = "Atual",
-            Defeated = "Batido",
+            Defeated = "Vencido",
             Upcoming = "Próximo",
-            Selected = "Selecionado"
+            Selected = "Seleccionado"
         },
         ranks = {
             Ace = "Ás",
@@ -3513,7 +3513,7 @@ return {
         dictionary = {
             b_sell = "VENDER",
             b_use = "USAR",
-            b_select = "SELECIONAR",
+            b_select = "SELECCIONAR",
             b_buy = "COMPRAR",
             b_redeem = "REDIMIR",
             b_open = "ABRIR",
@@ -3527,12 +3527,12 @@ return {
             b_run_info_2 = "da Partida",
             b_options = "Opções",
             b_reroll_boss = "Alterar o Botão",
-            b_skip_blind = "Passar o Blind",
-            b_skip_reward = "Passar a Recompensa",
+            b_skip_blind = "Passar a Vaza",
+            b_skip_reward = "Recompensa por Passar",
             b_skip = "Passar",
             b_start_new_run = "Nova Partida",
             b_main_menu = "Menu Principal",
-            b_collection = "Coleção",
+            b_collection = "Colecção",
             b_seed = "Semente Aleatória",
             b_copy_seed = "Copiar a semente",
             b_copy = "Copiar",
@@ -3581,9 +3581,9 @@ return {
             b_tarot_cards = "Cartas de Tarô",
             b_planet_cards = "Cartas de Planeta",
             b_spectral_cards = "Cartas Espectrais",
-            b_enhanced_cards = "Cartas Modificadas",
+            b_enhanced_cards = "Modificações",
             b_editions = "Edições",
-            b_booster_packs = "Pacotes de Cartas",
+            b_booster_packs = "Pacotes",
             b_tags = "Crachás",
             b_decks = "Baralhos",
             b_seals = "Selos",
@@ -3640,7 +3640,7 @@ return {
             k_edition = "Edição",
             k_hud_hands = "Mãos",
             k_hud_discards = "Descartes",
-            k_lower_score = "(fichas)",
+            k_lower_score = "(pontos)",
             k_arcana_pack = "Pacote Vidente",
             k_celestial_pack = "Pacote Celeste",
             k_spectral_pack = "Pacote Espectral",
@@ -3671,7 +3671,7 @@ return {
             k_profile = "Perfil",
             k_wins = "Vitórias",
             k_empty_caps = "VAZIO",
-            k_collection = "Coleção",
+            k_collection = "Colecção",
             k_progress = "Progresso",
             k_challenges = "Desafios",
             k_joker_stickers = "Autocolantes de Joker",

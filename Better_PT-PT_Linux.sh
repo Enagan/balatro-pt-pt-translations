@@ -10,6 +10,7 @@
 
 color_reset=$'\033[0m'
 ressources_folder=$'Balatro_Localization_Resources'
+balatro_install_folder=$1
 
 # Initialisation
 init() {
@@ -49,10 +50,10 @@ download_mod_pt_pt() {
     echo ""
 
     pt_repository="https://raw.githubusercontent.com/Enagan/balatro-pt-pt-translations/pt-main/localization"
-    pt_translation="${pt_repository}/pt-pt.lua"
+    pt_translation="${pt_repository}/pt_pt.lua"
     font_m6x11plus="${pt_repository}/resources/fonts/m6x11plus.ttf"
 
-    curl --create-dirs -o "${ressources_folder}/pt-BR.lua" -LJ "${pt_translation}"
+    curl --create-dirs -o "${ressources_folder}/pt_BR.lua" -LJ "${pt_translation}"
     curl --create-dirs -o "${ressources_folder}/resources/fonts/m6x11plus.ttf" -LJ "${font_m6x11plus}"
 
     echo ""
@@ -66,8 +67,8 @@ mod_injection() {
     echo "A Instalar a tradução..."
     echo ""
 
-    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/pt-BR.lua -o localization/pt-BR.lua
-    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/resources/fonts/m6x11plus.ttf -o resources/fonts/m6x11plus.ttf
+    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/pt_BR.lua -o localization/pt_BR.lua -b balatro_install_folder
+    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/resources/fonts/m6x11plus.ttf -o resources/fonts/m6x11plus.ttf -b balatro_install_folder
 
     echo "${color_reset}"
     echo "Installation terminada."

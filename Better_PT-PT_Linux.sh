@@ -67,8 +67,8 @@ mod_injection() {
     echo "A Instalar a tradução..."
     echo ""
 
-    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/pt_BR.lua -o localization/pt_BR.lua -b balatro_install_folder
-    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/resources/fonts/m6x11plus.ttf -o resources/fonts/m6x11plus.ttf -b balatro_install_folder
+    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/pt_BR.lua -o localization/pt_BR.lua -b ${balatro_install_folder}
+    ./$ressources_folder/$balamod_linux_file -x -i $ressources_folder/resources/fonts/m6x11plus.ttf -o resources/fonts/m6x11plus.ttf -b ${balatro_install_folder}
 
     echo "${color_reset}"
     echo "Installation terminada."

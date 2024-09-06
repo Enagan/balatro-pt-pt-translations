@@ -452,11 +452,11 @@ return {
                 }
             },
             j_dna = {
-                name = "DNA",
+                name = "ADN",
                 text = {
                     "Se a {C:attention}primeira mão{} jogada",
                     "de cada vaza, tiver apenas {C:attention}1{} carta,",
-                    "DNA cria uma cópia permanente dessa mesma carta",
+                    "ADN cria uma cópia permanente dessa mesma carta",
                     "e bisca-a para a {C:attention}mão"
                 }
             },
@@ -2702,8 +2702,8 @@ return {
             bl_final_acorn = {
                 name = "Avelã Dourada",
                 text = {
-                    "Durante esta vaza, os jokers",
-                    "são"
+                    "No início desta vaza, os jokers são",
+                    "virados para baixo e misturados"
                 }
             },
             bl_final_heart = {

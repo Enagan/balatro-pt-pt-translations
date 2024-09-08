@@ -456,8 +456,8 @@ return {
                 text = {
                     "Se a {C:attention}primeira mão{} jogada",
                     "de cada vaza, tiver apenas {C:attention}1{} carta,",
-                    "ADN cria uma cópia permanente dessa mesma carta",
-                    "e bisca-a para a {C:attention}mão"
+                    "ADN cria uma cópia permanente dessa",
+                    "mesma carta e bisca-a para a {C:attention}mão"
                 }
             },
             j_splash = {

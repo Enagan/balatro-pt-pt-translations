@@ -250,7 +250,7 @@ return {
             j_dusk = {
                 name = "Lusco-fusco",
                 text = {
-                    "Reactiva as abilidades de todas as cartas",
+                    "Reactiva as habilidades de todas as cartas",
                     "jogadas na {C:attention}ultima mão{} da vaza"
                 }
             },
@@ -327,7 +327,7 @@ return {
             j_hack = {
                 name = "Humorista Falhado",
                 text = {
-                    "Reactiva as abilidades de",
+                    "Reactiva as habilidades de",
                     "cada {C:attention}2{}, {C:attention}3{}, {C:attention}4{} ou {C:attention}5{}"
                 }
             },
@@ -559,7 +559,7 @@ return {
             j_sock_and_buskin = {
                 name = "O Feliz e o Triste",
                 text = {
-                    "Reativa as abilidades de todas as",
+                    "Reativa as habilidades de todas as",
                     "cartas de {C:attention}figura{} jogadas"
                 },
                 unlock = {
@@ -645,7 +645,7 @@ return {
             j_hanging_chad = {
                 name = "Recorte Pendurado",
                 text = {
-                    "Reactiva as abilidades da {C:attention}primeira{} carta",
+                    "Reactiva as habilidades da {C:attention}primeira{} carta",
                     "jogada {C:attention}#1#{} vezes mais"
                 },
                 unlock = {
